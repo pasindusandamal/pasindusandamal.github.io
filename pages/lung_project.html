@@ -183,6 +183,105 @@
         .animate__fadeIn {
             animation: fadeIn 1s ease-out;
         }
+
+        /* Footer Waves */
+        /* Additional Styles for Related Projects Section */
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.project-card .card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.project-card .card-title {
+    font-weight: 600;
+    color: var(--dark-gray);
+}
+
+.project-card .card-text {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.8;
+}
+
+.carousel-control-prev {
+    left: -55px;
+}
+
+.carousel-control-next {
+    right: -55px;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 1;
+}
+
+.tech-badge {
+    background-color: #f8f9fa;
+    color: var(--primary-color);
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.tech-badge:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(33, 150, 243, 0.3);
+}
+
+@media (max-width: 768px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+    
+    .project-card {
+        margin-bottom: 20px;
+    }
+}
     </style>
 </head>
 
@@ -336,6 +435,140 @@
                         <img src="../images/projects/individual/img_6.PNG" alt="Project screenshot 3" class="img-fluid"
                             onclick="openModal(this.src)" style="height: 200px; overflow: hidden;">
                     </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!---->
+
+        <section class="section" id="related-projects">
+            <h2 class="section-title text-center mb-5">
+                <i class="fas fa-project-diagram me-2"></i>Explore More Projects
+            </h2>
+        
+            <div class="container">
+                <div class="carousel-container position-relative">
+                    <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- First Slide -->
+                            <div class="carousel-item active">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card h-100 project-card animate__animated animate__fadeIn">
+                                            <img src="../images/projects/project1.jpg" class="card-img-top" alt="Project 1" style="height: 200px; object-fit: cover;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">AI Chatbot System</h5>
+                                                <p class="card-text">An intelligent chatbot system powered by natural language processing and machine learning algorithms.</p>
+                                                <div class="tech-stack mb-3">
+                                                    <span class="tech-badge">Python</span>
+                                                    <span class="tech-badge">NLP</span>
+                                                    <span class="tech-badge">TensorFlow</span>
+                                                </div>
+                                                <a href="#" class="btn btn-primary w-100">View Project</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card h-100 project-card animate__animated animate__fadeIn animate__delay-1s">
+                                            <img src="../images/projects/project2.jpg" class="card-img-top" alt="Project 2" style="height: 200px; object-fit: cover;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">E-Commerce Platform</h5>
+                                                <p class="card-text">A full-featured e-commerce platform with payment integration and inventory management.</p>
+                                                <div class="tech-stack mb-3">
+                                                    <span class="tech-badge">React</span>
+                                                    <span class="tech-badge">Node.js</span>
+                                                    <span class="tech-badge">MongoDB</span>
+                                                </div>
+                                                <a href="#" class="btn btn-primary w-100">View Project</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card h-100 project-card animate__animated animate__fadeIn animate__delay-2s">
+                                            <img src="../images/projects/project3.jpg" class="card-img-top" alt="Project 3" style="height: 200px; object-fit: cover;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Mobile Fitness App</h5>
+                                                <p class="card-text">A comprehensive fitness tracking application with personalized workout plans.</p>
+                                                <div class="tech-stack mb-3">
+                                                    <span class="tech-badge">Flutter</span>
+                                                    <span class="tech-badge">Firebase</span>
+                                                    <span class="tech-badge">ML Kit</span>
+                                                </div>
+                                                <a href="#" class="btn btn-primary w-100">View Project</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Second Slide -->
+                            <div class="carousel-item">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card h-100 project-card">
+                                            <img src="../images/projects/project4.jpg" class="card-img-top" alt="Project 4" style="height: 200px; object-fit: cover;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Smart Home System</h5>
+                                                <p class="card-text">IoT-based smart home automation system with voice control capabilities.</p>
+                                                <div class="tech-stack mb-3">
+                                                    <span class="tech-badge">IoT</span>
+                                                    <span class="tech-badge">Raspberry Pi</span>
+                                                    <span class="tech-badge">Python</span>
+                                                </div>
+                                                <a href="#" class="btn btn-primary w-100">View Project</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card h-100 project-card">
+                                            <img src="../images/projects/project5.jpg" class="card-img-top" alt="Project 5" style="height: 200px; object-fit: cover;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Portfolio Website</h5>
+                                                <p class="card-text">Modern and responsive portfolio website with dynamic content management.</p>
+                                                <div class="tech-stack mb-3">
+                                                    <span class="tech-badge">HTML5</span>
+                                                    <span class="tech-badge">CSS3</span>
+                                                    <span class="tech-badge">JavaScript</span>
+                                                </div>
+                                                <a href="#" class="btn btn-primary w-100">View Project</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card h-100 project-card">
+                                            <img src="../images/projects/project6.jpg" class="card-img-top" alt="Project 6" style="height: 200px; object-fit: cover;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Weather App</h5>
+                                                <p class="card-text">Real-time weather forecasting application with interactive maps.</p>
+                                                <div class="tech-stack mb-3">
+                                                    <span class="tech-badge">Vue.js</span>
+                                                    <span class="tech-badge">API</span>
+                                                    <span class="tech-badge">Maps</span>
+                                                </div>
+                                                <a href="#" class="btn btn-primary w-100">View Project</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Carousel Controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-5">
+                    <a href="../index.html#projects" class="btn btn-primary btn-lg">
+                        <i class="fas fa-arrow-circle-right me-2"></i>View All Projects
+                    </a>
                 </div>
             </div>
         </section>
