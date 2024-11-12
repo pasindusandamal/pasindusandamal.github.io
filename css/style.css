@@ -3,6 +3,7 @@
     backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.8) !important;
     transition: all 0.3s ease;
+  
 }
 
 .navbar-brand {
@@ -35,6 +36,7 @@
 }
 
 .hero-section {
+    margin-top: 40px;
     min-height: 80vh;
     display: flex;
     align-items: center;
