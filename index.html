@@ -10,7 +10,40 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
+.project-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 
+.image-container {
+    height: 200px; /* Fixed height for images */
+    overflow: hidden;
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures button stays at the bottom */
+}
+
+.skill-badge {
+    background-color: #007bff; /* Example badge color */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Align badges consistently */
+.d-flex.flex-wrap {
+    margin-top: auto; /* Pushes badges to the bottom of the card body */
+}
     </style>
 </head>
 
@@ -79,7 +112,7 @@
                     <button class="btn btn-primary custom-btn mt-4">
                         Download CV
                     </button>
-
+                    <br />
                     <!-- Social Media Icons -->
                     <div class="social-icons mt-4">
                         <!-- LinkedIn -->
@@ -95,7 +128,7 @@
                                 <circle cx="4" cy="4" r="2"></circle>
                             </svg>
                         </a>
-
+                        &nbsp;
                         <!-- Medium -->
                         <a href="https://medium.com/@sandamalpkp318"
                             class="me-3 text-dark hover:text-primary transition-colors" aria-label="Medium Blog">
@@ -105,7 +138,7 @@
                                     d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z" />
                             </svg>
                         </a>
-
+                        &nbsp;
                         <!-- GitHub -->
                         <a href="https://github.com/pasindusandamal"
                             class="me-3 text-dark hover:text-primary transition-colors" aria-label="GitHub Profile">
@@ -117,7 +150,7 @@
                                 </path>
                             </svg>
                         </a>
-
+                        &nbsp;
                         <!-- Instagram -->
                         <a href="#" class="text-dark hover:text-primary transition-colors"
                             aria-label="Instagram Profile">
@@ -135,12 +168,12 @@
         </div>
     </section>
 
-    
+
     <!-- Educational Qualification Section -->
     <section id="education" class="py-5 bg-custom-light">
         <div class="container">
             <h2 class="section-title animate__animated animate__fadeIn">Educational Qualification</h2>
-    
+
             <div class="animate__animated animate__fadeInUp animate__delay-1s">
                 <!-- BSc Software Engineering -->
                 <div class="timeline-item timeline-education">
@@ -155,7 +188,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <!-- ICT NVQ Level 5 -->
                 <div class="timeline-item timeline-education">
                     <div class="row">
@@ -169,7 +202,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <!-- Hardware Technician -->
                 <div class="timeline-item timeline-education">
                     <div class="row">
@@ -183,7 +216,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <!-- GCE A/L -->
                 <div class="timeline-item timeline-education">
                     <div class="row">
@@ -196,13 +229,14 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <!-- GCE O/L -->
                 <div class="timeline-item timeline-education">
                     <div class="row">
                         <div class="col-md-8">
                             <h5 class="degree-title">GCE O/L</h5>
-                            <p class="details">Sinhala A, Buddhism A, ICT B, Geography B, Maths B, English C, Science C, History C</p>
+                            <p class="details">Sinhala A, Buddhism A, ICT B, Geography B, Maths B, English C, Science C,
+                                History C</p>
                         </div>
                         <div class="col-md-4 text-md-end">
                             <p class="date">2011 Jan - 2013 Dec</p>
@@ -212,12 +246,12 @@
             </div>
         </div>
     </section>
-    
+
     <!-- Working Experience Section -->
     <section id="experience" class="py-5 bg-custom-light">
         <div class="container">
             <h2 class="section-title animate__animated animate__fadeIn">Working Experience</h2>
-    
+
             <div class="animate__animated animate__fadeInUp animate__delay-1s">
                 <!-- Current Position -->
                 <div class="timeline-item timeline-work">
@@ -231,7 +265,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <!-- Previous Position -->
                 <div class="timeline-item timeline-work">
                     <div class="row">
@@ -247,17 +281,18 @@
             </div>
         </div>
     </section>
-    
+
     <!-- Research Section -->
     <section id="research" class="py-5 bg-custom-light">
         <div class="container">
             <h2 class="section-title animate__animated animate__fadeIn">Research</h2>
-    
+
             <div class="animate__animated animate__fadeInUp animate__delay-1s">
                 <div class="timeline-item timeline-research">
                     <div class="row">
                         <div class="col-md-8">
-                            <h5 class="degree-title">Enhancing Lung Cancer Diagnosis with Custom-Designed Convolutional Neural Network</h5>
+                            <h5 class="degree-title">Enhancing Lung Cancer Diagnosis with Custom-Designed Convolutional
+                                Neural Network</h5>
                             <p class="institution">Enhancing Lung Cancer Diagnosis Using Custom CNN Model</p>
                         </div>
                         <div class="col-md-4 text-md-end">
@@ -268,192 +303,193 @@
             </div>
         </div>
     </section>
-    
-    </body>
-    </html>
-    
-    <!-- Projects Section -->
-    <section id="projects" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center section-title animate__animated animate__fadeIn">Featured Projects</h2>
-            <div class="row g-4">
-                <div class="col-md-4 animate__animated animate__fadeInUp">
-                    <div class="project-card h-100 shadow-sm">
-                        <div class="image-container" style="height: 200px; overflow: hidden;">
-                            <img src="images/projects/individual/img_1.PNG" alt="Project 1"
-                                class="project-image w-100 h-100 object-fit-cover">
-                        </div>
-                        <div class="card-body p-3">
-                            <h5 class="card-title">Lung Cancer Detection System</h5>
-                            <p class="card-text">A completed lung cancer detetion system using custom cnn model</p>
-                            <div class="d-flex gap-2 flex-wrap">
-                                <span class="skill-badge">Flask</span>
-                                <span class="skill-badge">Python</span>
 
-                            </div>
-                            <a href="./pages/lung_project.html" class="btn btn-primary mt-3">View Project</a>
+</body>
+
+</html>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center section-title animate__animated animate__fadeIn">Featured Projects</h2>
+        <div class="row g-4">
+            <div class="col-md-4 animate__animated animate__fadeInUp">
+                <div class="project-card h-100 shadow-sm">
+                    <div class="image-container" style="height: 200px; overflow: hidden;">
+                        <img src="images/projects/individual/img_1.PNG" alt="Project 1"
+                            class="project-image w-100 h-100 object-fit-cover">
+                    </div>
+                    <div class="card-body p-3">
+                        <h5 class="card-title">Lung Cancer Detection System</h5>
+                        <p class="card-text">A completed lung cancer detetion system using custom cnn model</p>
+                        <div class="d-flex gap-2 flex-wrap">
+                            <span class="skill-badge">Flask</span>
+                            <span class="skill-badge">Python</span>
+
                         </div>
+                        <a href="./pages/lung_project.html" class="btn btn-primary mt-3">View Project</a>
                     </div>
                 </div>
-
-                <div class="col-md-4 animate__animated animate__fadeInUp">
-                    <div class="project-card h-100 shadow-sm">
-                        <div class="image-container" style="height: 200px; overflow: hidden;">
-                            <img src="images/projects/individual/img_4.PNG" alt="Smart Home Garden"
-                                class="project-image w-100 h-100 object-fit-cover">
-                        </div>
-                        <div class="card-body p-3">
-                            <h5 class="card-title">MERN Stack Application Generator</h5>
-                            <p class="card-text">A completed mern stack application generator</p>
-                            <div class="d-flex gap-2 flex-wrap">
-                                <span class="skill-badge">Python</span>
-
-                            </div>
-                            <a href="./pages/mern_project.html" class="btn btn-primary mt-3">View Project</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 animate__animated animate__fadeInUp">
-                    <div class="project-card h-100 shadow-sm">
-                        <div class="image-container" style="height: 200px; overflow: hidden;">
-                            <img src="images/projects/individual/img_2.PNG" alt="Smart Home Garden"
-                                class="project-image w-100 h-100 object-fit-cover">
-                        </div>
-                        <div class="card-body p-3">
-                            <h5 class="card-title">Point Of Sales System</h5>
-                            <p class="card-text">A completed pos system </p>
-                            <div class="d-flex gap-2 flex-wrap">
-                                <span class="skill-badge">C#</span>
-                                <span class="skill-badge">SQLite</span>
-
-                            </div>
-                            <a href="./pages/pos_project.html" class="btn btn-primary mt-3">View Project</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 animate__animated animate__fadeInUp">
-                    <div class="project-card h-100 shadow-sm">
-                        <div class="image-container" style="height: 200px; overflow: hidden;">
-                            <img src="images/projects/individual/img_3.PNG" alt="Smart Home Garden"
-                                class="project-image w-100 h-100 object-fit-cover">
-                        </div>
-                        <div class="card-body p-3">
-                            <h5 class="card-title">Travel Agency</h5>
-                            <p class="card-text">A completed php travel agenecy system</p>
-                            <div class="d-flex gap-2 flex-wrap">
-                                <span class="skill-badge">PHP</span>
-                                <span class="skill-badge">HTML</span>
-                                <span class="skill-badge">CSS</span>
-                                <span class="skill-badge">JS</span>
-                            </div>
-                            <a href="./pages/travel_project.html" class="btn btn-primary mt-3">View Project</a>
-                        </div>
-                    </div>
-                </div>
-
-
-
             </div>
+
+            <div class="col-md-4 animate__animated animate__fadeInUp">
+                <div class="project-card h-100 shadow-sm">
+                    <div class="image-container" style="height: 200px; overflow: hidden;">
+                        <img src="images/projects/individual/img_4.PNG" alt="Smart Home Garden"
+                            class="project-image w-100 h-100 object-fit-cover">
+                    </div>
+                    <div class="card-body p-3">
+                        <h5 class="card-title">MERN Stack Application Generator</h5>
+                        <p class="card-text">A completed mern stack application generator</p>
+                        <div class="d-flex gap-2 flex-wrap">
+                            <span class="skill-badge">Python</span>
+
+                        </div>
+                        <a href="./pages/mern_project.html" class="btn btn-primary mt-3">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 animate__animated animate__fadeInUp">
+                <div class="project-card h-100 shadow-sm">
+                    <div class="image-container" style="height: 200px; overflow: hidden;">
+                        <img src="images/projects/individual/img_2.PNG" alt="Smart Home Garden"
+                            class="project-image w-100 h-100 object-fit-cover">
+                    </div>
+                    <div class="card-body p-3">
+                        <h5 class="card-title">Point Of Sales System</h5>
+                        <p class="card-text">A completed pos system </p>
+                        <div class="d-flex gap-2 flex-wrap">
+                            <span class="skill-badge">C#</span>
+                            <span class="skill-badge">SQLite</span>
+
+                        </div>
+                        <a href="./pages/pos_project.html" class="btn btn-primary mt-3">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 animate__animated animate__fadeInUp">
+                <div class="project-card h-100 shadow-sm">
+                    <div class="image-container" style="height: 200px; overflow: hidden;">
+                        <img src="images/projects/individual/img_3.PNG" alt="Smart Home Garden"
+                            class="project-image w-100 h-100 object-fit-cover">
+                    </div>
+                    <div class="card-body p-3">
+                        <h5 class="card-title">Travel Agency</h5>
+                        <p class="card-text">A completed php travel agenecy system</p>
+                        <div class="d-flex gap-2 flex-wrap">
+                            <span class="skill-badge">PHP</span>
+                            <span class="skill-badge">HTML</span>
+                            <span class="skill-badge">CSS</span>
+                            <span class="skill-badge">JS</span>
+                        </div>
+                        <a href="./pages/travel_project.html" class="btn btn-primary mt-3">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- News Section -->
-    <section id="projects" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center section-title animate__animated animate__fadeIn">News</h2>
-            <div class="col g-4">
-                <!-- News Item 1 -->
-                <div class="row-md-4 animate__animated animate__fadeInUp mb-4">
-                    <div class="project-card card">
-                        <div class="row g-0">
-                            <!-- Image container with fixed width and height -->
-                            <div class="col-4 col-md-3" style="width: 200px; height: 200px;">
-                                <img src="images/blogs/img_1.PNG" alt="Project 1"
-                                    style="width: 200px; height: 200px; object-fit: cover;">
-                            </div>
-                            <!-- Content container -->
-                            <div class="col">
-                                <div class="card-body">
-                                    <h5 class="card-title">My First Medium Article</h5>
-                                    <p class="card-text">Develop simple crud application using C# with .net framework
-                                        based on SQLite database.</p>
-                                    <!-- Skills badges -->
-                                    <div class="d-flex gap-2 mb-3">
-                                        <span class="badge bg-light text-dark">React</span>
-                                        <span class="badge bg-light text-dark">Node.js</span>
-                                        <span class="badge bg-light text-dark">MongoDB</span>
-                                    </div>
-                                    <a href="./pages/news_1.html" class="btn btn-primary">Read More  </a>
-                                </div>
-                            </div>
+<!-- News Section -->
+<section id="projects" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center section-title animate__animated animate__fadeIn">News</h2>
+        <div class="col g-4">
+            <!-- News Item 1 -->
+            <div class="row-md-4 animate__animated animate__fadeInUp mb-4">
+                <div class="project-card card">
+                    <div class="row g-0">
+                        <!-- Image container with fixed width and height -->
+                        <div class="col-4 col-md-3" style="width: 200px; height: 200px;">
+                            <img src="images/blogs/img_1.PNG" alt="Project 1"
+                                style="width: 200px; height: 200px; object-fit: cover;">
                         </div>
-                    </div>
-                </div>
-
-                <!-- News Item 2 -->
-                <div class="row-md-4 animate__animated animate__fadeInUp mb-4">
-                    <div class="project-card card">
-                        <div class="row g-0">
-                            <!-- Image container with fixed width and height -->
-                            <div class="col-4 col-md-3" style="width: 200px; height: 200px;">
-                                <img src="images/projects/group/img_2.jpeg" alt="Project 2"
-                                    style="width: 200px; height: 200px; object-fit: cover;">
-                            </div>
-                            <!-- Content container -->
-                            <div class="col">
-                                <div class="card-body">
-                                    <h5 class="card-title">Smart Home Garden System</h5>
-                                    <p class="card-text">IOT Group Project</p>
-                                    <!-- Skills badges -->
-                                    <div class="d-flex gap-2 mb-3">
-                                        <span class="badge bg-light text-dark">React</span>
-                                        <span class="badge bg-light text-dark">Node.js</span>
-                                        <span class="badge bg-light text-dark">MongoDB</span>
-                                    </div>
-                                    <a href="./pages/news_2.html" class="btn btn-primary">Read More </a>
+                        <!-- Content container -->
+                        <div class="col">
+                            <div class="card-body">
+                                <h5 class="card-title">My First Medium Article</h5>
+                                <p class="card-text">Develop simple crud application using C# with .net framework
+                                    based on SQLite database.</p>
+                                <!-- Skills badges -->
+                                <div class="d-flex gap-2 mb-3">
+                                    <span class="badge bg-light text-dark">React</span>
+                                    <span class="badge bg-light text-dark">Node.js</span>
+                                    <span class="badge bg-light text-dark">MongoDB</span>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- News Item 3 -->
-                <div class="row-md-4 animate__animated animate__fadeInUp mb-4">
-                    <div class="project-card card">
-                        <div class="row g-0">
-                            <!-- Image container with fixed width and height -->
-                            <div class="col-4 col-md-3" style="width: 200px; height: 200px;">
-                                <img src="images/profile/img_2.jpg" alt="Project 3"
-                                    style="width: 200px; height: 200px; object-fit: cover;">
-                            </div>
-                            <!-- Content container -->
-                            <div class="col">
-                                <div class="card-body">
-                                    <h5 class="card-title">Duothen 3.0</h5>
-                                    <p class="card-text">Coding Event</p>
-                                    <!-- Skills badges -->
-                                    <div class="d-flex gap-2 mb-3">
-                                        <span class="badge bg-light text-dark">React</span>
-                                        <span class="badge bg-light text-dark">Node.js</span>
-                                        <span class="badge bg-light text-dark">MongoDB</span>
-                                    </div>
-                                    <a href="./pages/news_3.html" class="btn btn-primary">Read More  </a>
-                                </div>
+                                <a href="./pages/news_1.html" class="btn btn-primary">Read More </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- News Item 2 -->
+            <div class="row-md-4 animate__animated animate__fadeInUp mb-4">
+                <div class="project-card card">
+                    <div class="row g-0">
+                        <!-- Image container with fixed width and height -->
+                        <div class="col-4 col-md-3" style="width: 200px; height: 200px;">
+                            <img src="images/projects/group/img_2.jpeg" alt="Project 2"
+                                style="width: 200px; height: 200px; object-fit: cover;">
+                        </div>
+                        <!-- Content container -->
+                        <div class="col">
+                            <div class="card-body">
+                                <h5 class="card-title">Smart Home Garden System</h5>
+                                <p class="card-text">IOT Group Project</p>
+                                <!-- Skills badges -->
+                                <div class="d-flex gap-2 mb-3">
+                                    <span class="badge bg-light text-dark">React</span>
+                                    <span class="badge bg-light text-dark">Node.js</span>
+                                    <span class="badge bg-light text-dark">MongoDB</span>
+                                </div>
+                                <a href="./pages/news_2.html" class="btn btn-primary">Read More </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- News Item 3 -->
+            <div class="row-md-4 animate__animated animate__fadeInUp mb-4">
+                <div class="project-card card">
+                    <div class="row g-0">
+                        <!-- Image container with fixed width and height -->
+                        <div class="col-4 col-md-3" style="width: 200px; height: 200px;">
+                            <img src="images/profile/img_2.jpg" alt="Project 3"
+                                style="width: 200px; height: 200px; object-fit: cover;">
+                        </div>
+                        <!-- Content container -->
+                        <div class="col">
+                            <div class="card-body">
+                                <h5 class="card-title">Duothen 3.0</h5>
+                                <p class="card-text">Coding Event</p>
+                                <!-- Skills badges -->
+                                <div class="d-flex gap-2 mb-3">
+                                    <span class="badge bg-light text-dark">React</span>
+                                    <span class="badge bg-light text-dark">Node.js</span>
+                                    <span class="badge bg-light text-dark">MongoDB</span>
+                                </div>
+                                <a href="./pages/news_3.html" class="btn btn-primary">Read More </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
 
 <!-- Skills Section -->
 <section id="skills" class="py-5">
     <div class="container">
         <h2 class="text-center section-title">My Expertise & Experience</h2>
-        
+
         <div class="skills-container">
             <!-- Core Skills -->
             <div class="skills-category">
@@ -469,7 +505,7 @@
                             <span>React</span>
                         </div>
                     </div>
-                    
+
                     <div class="skill-item">
                         <i class="fas fa-server"></i>
                         <h4>Backend Development</h4>
@@ -480,7 +516,7 @@
                             <span>SQL</span>
                         </div>
                     </div>
-                    
+
                     <div class="skill-item">
                         <i class="fas fa-mobile-alt"></i>
                         <h4>Mobile Development</h4>
@@ -490,7 +526,7 @@
                             <span>React Native</span>
                         </div>
                     </div>
-                    
+
                     <div class="skill-item">
                         <i class="fas fa-cloud"></i>
                         <h4>DevOps</h4>
@@ -507,26 +543,26 @@
             <div class="familiar-areas">
                 <h3>Familiar Areas</h3>
                 <div class="areas-grid">
-                  
+
                     <div class="area-item">
                         <i class="fas fa-microchip"></i>
                         <h4>IoT</h4>
                         <p>Worked on IoT projects using Arduino </p>
                     </div>
-                    
-                                     
+
+
                     <div class="area-item">
                         <i class="fas fa-mobile"></i>
                         <h4>Mobile App Development</h4>
                         <p>Experience in developing cross-platform mobile applications</p>
                     </div>
-                    
+
                     <div class="area-item">
                         <i class="fas fa-desktop"></i>
                         <h4>Desktop Application Development</h4>
                         <p>Knowledge of building native desktop applications</p>
                     </div>
-                    
+
                     <div class="area-item">
                         <i class="fas fa-layer-group"></i>
                         <h4>Full Stack Development</h4>
@@ -537,59 +573,59 @@
         </div>
     </div>
 </section>
-   
-    <!-- Footer -->
-    <footer class="footer-section">
-        <div class="footer-waves">
-            <div class="wave" id="wave1"></div>
-            <div class="wave" id="wave2"></div>
-            <div class="wave" id="wave3"></div>
-            <div class="wave" id="wave4"></div>
+
+<!-- Footer -->
+<footer class="footer-section">
+    <div class="footer-waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 footer-column">
+                <h3>About Me</h3>
+                <p>I'm a software engineer passionate about creating innovative solutions and pushing the boundaries
+                    of technology.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-12 footer-column">
+                <h3>Contact Info</h3>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-envelope"></i>sandamalpkp318@gmail.com</li>
+
+                </ul>
+            </div>
         </div>
+    </div>
+    <div class="footer-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6 footer-column">
-                    <h3>About Me</h3>
-                    <p>I'm a software engineer passionate about creating innovative solutions and pushing the boundaries
-                        of technology.</p>
-                </div>
-                <div class="col-lg-4 col-md-6 footer-column">
-                    <h3>Quick Links</h3>
-                    <ul class="footer-links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-md-12 footer-column">
-                    <h3>Contact Info</h3>
-                    <ul class="footer-contact">
-                        <li><i class="fas fa-envelope"></i>sandamalpkp318@gmail.com</li>
-                       
-                    </ul>
+                <div class="col-md-12">
+                    <p class="text-center">© 2024 Pasindu Sandamal. All rights reserved.</p>
                 </div>
             </div>
         </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="text-center">© 2024 Pasindu Sandamal. All rights reserved.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    </div>
+</footer>
 
-    <!-- Water Bubble -->
-    <div id="water-bubble"></div>
+<!-- Water Bubble -->
+<div id="water-bubble"></div>
 
 
 
-    <!-- Previous projects section and scripts remain the same -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/style.js"></script>
+<!-- Previous projects section and scripts remain the same -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/style.js"></script>
 </body>
 
 </html>
