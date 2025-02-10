@@ -1,13 +1,14 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-# Hi👋 I’m **[Your Name]**, a **Software Engineer & Flutter Developer** passionate about crafting **AI-powered mobile applications, full-stack solutions, and intelligent systems** that solve real-world problems.
+# Hi 👋 I'm Pasindu Sandamal
+**Software Engineer & Flutter Developer** passionate about crafting **AI-powered mobile applications, full-stack solutions, and intelligent systems** that solve real-world problems.  
 
 📍 **Currently:** Software Engineer at **BevyLabs**  
 🛠️ **Expertise:** Mobile App Development, AI Integration, Full-Stack Engineering  
