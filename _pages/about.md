@@ -45,15 +45,15 @@ From **AI-driven healthcare solutions** to **intelligent educational platforms**
 
 ## 🔥 Featured Projects  
 
-🔹 **🩺 Lung Cancer Detection Application** *(Final Year Research Project)*  
-🔹 **🛒 POS System Development**  
-🔹 **📌 Task Fusion**  
+🔹 **Lung Cancer Detection Application** *(Final Year Research Project)*  
+🔹 **POS System Development**  
+🔹 **Task Fusion**  
 
 ---
 
 ## 📚 Publications  
 
-🔹 **📄 Enhancing Lung Cancer Diagnosis with Custom-Designed Convolutional Neural Network**  
+🔹 **Enhancing Lung Cancer Diagnosis with Custom-Designed Convolutional Neural Network**  
 
 ---
 
