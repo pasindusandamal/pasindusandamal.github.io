@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-# 👋 Hi, I'm Pasindu Sandamal  
+# 👋 Hi, I'm Pasindu Sandamal,  
+
 
 **Full Stack  | Mobile App  | Machine Learning | Desktop Application**  
 I'm Passionate about AI-powered mobile applications, full-stack solutions, and intelligent systems that solve real-world problems.  
@@ -36,15 +37,12 @@ I'm Passionate about AI-powered mobile applications, full-stack solutions, and i
 - Redesigned the user interface of a mobile application aimed at teaching Python programming in the Sinhala language.
 
 
-## ✨ Familiar Areas
-
-**Full Stack Development | Mobile App Development | Machine Learning | Desktop Application**
-
 ## ✨ Education
 
 **B.Sc. (Hons) Software Engineering**  
-### Plymouth University (UK) ###
-#### 2021 SEP – 2024 DEC ####
+<p style="margin-left: 20px;">Plymouth University (UK)</p>  
+<p style="margin-left: 20px;">2021 SEP – 2024 DEC</p>
+
 
 ---
 
