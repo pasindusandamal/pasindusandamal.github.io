@@ -43,7 +43,7 @@ From **AI-driven healthcare solutions** to **intelligent educational platforms**
 
 ---
 
-## 🔥 Featured Projects  
+## ✨ Featured Projects  
 
 🔹 **Lung Cancer Detection Application** *(Final Year Research Project)*  
 🔹 **POS System Development**  
@@ -51,22 +51,20 @@ From **AI-driven healthcare solutions** to **intelligent educational platforms**
 
 ---
 
-## 📚 Publications  
+## ✨ Publications  
 
 🔹 **Enhancing Lung Cancer Diagnosis with Custom-Designed Convolutional Neural Network**  
 
 ---
 
-## 🌎 Let's Connect!  
+## ✨ Connect with Me  
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](#)  
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](#)  
-[![Medium](https://img.shields.io/badge/-Medium-000000?style=flat&logo=medium&logoColor=white)](#)  
-[![ResearchGate](https://img.shields.io/badge/-ResearchGate-00CCBB?style=flat&logo=researchgate&logoColor=white)](#)  
+| [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](#) | [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](#) | [![Medium](https://img.shields.io/badge/-Medium-000000?style=flat&logo=medium&logoColor=white)](#) | [![ResearchGate](https://img.shields.io/badge/-ResearchGate-00CCBB?style=flat&logo=researchgate&logoColor=white)](#) |
+|---|---|---|---|
+
 
 ---
 
-📩 **Feel free to reach out!** I'm always open to discussions on AI, software development, and research collaborations.  
 
 
 
