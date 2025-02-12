@@ -13,8 +13,6 @@ redirect_from:
 ## Full Stack  | Mobile App  | Machine Learning | Desktop Application ## 
 I'm Passionate about AI-powered mobile applications, full-stack solutions, and intelligent systems that solve real-world problems.  
 
-## ✨ Connect with Me  
-
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](#) [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](#) [![Medium](https://img.shields.io/badge/-Medium-000000?style=flat&logo=medium&logoColor=white)](#) [![ResearchGate](https://img.shields.io/badge/-ResearchGate-00CCBB?style=flat&logo=researchgate&logoColor=white)](#)
 
 
