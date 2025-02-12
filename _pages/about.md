@@ -14,13 +14,12 @@ Passionate about AI-powered mobile applications, full-stack solutions, and intel
 
 ## ✨ Connect with Me  
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](#) | [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](#) | [![Medium](https://img.shields.io/badge/-Medium-000000?style=flat&logo=medium&logoColor=white)](#) | [![ResearchGate](https://img.shields.io/badge/-ResearchGate-00CCBB?style=flat&logo=researchgate&logoColor=white)](#)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](#) [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](#) [![Medium](https://img.shields.io/badge/-Medium-000000?style=flat&logo=medium&logoColor=white)](#) [![ResearchGate](https://img.shields.io/badge/-ResearchGate-00CCBB?style=flat&logo=researchgate&logoColor=white)](#)
 
 
 ## ✨ About Me  
 
-I specialize in building **scalable, high-performance applications** that blend AI and user-centric design.  
-From **AI-driven healthcare solutions** to **intelligent educational platforms**, I push the boundaries of technology.  
+I specialize in building **scalable, high-performance applications** that blend AI and user-centric design.From **AI-driven healthcare solutions** to **intelligent educational platforms**, I push the boundaries of technology.  
 
 🔹 **Creating interactive & intelligent experiences with AI & Flutter**  
 🔹 **Applying deep learning models to healthcare and automation**  
