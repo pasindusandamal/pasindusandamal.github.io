@@ -7,8 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-#  Hi👋 I'm Pasindu Sandamal 
-## I’m  a Software Engineer passionate about crafting AI-powered mobile applications, full-stack solutions, and intelligent systems that solve real-world problems.  
+#  Hi👋 I'm Pasindu Sandamal. 
+### I’m  a Software Engineer passionate about crafting AI-powered mobile applications, full-stack solutions, and intelligent systems that solve real-world problems.  
 
 📍 **Currently:** Software Engineer at BevyLabs  
 🛠️ **Expertise:** Mobile App Development, AI Integration, Full-Stack Engineering  
