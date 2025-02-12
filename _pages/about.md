@@ -7,57 +7,62 @@ redirect_from:
   - /about.html
 ---
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Pasindu Sandamal - Software Engineer</title>
-</head>
-<body>
-    <h1>👋 Hi, I'm Pasindu Sandamal</h1>
-    <h3>Software Engineer | AI Enthusiast | Full-Stack Developer</h3>
-    <p>Passionate about AI-powered mobile applications, full-stack solutions, and intelligent systems that solve real-world problems.</p>
+# 👋 Hi, I'm Pasindu Sandamal  
 
-    <h2>Connect with Me</h2>
-    <p>
-        <a href="#">LinkedIn</a> |
-        <a href="#">GitHub</a> |
-        <a href="#">Medium</a> |
-        <a href="#">ResearchGate</a>
-    </p>
+**Software Engineer | AI Enthusiast | Full-Stack Developer**  
+Passionate about AI-powered mobile applications, full-stack solutions, and intelligent systems that solve real-world problems.  
 
-    <h2>About Me</h2>
-    <p>
-        I specialize in building scalable, high-performance applications that blend AI and user-centric design. From AI-driven healthcare solutions to intelligent educational platforms, I push the boundaries of technology. In healthcare, my solutions empower medical professionals with advanced diagnostic algorithms and intuitive patient monitoring systems.
-    </p>
+## ✨ Connect with Me  
 
-    <h2>Working Experience</h2>
-    <h3>Trainee Software Engineer | BevyLabs</h3>
-    <p>2024 JULY – 2025 JAN</p>
-    <ul>
-        <li>Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and GEMINI API</li>
-        <li>Designed and implemented an interactive mobile application for Python programming</li>
-        <li>Developed a machine learning model for shrimp detection using YOLO framework</li>
-        <li>Redesigned user interfaces for a Sinhala language Python learning application</li>
-    </ul>
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](#) [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](#) [![Medium](https://img.shields.io/badge/-Medium-000000?style=flat&logo=medium&logoColor=white)](#) [![ResearchGate](https://img.shields.io/badge/-ResearchGate-00CCBB?style=flat&logo=researchgate&logoColor=white)](#)
 
-    <h2>Expertise</h2>
-    <p>Full Stack Development | Mobile App Development | Machine Learning | Desktop Application</p>
 
-    <h2>Education</h2>
-    <h3>B.Sc. (Hons) Software Engineering</h3>
-    <p>Plymouth University (UK)<br>
-    2021 SEP – 2024 DEC</p>
+## [✨ About Me](pplx://action/followup)
 
-    <h2>Featured Projects</h2>
-    <h3>Lung Cancer Detection Application</h3>
-    <p><em>Final Year Research Project</em><br>
-    Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung cancer stages.</p>
+ 
+<p align="justify">I specialize in building scalable, high-performance applications that blend AI and user-centric design. From AI-driven healthcare solutions to intelligent educational platforms, I push the boundaries of technology. In healthcare, my solutions empower medical professionals with advanced diagnostic algorithms and intuitive patient monitoring systems.In education, I'm developing platforms that adapt intelligently to each student's learning journey. These aren't just applications – they're transformative tools that harness the power of artificial intelligence to solve real-world challenges, whether it's helping doctors make more informed decisions or creating personalized learning experiences that evolve with each student's progress.What sets my work apart is the relentless focus on scalability and performance in every solution I architect. In a world where milliseconds matter, I build systems that can handle millions of requests while maintaining lightning-fast response times, all while keeping the user experience intuitive and accessible.This means crafting applications that not only leverage cutting-edge AI technology but do so in a way that feels natural and responsive to users. Whether it's developing healthcare analytics platforms that process vast amounts of patient data or creating educational systems that adapt in real-time to student interactions, I'm committed to pushing the boundaries of what's possible when you combine powerful AI with thoughtful, user-centric design.</p>
 
-    <h2>Publications</h2>
-    <h3>Enhancing Lung Cancer Diagnosis with Custom-Designed Convolutional Neural Network</h3>
-    <p>Developed a custom convolutional neural network (CNN) to classify lung cancer stages using CT scan images.</p>
-</body>
-</html>
+## [✨ Working Experience](pplx://action/followup)
+
+**[Trainee Software Engineer | BevyLabs](pplx://action/followup)**  
+*2024 JULY – 2025 JAN*
+
+• Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and GEMINI API to extract text from images and generate MCQs or essay prompts for improved content interaction.
+
+• Designed and implemented an interactive mobile application aimed at teaching Python programming, incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences for users.
+
+• Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using Tkinter to allow users to upload images and get a count of detected shrimps.
+
+• Redesigned the user interfaces mobile application aimed at teaching Python programming in the Sinhala language.
+
+## [✨ Familiar Areas](pplx://action/followup)
+
+**[Expertise](pplx://action/followup)**  
+Full Stack Development | Mobile App Development | Machine Learning | Desktop Application
+
+## [✨ Education](pplx://action/followup)
+
+**[B.Sc. (Hons) Software Engineering](pplx://action/followup)**  
+*Plymouth University (UK)*  
+2021 SEP – 2024 DEC
+
+## [✨ Featured Projects](pplx://action/followup)
+
+**[Lung Cancer Detection Application](pplx://action/followup)**  
+*Final Year Research Project*  
+Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung cancer stages as normal, malignant, or benign.
+
+## [✨ Publications](pplx://action/followup)
+
+**[Enhancing Lung Cancer Diagnosis with Custom-Designed Convolutional Neural Network](pplx://action/followup)**  
+Developed a custom convolutional neural network (CNN) to classify lung cancer stages (normal, malignant, benign) using CT scan images.
+
+
+
+
+
+
+---
 
 
 
