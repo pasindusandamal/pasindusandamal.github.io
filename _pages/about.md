@@ -27,13 +27,12 @@ I'm Passionate about AI-powered mobile applications, full-stack solutions, and i
 BevyLabs
 
 
-- Developed a Flutter-based mobile app using `GOOGLE_MLKIT_TEXT_RECOGNITION` package and Gemini API to extract text from images and generate MCQs or essay prompts for improved content interaction.
-
-- Designed and implemented an interactive mobile application aimed at teaching Python programming, incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences for users.
-
-- Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using Tkinter to allow users to upload images and get a count of detected shrimps.
-
-- Redesigned the user interface of a mobile application aimed at teaching Python programming in the Sinhala language.
+<ul>
+  <li>Developed a Flutter-based mobile app using `GOOGLE_MLKIT_TEXT_RECOGNITION` package and Gemini API to extract text from images and generate MCQs or essay prompts for improved content interaction.</li>
+  <li>Designed and implemented an interactive mobile application aimed at teaching Python programming, incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences for users.</li>
+  <li>Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using Tkinter to allow users to upload images and get a count of detected shrimps.</li>
+  <li>Redesigned the user interface of a mobile application aimed at teaching Python programming in the Sinhala language.</li>
+</ul>
 
 
 ## ✨ Education
