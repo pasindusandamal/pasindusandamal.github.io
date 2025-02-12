@@ -19,54 +19,43 @@ Passionate about AI-powered mobile applications, full-stack solutions, and intel
 
 ## [✨ About Me](pplx://action/followup)
 
-**[AI & Healthcare Solutions](pplx://action/followup)**  
-I specialize in building scalable, high-performance applications that blend AI and user-centric design. From AI-driven healthcare solutions to intelligent educational platforms, I push the boundaries of technology. In healthcare, my solutions empower medical professionals with advanced diagnostic algorithms and intuitive patient monitoring systems[1].
+ 
+I specialize in building scalable, high-performance applications that blend AI and user-centric design. From AI-driven healthcare solutions to intelligent educational platforms, I push the boundaries of technology. In healthcare, my solutions empower medical professionals with advanced diagnostic algorithms and intuitive patient monitoring systems.In education, I'm developing platforms that adapt intelligently to each student's learning journey. These aren't just applications – they're transformative tools that harness the power of artificial intelligence to solve real-world challenges, whether it's helping doctors make more informed decisions or creating personalized learning experiences that evolve with each student's progress.What sets my work apart is the relentless focus on scalability and performance in every solution I architect. In a world where milliseconds matter, I build systems that can handle millions of requests while maintaining lightning-fast response times, all while keeping the user experience intuitive and accessible.This means crafting applications that not only leverage cutting-edge AI technology but do so in a way that feels natural and responsive to users. Whether it's developing healthcare analytics platforms that process vast amounts of patient data or creating educational systems that adapt in real-time to student interactions, I'm committed to pushing the boundaries of what's possible when you combine powerful AI with thoughtful, user-centric design.
 
-**[Educational Innovation](pplx://action/followup)**  
-In education, I'm developing platforms that adapt intelligently to each student's learning journey. These aren't just applications – they're transformative tools that harness the power of artificial intelligence to solve real-world challenges, whether it's helping doctors make more informed decisions or creating personalized learning experiences that evolve with each student's progress.
+## [✨ Working Experience](pplx://action/followup)
 
-**[Performance & Scalability](pplx://action/followup)**  
-What sets my work apart is the relentless focus on scalability and performance in every solution I architect. In a world where milliseconds matter, I build systems that can handle millions of requests while maintaining lightning-fast response times, all while keeping the user experience intuitive and accessible.
+**[Trainee Software Engineer | BevyLabs](pplx://action/followup)**  
+*2024 JULY – 2025 JAN*
 
-**[Technical Excellence](pplx://action/followup)**  
-This means crafting applications that not only leverage cutting-edge AI technology but do so in a way that feels natural and responsive to users. Whether it's developing healthcare analytics platforms that process vast amounts of patient data or creating educational systems that adapt in real-time to student interactions, I'm committed to pushing the boundaries of what's possible when you combine powerful AI with thoughtful, user-centric design.
+• Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and GEMINI API to extract text from images and generate MCQs or essay prompts for improved content interaction.
 
+• Designed and implemented an interactive mobile application aimed at teaching Python programming, incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences for users.
 
-## ✨ Working Experience
+• Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using Tkinter to allow users to upload images and get a count of detected shrimps.
 
-Trainee Software Engineer BevyLabs  
-2024 JULY – 2025 JAN  
-  • Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and GEMINI API 
-    to extract text from images and generate MCQs or essay prompts for improved content interaction. 
-  • Designed and implemented an interactive mobile application aimed at teaching Python programming, 
-    incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences 
-    for users. 
-  • Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, 
-    integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using 
-    Tkinter to allow users to upload images and get a count of detected shrimps. 
-  • Redesigned the user interfaces mobile application aimed at teaching Python programming in the Sinhala 
-    language.
+• Redesigned the user interfaces mobile application aimed at teaching Python programming in the Sinhala language.
 
-## ✨ Familier Areas
+## [✨ Familiar Areas](pplx://action/followup)
 
-Full Stack Development | Mobile App Development | Machine Learning | Desktop Application  
+**[Expertise](pplx://action/followup)**  
+Full Stack Development | Mobile App Development | Machine Learning | Desktop Application
 
-## ✨ Education
+## [✨ Education](pplx://action/followup)
 
-B.Sc. (Hons) Software Engineering | Plymouth University (UK)  
+**[B.Sc. (Hons) Software Engineering](pplx://action/followup)**  
+*Plymouth University (UK)*  
 2021 SEP – 2024 DEC
 
-## ✨ Featured Projects  
+## [✨ Featured Projects](pplx://action/followup)
 
-Lung Cancer Detection Application (Final Year Research Project) 
-Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung 
-cancer stages as normal, malignant, or benign. 
+**[Lung Cancer Detection Application](pplx://action/followup)**  
+*Final Year Research Project*  
+Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung cancer stages as normal, malignant, or benign.
 
-## ✨ Publications  
+## [✨ Publications](pplx://action/followup)
 
-Enhancing Lung Cancer Diagnosis with Custom-Designed Convolutional Neural Network  
-Developed a custom convolutional neural network (CNN) to classify lung cancer stages (normal, malignant, benign) 
-using CT scan images.
+**[Enhancing Lung Cancer Diagnosis with Custom-Designed Convolutional Neural Network](pplx://action/followup)**  
+Developed a custom convolutional neural network (CNN) to classify lung cancer stages (normal, malignant, benign) using CT scan images.
 
 
 
