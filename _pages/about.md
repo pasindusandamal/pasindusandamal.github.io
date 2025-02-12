@@ -25,21 +25,20 @@ I specialize in building **scalable, high-performance applications** that blend 
 🔹 **Applying deep learning models to healthcare and automation**  
 🔹 **Developing end-to-end solutions with modern web & mobile technologies**  
 
-## Working Experience
+## ✨ Working Experience
 
-## Familier Areas
+## ✨ Familier Areas
 
-| **Category**              | **Technologies** |
-|--------------------------|----------------|
-| **🌐 Web Development**   | ![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)  ![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)  ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
-| **⚙️ Backend Development** | ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php&logoColor=white) |
-| **⚛️ Frontend Frameworks** | ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black) |
-| **📱 Mobile Development** | ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat&logo=flutter&logoColor=white) |
-| **☕ Programming Languages** | ![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white)  ![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=c-sharp&logoColor=white) |
-| **🔧 Tools & Version Control** | ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white) |
+**Web Development:**                                                            **Mobile Development:**  
+HTML &nbsp;&nbsp; | &nbsp;&nbsp; CSS &nbsp;&nbsp; | &nbsp;&nbsp; JavaScript     Flutter  
 
+**Frontend Frameworks:**                                                        **Programming Languages:**  
+React                                                                           C# &nbsp;&nbsp; | &nbsp;&nbsp; Java  
 
-## Education
+**Tools & Version Control:**  
+Git  
+
+## ✨ Education
 
 ## ✨ Featured Projects  
 
