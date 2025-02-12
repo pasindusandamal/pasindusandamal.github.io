@@ -10,7 +10,7 @@ redirect_from:
 # 👋 Hi, I'm Pasindu Sandamal,  
 
 
-**Full Stack  | Mobile App  | Machine Learning | Desktop Application**  
+## Full Stack  | Mobile App  | Machine Learning | Desktop Application ## 
 I'm Passionate about AI-powered mobile applications, full-stack solutions, and intelligent systems that solve real-world problems.  
 
 ## ✨ Connect with Me  
