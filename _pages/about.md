@@ -29,14 +29,9 @@ I specialize in building **scalable, high-performance applications** that blend 
 
 ## ✨ Familier Areas
 
-**Web Development:**                                                            **Mobile Development:**  
-HTML &nbsp;&nbsp; | &nbsp;&nbsp; CSS &nbsp;&nbsp; | &nbsp;&nbsp; JavaScript     Flutter  
-
-**Frontend Frameworks:**                                                        **Programming Languages:**  
-React                                                                           C# &nbsp;&nbsp; | &nbsp;&nbsp; Java  
-
-**Tools & Version Control:**  
-Git  
+🔹 **Web Development**  
+🔹 **Web Development**  
+🔹 **Web Development**  
 
 ## ✨ Education
 
