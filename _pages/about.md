@@ -9,7 +9,7 @@ redirect_from:
 
 # 👋 Hi, I'm Pasindu Sandamal  
 
-**Full Stack Development | Mobile App Development | Machine Learning | Desktop Application**  
+**Full Stack  | Mobile App  | Machine Learning | Desktop Application**  
 I'm Passionate about AI-powered mobile applications, full-stack solutions, and intelligent systems that solve real-world problems.  
 
 ## ✨ Connect with Me  
@@ -43,8 +43,8 @@ I'm Passionate about AI-powered mobile applications, full-stack solutions, and i
 ## ✨ Education
 
 **B.Sc. (Hons) Software Engineering**  
-Plymouth University (UK)
-2021 SEP – 2024 DEC
+### Plymouth University (UK) ###
+#### 2021 SEP – 2024 DEC ####
 
 ---
 
