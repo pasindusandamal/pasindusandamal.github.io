@@ -39,8 +39,9 @@ I'm Passionate about AI-powered mobile applications, full-stack solutions, and i
 
 ## ✨ Education
 
-**Bsc(Hons) Software Engineer | Plymouth University**
+**BSc (Hons) Software Engineer | 2021-2024**  
 Plymouth University (UK)
+
 
 ---
 
