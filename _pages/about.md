@@ -24,23 +24,39 @@ What sets my work apart is the relentless focus on scalability and performance i
 
 ## ✨ Working Experience
 
+Trainee Software Engineer BevyLabs  
+2024 JULY – 2025 JAN  
+  • Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and GEMINI API 
+    to extract text from images and generate MCQs or essay prompts for improved content interaction. 
+  • Designed and implemented an interactive mobile application aimed at teaching Python programming, 
+    incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences 
+    for users. 
+  • Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, 
+    integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using 
+    Tkinter to allow users to upload images and get a count of detected shrimps. 
+  • Redesigned the user interfaces mobile application aimed at teaching Python programming in the Sinhala 
+    language.
+
 ## ✨ Familier Areas
 
-🔹 **Web Development**  
-🔹 **Web Development**  
-🔹 **Web Development**  
+Full Stack Development | Mobile App Development | Machine Learning | Desktop Application  
 
 ## ✨ Education
 
+B.Sc. (Hons) Software Engineering | Plymouth University (UK)  
+2021 SEP – 2024 DEC
+
 ## ✨ Featured Projects  
 
-🔹 **Lung Cancer Detection Application** *(Final Year Research Project)*  
-🔹 **POS System Development**  
-🔹 **Task Fusion**  
+Lung Cancer Detection Application (Final Year Research Project) 
+Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung 
+cancer stages as normal, malignant, or benign. 
 
 ## ✨ Publications  
 
-🔹 **Enhancing Lung Cancer Diagnosis with Custom-Designed CNN**  
+Enhancing Lung Cancer Diagnosis with Custom-Designed Convolutional Neural Network  
+Developed a custom convolutional neural network (CNN) to classify lung cancer stages (normal, malignant, benign) 
+using CT scan images.
 
 
 
