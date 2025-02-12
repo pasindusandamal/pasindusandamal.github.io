@@ -38,7 +38,7 @@ Passionate about AI-powered mobile applications, full-stack solutions, and intel
 
 ## ✨ Familiar Areas
 
-Full Stack Development  Mobile App Development  Machine Learning  Desktop Application
+**Full Stack Development**  **Mobile App Development**  **Machine Learning**  **Desktop Application**
 
 ## ✨ Education
 
