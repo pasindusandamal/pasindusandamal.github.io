@@ -17,12 +17,12 @@ Interests: AI in Healthcare, NLP, Edge Computing, UI/UX Optimization
 ---
 
 ## About Me  
-🔹I specialize in building scalable, high-performance applications that blend AI and user-centric design. 
-   From AI-driven healthcare solutions to intelligent    educational platforms, I strive to push technological boundaries.  
+I specialize in building scalable, high-performance applications that blend AI and user-centric design. 
+From AI-driven healthcare solutions to intelligent    educational platforms, I strive to push technological boundaries.  
 
-- **AI-Enhanced Mobile Apps** – Creating interactive and intelligent experiences with AI & Flutter  
-- **Machine Learning for Real-World Impact** – Applying deep learning models to healthcare and automation  
-- **Full-Stack Engineering** – Developing end-to-end solutions with modern web and mobile technologies  
+### Creating interactive and intelligent experiences with AI & Flutter  ###
+### Applying deep learning models to healthcare and automation ### 
+### Developing end-to-end solutions with modern web and mobile technologies   ###
 
 ---
 
@@ -35,7 +35,6 @@ Interests: AI in Healthcare, NLP, Edge Computing, UI/UX Optimization
 ##  Featured Projects 
 
  🔹 Lung Cancer Detection Application (Final Year Research Project)       
- 🔹 Task Fusion
  🔹 POS System Development       
  🔹 Task Fusion
 
