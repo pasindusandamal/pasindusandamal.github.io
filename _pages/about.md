@@ -24,8 +24,8 @@ Passionate about AI-powered mobile applications, full-stack solutions, and intel
 
 ## ✨ Working Experience
 
-**Trainee Software Engineer | BevyLabs**  
-<p style="font-size:16px;">2024 JULY – 2025 JAN</p>
+**Trainee Software Engineer | BevyLabs**  </br>
+<div style="font-size:16px;">2024 JULY – 2025 JAN</div>
 
 • Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and GEMINI API to extract text from images and generate MCQs or essay prompts for improved content interaction.
 
