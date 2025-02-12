@@ -24,16 +24,14 @@ Passionate about AI-powered mobile applications, full-stack solutions, and intel
 
 ## ✨ Working Experience
 
-**Trainee Software Engineer | BevyLabs** <sup style="font-size:16px; ">2024 JULY – 2025 JAN</sup>
+**Trainee Software Engineer | BevyLabs**
+2024 JULY – 2025 JAN
 
+<p align="justify">Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and GEMINI API to extract text from images and generate MCQs or essay prompts for improved content interaction.</p>
+<p align="justify">Designed and implemented an interactive mobile application aimed at teaching Python programming, incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences for users.</p>
+<p align="justify">Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using Tkinter to allow users to upload images and get a count of detected shrimps.</p>
+<p align="justify">Redesigned the user interfaces mobile application aimed at teaching Python programming in the Sinhala language.</p>
 
-• Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and GEMINI API to extract text from images and generate MCQs or essay prompts for improved content interaction.
-
-• Designed and implemented an interactive mobile application aimed at teaching Python programming, incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences for users.
-
-• Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using Tkinter to allow users to upload images and get a count of detected shrimps.
-
-• Redesigned the user interfaces mobile application aimed at teaching Python programming in the Sinhala language.
 
 ## ✨ Familiar Areas
 
@@ -42,25 +40,20 @@ Full Stack Development | Mobile App Development | Machine Learning | Desktop App
 
 ## ✨ Education
 
-**[B.Sc. (Hons) Software Engineering]**  
-*Plymouth University (UK)*  
+**B.Sc. (Hons) Software Engineering**  
+Plymouth University (UK)
 2021 SEP – 2024 DEC
 
-## [✨ Featured Projects]
+## ✨ Featured Projects
 
 **[Lung Cancer Detection Application]**  
-*Final Year Research Project*  
+Final Year Research Project
 Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung cancer stages as normal, malignant, or benign.
 
-## [✨ Publications]
+## ✨ Publications
 
-**[Enhancing Lung Cancer Diagnosis with Custom-Designed Convolutional Neural Network]**  
+**Enhancing Lung Cancer Diagnosis with Custom-Designed Convolutional Neural Network**  
 Developed a custom convolutional neural network (CNN) to classify lung cancer stages (normal, malignant, benign) using CT scan images.
-
-
-
-
-
 
 ---
 
