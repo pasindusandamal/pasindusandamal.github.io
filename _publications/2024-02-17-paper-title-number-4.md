@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 4"
+title: "Enhancing Lung Cancer Diagnosis with Custom-Designed Convolutional Neural Network"
 collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
