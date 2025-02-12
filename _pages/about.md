@@ -9,8 +9,8 @@ redirect_from:
 
 # 👋 Hi, I'm Pasindu Sandamal  
 
-**Software Engineer | AI Enthusiast | Full-Stack Developer**  
-Passionate about AI-powered mobile applications, full-stack solutions, and intelligent systems that solve real-world problems.  
+**Full Stack Development | Mobile App Development | Machine Learning | Desktop Application**  
+I'm Passionate about AI-powered mobile applications, full-stack solutions, and intelligent systems that solve real-world problems.  
 
 ## ✨ Connect with Me  
 
@@ -38,7 +38,7 @@ Passionate about AI-powered mobile applications, full-stack solutions, and intel
 
 ## ✨ Familiar Areas
 
-**Software Engineer | AI Enthusiast | Full-Stack Developer**  
+**Full Stack Development | Mobile App Development | Machine Learning | Desktop Application**
 
 ## ✨ Education
 
