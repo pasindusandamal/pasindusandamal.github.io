@@ -12,11 +12,10 @@ redirect_from:
 **Software Engineer | AI Enthusiast | Full-Stack Developer**  
 Passionate about AI-powered mobile applications, full-stack solutions, and intelligent systems that solve real-world problems.  
 
-**Currently:** Software Engineer at **BevyLabs**  
-**Expertise:** Mobile App Development | AI Integration | Full-Stack Engineering  
-**Interests:** AI in Healthcare | NLP | Edge Computing | UI/UX Optimization  
+## ✨ Connect with Me  
 
----
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](#) | [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](#) | [![Medium](https://img.shields.io/badge/-Medium-000000?style=flat&logo=medium&logoColor=white)](#) | [![ResearchGate](https://img.shields.io/badge/-ResearchGate-00CCBB?style=flat&logo=researchgate&logoColor=white)](#)
+
 
 ## ✨ About Me  
 
@@ -27,9 +26,9 @@ From **AI-driven healthcare solutions** to **intelligent educational platforms**
 🔹 **Applying deep learning models to healthcare and automation**  
 🔹 **Developing end-to-end solutions with modern web & mobile technologies**  
 
----
+## Working Experience
 
-## 🛠 Tech Stack  
+## Familier Areas
 
 | **Category**              | **Technologies** |
 |--------------------------|----------------|
@@ -41,7 +40,7 @@ From **AI-driven healthcare solutions** to **intelligent educational platforms**
 | **🔧 Tools & Version Control** | ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white) |
 
 
----
+## Education
 
 ## ✨ Featured Projects  
 
@@ -49,18 +48,13 @@ From **AI-driven healthcare solutions** to **intelligent educational platforms**
 🔹 **POS System Development**  
 🔹 **Task Fusion**  
 
----
-
 ## ✨ Publications  
 
-🔹 **Enhancing Lung Cancer Diagnosis with Custom-Designed Convolutional Neural Network**  
+🔹 **Enhancing Lung Cancer Diagnosis with Custom-Designed CNN**  
 
----
 
-## ✨ Connect with Me  
 
-| [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](#) | [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](#) | [![Medium](https://img.shields.io/badge/-Medium-000000?style=flat&logo=medium&logoColor=white)](#) | [![ResearchGate](https://img.shields.io/badge/-ResearchGate-00CCBB?style=flat&logo=researchgate&logoColor=white)](#) |
-|---|---|---|---|
+
 
 
 ---
