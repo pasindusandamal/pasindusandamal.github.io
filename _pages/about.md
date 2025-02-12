@@ -27,10 +27,11 @@ Passionate about AI-powered mobile applications, full-stack solutions, and intel
 **Trainee Software Engineer | BevyLabs**
 2024 JULY – 2025 JAN
 
-<p align="justify">Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and GEMINI API to extract text from images and generate MCQs or essay prompts for improved content interaction.</p>
-<p align="justify">Designed and implemented an interactive mobile application aimed at teaching Python programming, incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences for users.</p>
-<p align="justify">Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using Tkinter to allow users to upload images and get a count of detected shrimps.</p>
-<p align="justify">Redesigned the user interfaces mobile application aimed at teaching Python programming in the Sinhala language.</p>
+<p align="justify">
+Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and GEMINI API to extract text from images and generate MCQs or essay prompts for improved content interaction.
+Designed and implemented an interactive mobile application aimed at teaching Python programming, incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences for users.
+Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using Tkinter to allow users to upload images and get a count of detected shrimps.
+Redesigned the user interfaces mobile application aimed at teaching Python programming in the Sinhala language.</p>
 
 
 ## ✨ Familiar Areas
