@@ -1,61 +1,95 @@
 body {
     font-family: 'Poppins', sans-serif;
-    line-height: 1.2;
-    color: rgb(66, 65, 65);
+    line-height: 1.4;
+    color: #666;
     background: linear-gradient(to right, #f4f4f4, #eaeaea);
     padding: 10px;
-    text-decoration: none;
-}
-
-h3 {
-    font-size: 1.5em;
-    color: rgb(66, 65, 65);
-    border-bottom: 2px solid black;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     background: #fff;
-    padding: 20px;
+    padding: 25px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
 section {
-    margin-bottom: 7px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.4em;
+    color: #444;
+    border-bottom: 1.5px solid #666;
+    padding-bottom: 5px;
+    margin: 10px 0;
+}
+
+p {
+    text-align: justify;
+    margin: 5px 0;
+    color: #666;
 }
 
 ul {
-    list-style: disc;
-    padding-left: 20px;
-    text-align: justify;
+    list-style: none;
+    padding-left: 0;
+    margin: 5px 0;
 }
 
 ul li {
-    margin-bottom: 5px;
     text-align: justify;
+    margin-bottom: 5px;
     padding-left: 20px;
+    position: relative;
+    color: #666;
 }
 
-ul li i {
-    color: rgb(66, 65, 65);
-    margin-right: 10px;
-    text-align: justify;
+ul li::before {
+    content: "•";
+    position: absolute;
+    left: 5px;
+    color: #666;
+}
+
+.experience ul li {
+    margin-left: 15px;
+}
+
+.skills ul li,
+.achievements ul li {
+    margin-left: 10px;
 }
 
 a {
-    color: rgb(66, 65, 65);
-    text-decoration: none;
+    color: #666;
+    text-decoration: none !important;
+    transition: color 0.3s ease;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #444;
+    text-decoration: none !important;
 }
 
-.profile p, .education p, .experience p, .skills ul, .achievements ul, .links p {
-    margin: 0;
-    padding: 0;
+.profile p, 
+.education p, 
+.experience p {
+    margin: 5px 0;
+    padding-left: 5px;
+}
+
+sup {
+    color: #888;
+    margin-left: 5px;
+}
+
+.links p {
+    margin-top: 10px;
+}
+
+.links a i {
+    margin-right: 5px;
 }
