@@ -6,43 +6,44 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 {% include base_path %}
 
 Professional Profile
 ====== 
-* I am a motivated and diligent software engineering graduate with a strong sense of responsibility and a proven ability 
+* <i class="fas fa-user"></i> I am a motivated and diligent software engineering graduate with a strong sense of responsibility and a proven ability 
   to tackle challenges through effective decision-making, teamwork, and leadership. Passionate about advancing my 
   knowledge and express while embracing emerging technologies. I am adaptable, eager to learn, and committed to 
   leveraging my skills to contribute to the growth and success of the organization. 
 
 Education
 ======
-* B.Sc. (Hons) Software Engineering | Plymouth University (UK)  
+* <i class="fas fa-graduation-cap"></i> B.Sc. (Hons) Software Engineering | Plymouth University (UK)  
   2021 SEP – 2024 DEC
 
 Work experience
 ======
-* Trainee Software Engineer BevyLabs  
+* <i class="fas fa-briefcase"></i> Trainee Software Engineer BevyLabs  
   2024 JULY – 2025 JAN 
 
-  * Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and GEMINI API 
+  * <i class="fas fa-mobile-alt"></i> Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and GEMINI API 
     to extract text from images and generate MCQs or essay prompts for improved content interaction. 
-  * Designed and implemented an interactive mobile application aimed at teaching Python programming, 
+  * <i class="fas fa-laptop-code"></i> Designed and implemented an interactive mobile application aimed at teaching Python programming, 
     incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences 
     for users. 
-  * Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, 
+  * <i class="fas fa-robot"></i> Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, 
     integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using 
     Tkinter to allow users to upload images and get a count of detected shrimps.
-  * Redesigned the user interfaces mobile application aimed at teaching Python programming in the Sinhala 
+  * <i class="fas fa-pencil-alt"></i> Redesigned the user interfaces mobile application aimed at teaching Python programming in the Sinhala 
     language.  
   
 Skills
 ======
-* Full Stack Development 
-* Mobile App Development
-* Machine Learning
-* Desktop Application
+* <i class="fas fa-code"></i> Full Stack Development 
+* <i class="fas fa-mobile-alt"></i> Mobile App Development
+* <i class="fas fa-brain"></i> Machine Learning
+* <i class="fas fa-desktop"></i> Desktop Application
 
 Publications
 ======
@@ -52,17 +53,17 @@ Publications
 
 Achievement
 ======  
-* Cisco IT Essentials 7.0 
+* <i class="fas fa-award"></i> Cisco IT Essentials 7.0 
   Successfully completed the Cisco IT Essentials 7.0 course, which provided foundational skills in computer hardware 
   and software, networking, and security.  
-* DUOTHEN 3.0 Coding Competition, NSBM Green University 
+* <i class="fas fa-trophy"></i> DUOTHEN 3.0 Coding Competition, NSBM Green University 
   Successfully completed the DUOTHEN 3.0 coding competition, showcasing advanced programming skills and 
   problem-solving abilities in a competitive environment.
 
 Links 
 ======  
-* https://github.com/pasindusandamal | https://www.researchgate.net/profile/Pasindu-Sandamal?ev=hdr_xprf     
-  
+* <i class="fab fa-github"></i> [GitHub](https://github.com/pasindusandamal) | <i class="fab fa-researchgate"></i> [ResearchGate](https://www.researchgate.net/profile/Pasindu-Sandamal?ev=hdr_xprf)     
+
 <!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
