@@ -47,12 +47,7 @@ ul li {
     color: #666;
 }
 
-li::before {
-    content: "•";
-    position: absolute;
-    left: 5px;
-    color: #666;
-}
+
 
 .experience ul li {
     margin-left: 15px;
