@@ -23,7 +23,7 @@ redirect_from:
     <section class="education">
         <h2><i class="fas fa-graduation-cap"></i> Education</h2>
         <p>B.Sc. (Hons) Software Engineering | Plymouth University (UK)  
-        2021 SEP – 2024 DEC</p>
+       <sup> 2021 SEP – 2024 DEC</sup></p>
     </section>
 
     <section class="experience">
@@ -31,15 +31,15 @@ redirect_from:
         <p>Trainee Software Engineer BevyLabs  
         2024 JULY – 2025 JAN</p>
         <ul>
-            <li><i class="fas fa-mobile-alt"></i> Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and GEMINI API 
+            <li>Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and GEMINI API 
             to extract text from images and generate MCQs or essay prompts for improved content interaction.</li>
-            <li><i class="fas fa-laptop-code"></i> Designed and implemented an interactive mobile application aimed at teaching Python programming, 
+            <li>Designed and implemented an interactive mobile application aimed at teaching Python programming, 
             incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences 
             for users.</li>
-            <li><i class="fas fa-robot"></i> Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, 
+            <li>Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, 
             integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using 
             Tkinter to allow users to upload images and get a count of detected shrimps.</li>
-            <li><i class="fas fa-pencil-alt"></i> Redesigned the user interfaces mobile application aimed at teaching Python programming in the Sinhala 
+            <li>Redesigned the user interfaces mobile application aimed at teaching Python programming in the Sinhala 
             language.</li>
         </ul>
     </section>

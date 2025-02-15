@@ -4,6 +4,7 @@ body {
     color: #333;
     background: linear-gradient(to right, #f4f4f4, #eaeaea);
     padding: 20px;
+    text-decoration: none;
 }
 
 h2 {
