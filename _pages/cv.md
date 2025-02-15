@@ -21,15 +21,16 @@ redirect_from:
     </section>
 
     <section class="education">
-        <h2><i class="fas fa-graduation-cap"></i> Education</h2>
-        <p>B.Sc. (Hons) Software Engineering | Plymouth University (UK)  
-       <sup> 2021 SEP – 2024 DEC</sup></p>
+        <h3>Education</h3>
+        <p>B.Sc. (Hons) Software Engineering <sup> 2021 SEP – 2024 DEC</sup></p>
+        <p>Plymouth University (UK) </p>  
+       
     </section>
 
     <section class="experience">
-        <h2><i class="fas fa-briefcase"></i> Work Experience</h2>
-        <p>Trainee Software Engineer BevyLabs  
-        2024 JULY – 2025 JAN</p>
+        <h3>Work Experience</h3>
+        <p>Trainee Software Engineer <sup>2024 JULY – 2025 JAN</sup></p>
+        <p> BevyLabs </p>  
         <ul>
             <li>Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and GEMINI API 
             to extract text from images and generate MCQs or essay prompts for improved content interaction.</li>
@@ -45,7 +46,7 @@ redirect_from:
     </section>
 
     <section class="skills">
-        <h2><i class="fas fa-code"></i> Skills</h2>
+        <h3>Familer Areas</h3>
         <ul>
             <li>Full Stack Development</li>
             <li>Mobile App Development</li>
@@ -62,7 +63,7 @@ redirect_from:
     </section>
 
     <section class="achievements">
-        <h2><i class="fas fa-award"></i> Achievements</h2>
+        <h3>Achievements</h3>
         <ul>
             <li>Cisco IT Essentials 7.0 
             Successfully completed the Cisco IT Essentials 7.0 course, which provided foundational skills in computer hardware 
@@ -74,7 +75,7 @@ redirect_from:
     </section>
 
     <section class="links">
-        <h2>Links</h2>
+        <h3>Links</h3>
         <p><a href="https://github.com/pasindusandamal"><i class="fab fa-github"></i> GitHub</a> | <a href="https://www.researchgate.net/profile/Pasindu-Sandamal?ev=hdr_xprf"><i class="fab fa-researchgate"></i> ResearchGate</a></p>
     </section>
 </div>
