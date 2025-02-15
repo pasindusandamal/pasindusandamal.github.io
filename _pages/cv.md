@@ -57,9 +57,9 @@ redirect_from:
 
     <section class="publications">
         <h3>Publications</h3>
-        <p>{% for post in site.publications reversed %}
+        {% for post in site.publications reversed %}
             {% include archive-single-cv.html %}
-        {% endfor %}</p>
+        {% endfor %}
     </section>
 
     <section class="achievements">
