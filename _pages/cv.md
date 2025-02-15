@@ -9,45 +9,61 @@ redirect_from:
 
 {% include base_path %}
 
+Professional Profile
+====== 
+* I am a motivated and diligent software engineering graduate with a strong sense of responsibility and a proven ability 
+  to tackle challenges through effective decision-making, teamwork, and leadership. Passionate about advancing my 
+  knowledge and express while embracing emerging technologies. I am adaptable, eager to learn, and committed to 
+  leveraging my skills to contribute to the growth and success of the organization. 
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.Sc. (Hons) Software Engineering | Plymouth University (UK)  
+  2021 SEP – 2024 DEC
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Trainee Software Engineer BevyLabs  
+  2024 JULY – 2025 JAN 
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+  * Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and GEMINI API 
+    to extract text from images and generate MCQs or essay prompts for improved content interaction. 
+  * Designed and implemented an interactive mobile application aimed at teaching Python programming, 
+    incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences 
+    for users. 
+  * Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, 
+    integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using 
+    Tkinter to allow users to upload images and get a count of detected shrimps.
+  * Redesigned the user interfaces mobile application aimed at teaching Python programming in the Sinhala 
+    language.  
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Full Stack Development 
+* Mobile App Development
+* Machine Learning
+* Desktop Application
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+Achievement
+======  
+* Cisco IT Essentials 7.0 
+  Successfully completed the Cisco IT Essentials 7.0 course, which provided foundational skills in computer hardware 
+  and software, networking, and security.  
+* DUOTHEN 3.0 Coding Competition, NSBM Green University 
+  Successfully completed the DUOTHEN 3.0 coding competition, showcasing advanced programming skills and 
+  problem-solving abilities in a competitive environment.
+
+Links 
+======  
+* https://github.com/pasindusandamal | https://www.researchgate.net/profile/Pasindu-Sandamal?ev=hdr_xprf     
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
@@ -57,8 +73,8 @@ Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
-Service and leadership
+<!-- Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
