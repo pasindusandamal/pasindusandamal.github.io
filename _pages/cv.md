@@ -1,12 +1,13 @@
 ---
 layout: archive
-title: ""
+title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="/assets/css/custom_cv.css">
 
 {% include base_path %}
 
@@ -63,7 +64,7 @@ Publications
 Links 
 ======  
 * [GitHub](https://github.com/pasindusandamal) | [ResearchGate](https://www.researchgate.net/profile/Pasindu-Sandamal?ev=hdr_xprf)     
-
+  
 <!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
