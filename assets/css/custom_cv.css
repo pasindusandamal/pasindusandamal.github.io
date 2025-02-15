@@ -1,5 +1,5 @@
 body {
-    font-family: 'Popins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.2;
     color: black;
     background: linear-gradient(to right, #f4f4f4, #eaeaea);
@@ -25,17 +25,17 @@ h3 {
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
+    list-style: disc;
+    padding-left: 20px;
     text-align: justify;
 }
 
 ul li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-align: justify;
 }
 
@@ -47,11 +47,11 @@ ul li i {
 
 a {
     color: black;
-   
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .profile p, .education p, .experience p, .skills ul, .achievements ul, .links p {
