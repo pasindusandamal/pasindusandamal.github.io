@@ -1,9 +1,9 @@
 body {
     font-family: 'Popins', sans-serif;
-    line-height: 1.6;
+    line-height: 1.2;
     color: black;
     background: linear-gradient(to right, #f4f4f4, #eaeaea);
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
 }
 
@@ -47,7 +47,7 @@ ul li i {
 
 a {
     color: black;
-    text-decoration: underline;
+   
 }
 
 a:hover {
