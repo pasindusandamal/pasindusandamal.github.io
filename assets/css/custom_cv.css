@@ -47,7 +47,7 @@ ul li {
     color: #666;
 }
 
-ul li::before {
+li::before {
     content: "•";
     position: absolute;
     left: 5px;
