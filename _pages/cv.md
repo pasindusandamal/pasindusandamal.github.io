@@ -10,40 +10,40 @@ redirect_from:
 
 {% include base_path %}
 
-Professional Profile
+<i class="fas fa-user"></i> Professional Profile
 ====== 
-* <i class="fas fa-user"></i> I am a motivated and diligent software engineering graduate with a strong sense of responsibility and a proven ability 
+* I am a motivated and diligent software engineering graduate with a strong sense of responsibility and a proven ability 
   to tackle challenges through effective decision-making, teamwork, and leadership. Passionate about advancing my 
   knowledge and express while embracing emerging technologies. I am adaptable, eager to learn, and committed to 
   leveraging my skills to contribute to the growth and success of the organization. 
 
-Education
+<i class="fas fa-graduation-cap"></i> Education
 ======
-* <i class="fas fa-graduation-cap"></i> B.Sc. (Hons) Software Engineering | Plymouth University (UK)  
+* B.Sc. (Hons) Software Engineering | Plymouth University (UK)  
   2021 SEP – 2024 DEC
 
-Work experience
+<i class="fas fa-briefcase"></i> Work experience
 ======
-* <i class="fas fa-briefcase"></i> Trainee Software Engineer BevyLabs  
+* Trainee Software Engineer BevyLabs  
   2024 JULY – 2025 JAN 
 
-  * <i class="fas fa-mobile-alt"></i> Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and GEMINI API 
+  * Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and GEMINI API 
     to extract text from images and generate MCQs or essay prompts for improved content interaction. 
-  * <i class="fas fa-laptop-code"></i> Designed and implemented an interactive mobile application aimed at teaching Python programming, 
+  * Designed and implemented an interactive mobile application aimed at teaching Python programming, 
     incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences 
     for users. 
-  * <i class="fas fa-robot"></i> Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, 
+  * Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, 
     integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using 
     Tkinter to allow users to upload images and get a count of detected shrimps.
-  * <i class="fas fa-pencil-alt"></i> Redesigned the user interfaces mobile application aimed at teaching Python programming in the Sinhala 
+  * Redesigned the user interfaces mobile application aimed at teaching Python programming in the Sinhala 
     language.  
   
-Skills
+<i class="fas fa-code"></i> Skills
 ======
-* <i class="fas fa-code"></i> Full Stack Development 
-* <i class="fas fa-mobile-alt"></i> Mobile App Development
-* <i class="fas fa-brain"></i> Machine Learning
-* <i class="fas fa-desktop"></i> Desktop Application
+* Full Stack Development 
+* Mobile App Development
+* Machine Learning
+* Desktop Application
 
 Publications
 ======
@@ -51,18 +51,18 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Achievement
+<i class="fas fa-award"></i> Achievement
 ======  
-* <i class="fas fa-award"></i> Cisco IT Essentials 7.0 
+* Cisco IT Essentials 7.0 
   Successfully completed the Cisco IT Essentials 7.0 course, which provided foundational skills in computer hardware 
   and software, networking, and security.  
-* <i class="fas fa-trophy"></i> DUOTHEN 3.0 Coding Competition, NSBM Green University 
+* DUOTHEN 3.0 Coding Competition, NSBM Green University 
   Successfully completed the DUOTHEN 3.0 coding competition, showcasing advanced programming skills and 
   problem-solving abilities in a competitive environment.
 
 Links 
 ======  
-* <i class="fab fa-github"></i> [GitHub](https://github.com/pasindusandamal) | <i class="fab fa-researchgate"></i> [ResearchGate](https://www.researchgate.net/profile/Pasindu-Sandamal?ev=hdr_xprf)     
+* [GitHub](https://github.com/pasindusandamal) | [ResearchGate](https://www.researchgate.net/profile/Pasindu-Sandamal?ev=hdr_xprf)     
 
 <!-- Talks
 ======
