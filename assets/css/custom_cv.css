@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.2;
-    color: black;
+    color: rgb(66, 65, 65);
     background: linear-gradient(to right, #f4f4f4, #eaeaea);
     padding: 10px;
     text-decoration: none;
@@ -9,7 +9,7 @@ body {
 
 h3 {
     font-size: 1.5em;
-    color: black;
+    color: rgb(66, 65, 65);
     border-bottom: 2px solid black;
     padding-bottom: 5px;
     margin-bottom: 10px;
@@ -25,7 +25,7 @@ h3 {
 }
 
 section {
-    margin-bottom: 15px;
+    margin-bottom: 7px;
 }
 
 ul {
@@ -37,16 +37,17 @@ ul {
 ul li {
     margin-bottom: 5px;
     text-align: justify;
+    padding-left: 20px;
 }
 
 ul li i {
-    color: black;
+    color: rgb(66, 65, 65);
     margin-right: 10px;
     text-align: justify;
 }
 
 a {
-    color: black;
+    color: rgb(66, 65, 65);
     text-decoration: none;
 }
 
