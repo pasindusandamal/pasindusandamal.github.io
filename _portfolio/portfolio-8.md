@@ -1,6 +1,7 @@
 ---
-title: "Lung Cancer Detection Application (Final Year Research Project)"
-excerpt: "An advanced lung cancer detection system powered by custom Convolutional Neural Networks (CNN), capable of accurately classifying lung images as normal, malignant, or benign.<br/><img src='/images/img_1.png'>"
+title: " Python Sinhala App "
+excerpt: "Redesigned the user interfaces mobile application aimed at teaching Python programming in the Sinhala language. 
+         <br/><img src='/images/img_1.png'>"
 collection: portfolio
 ---
 
