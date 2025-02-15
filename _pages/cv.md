@@ -13,8 +13,8 @@ redirect_from:
 
 <div class="container">
     <section class="profile">
-        <h2><i class="fas fa-user"></i> Professional Profile</h2>
-        <p>I am a motivated and diligent software engineering graduate with a strong sense of responsibility and a proven ability 
+        <h3>Professional Profile</h3>
+        <p align="justify">I am a motivated and diligent software engineering graduate with a strong sense of responsibility and a proven ability 
         to tackle challenges through effective decision-making, teamwork, and leadership. Passionate about advancing my 
         knowledge and express while embracing emerging technologies. I am adaptable, eager to learn, and committed to 
         leveraging my skills to contribute to the growth and success of the organization.</p>
@@ -56,7 +56,7 @@ redirect_from:
     </section>
 
     <section class="publications">
-        <h2>Publications</h2>
+        <h3>Publications</h3>
         <ul>{% for post in site.publications reversed %}
             {% include archive-single-cv.html %}
         {% endfor %}</ul>

@@ -1,16 +1,16 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Popins', sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: black;
     background: linear-gradient(to right, #f4f4f4, #eaeaea);
     padding: 20px;
     text-decoration: none;
 }
 
-h2 {
+h3 {
     font-size: 1.5em;
-    color: #007bff;
-    border-bottom: 2px solid #007bff;
+    color: black;
+    border-bottom: 2px solid black;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
@@ -31,24 +31,27 @@ section {
 ul {
     list-style: none;
     padding: 0;
+    text-align: justify;
 }
 
 ul li {
     margin-bottom: 10px;
+    text-align: justify;
 }
 
 ul li i {
-    color: #007bff;
+    color: black;
     margin-right: 10px;
+    text-align: justify;
 }
 
 a {
-    color: #007bff;
+    color: black;
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .profile p, .education p, .experience p, .skills ul, .achievements ul, .links p {
