@@ -88,6 +88,7 @@ sup {
 
 .links a i {
     margin-right: 5px;
+    text-decoration: none;
 }
 
 /* Remove bullet points from all lists */
