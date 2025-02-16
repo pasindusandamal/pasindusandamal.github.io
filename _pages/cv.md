@@ -12,32 +12,26 @@ redirect_from:
 {% include base_path %}
 
 <div class="container">
-
-   <section class="header">
-    <h1>Pasindu Sandamal</h1>
-    <h2>Software Engineer</h2>
-    <h3>+94 776768757</h3>
-    <h3><a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/">https://www.linkedin.com/in/pasindu-sandamal-66340423a/</a> <a href="pkpasindusandamal@gmail.com ">pkpasindusandamal@gmail.com </a></h3>
-   </section>
+    <section class="header">
+        <h1>Pasindu Sandamal</h1>
+        <h2>Software Engineer</h2>
+        <h3>+94 776768757</h3>
+        <h3><a href="mailto:pkpasindusandamal@gmail.com">pkpasindusandamal@gmail.com</a></h3>
+        <h3><a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/">LinkedIn Profile</a></h3>
+    </section>
 
     <section class="profile">
         <h3>Professional Profile</h3>
-        <p align="justify">I am a motivated and diligent software engineering graduate with a strong sense of responsibility and a proven ability 
+        <p>I am a motivated and diligent software engineering graduate with a strong sense of responsibility and a proven ability 
         to tackle challenges through effective decision-making, teamwork, and leadership. Passionate about advancing my 
-        knowledge and express while embracing emerging technologies. I am adaptable, eager to learn, and committed to 
-        leveraging my skills to contribute to the growth and success of the organization.</p>
+        knowledge while embracing emerging technologies. I am adaptable, eager to learn, and committed to 
+        leveraging my skills to contribute to organizational growth and success.</p>
     </section>
 
-     <section class="skills">
-        <h3>Familer Areas</h3>
-        <p>
-            Full Stack Development |
-            Mobile App Development |
-            Machine Learning       |   
-            Desktop Application    
-        </p>
+    <section class="skills">
+        <h3>Areas of Expertise</h3>
+        <p>Full Stack Development | Mobile App Development | Machine Learning | Desktop Application</p>
     </section>
-
 
        <section class="experience">
         <h3>Work Experience</h3>

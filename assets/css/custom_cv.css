@@ -1,152 +1,135 @@
+/* Reset and base styles */
 body {
     font-family: 'Poppins', sans-serif;
-    line-height: 1.4;
-    color: #666;
+    line-height: 1.6;
+    color: #333;
     background: linear-gradient(to right, #f4f4f4, #eaeaea);
-    padding: 10px;
+    padding: 20px;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     background: #fff;
-    padding: 25px;
+    padding: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
-section {
-    margin-bottom: 15px;
-}
-
-
-h3 {
-    font-size: 1.4em;
-    color: #444;
-    border-bottom: 1.5px solid #666;
-    padding-bottom: 5px;
-    margin: 10px 0;
-}
-
-p {
-    text-align: justify;
-    margin: 5px 0;
-    color: #666;
-    font-size: 0.9em;
-}
-
-ul {
-    list-style: none;
-    padding-left: 0;
-    margin: 5px 0;
-}
-
-ul li {
-    text-align: justify;
-    margin-bottom: 5px;
-    padding-left: 15px;
-    position: relative;
-    color: #666;
-    font-size: 0.9em;
-}
-
-.experience ul li {
-    margin-left: 15px;
-}
-
-.skills ul li,
-.achievements ul li {
-    margin-left: 10px;
-}
-
-a {
-    color: #666;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #444;
-}
-
-.profile p, 
-.education p, 
-.experience p {
-    margin: 3px 0;
-    padding-left: 5px;
-}
-
-sup {
-    color: #888;
-    margin-left: 5px;
-    font-size: 0.75em;
-    position: relative;
-    top: -0.5em;
-}
-
-.links p {
-    margin-top: 8px;
-}
-
-.links a i {
-    margin-right: 5px;
-    text-decoration: none;
-}
-
-/* Remove bullet points from all lists */
-ul li::before {
-    display: none;
-}
-
+/* Header section */
 .header {
-    margin-bottom: 25px ;
-    
-}
-.header h1 {
     text-align: center;
-   
- 
+    margin-bottom: 30px;
 }
 
-.header h2{
-    border-bottom: none;
-    text-align: center;
-    margin-top: -24px;
-    color: black;
+.header h1 {
+    font-size: 2.2em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.header h2 {
+    font-size: 1.4em;
+    margin: 5px 0;
+    color: #666;
 }
 
 .header h3 {
-    border-bottom: none;
-    margin-top: -10px;
-    text-align: center;
-    
-    margin-bottom: 20px;
+    font-size: 1em;
+    margin: 5px 0;
+    font-weight: normal;
+    border: none;
 }
 
-.projects div {
+/* Section styles */
+section {
     margin-bottom: 25px;
-    padding-bottom: 20px;
+}
+
+section h3 {
+    font-size: 1.2em;
+    color: #333;
     border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Text content */
+p {
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin: 8px 0;
+    text-align: justify;
+    color: #444;
+}
+
+/* Lists */
+ul {
+    margin: 10px 0;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 0.9em;
+    margin-bottom: 8px;
+    text-align: justify;
+    color: #444;
+    padding-left: 15px;
+}
+
+/* Projects section */
+.projects div {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
 }
 
 .projects div:last-child {
     border-bottom: none;
     margin-bottom: 0;
-    padding-bottom: 0;
 }
 
 .projects div p:first-child {
     font-weight: 600;
-    font-size: 1em;
-    margin-bottom: 10px;
-    color: #000;
-}
-
-.projects div p:nth-child(2) {
+    color: #333;
     margin-bottom: 8px;
 }
 
-.projects div p:last-child {
+/* Links */
+a {
+    color: #444;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #000;
+}
+
+/* Superscript */
+sup {
+    font-size: 0.75em;
     color: #666;
-    font-size: 0.85em;
-    font-style: italic;
+    margin-left: 5px;
+}
+
+/* Skills section */
+.skills p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Achievements section */
+.achievements p {
+    margin: 8px 0;
+}
+
+/* Links section */
+.links p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.links a i {
+    margin-right: 5px;
 }
