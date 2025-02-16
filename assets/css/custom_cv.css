@@ -110,7 +110,8 @@ ul li::before {
 .header h2{
     border-bottom: none;
     text-align: center;
-    margin-top: -14px;
+    margin-top: -24px;
+    color: black;
 }
 
 .header h3 {
