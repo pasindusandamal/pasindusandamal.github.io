@@ -1,12 +1,13 @@
 ---
 title: "Lung Cancer Detection Application"
 subtitle: "Final Year Research Project"
-excerpt: "An advanced lung cancer detection system powered by custom Convolutional Neural Networks (CNN), capable of accurately classifying lung images as normal, malignant, or benign."
+excerpt: "An advanced lung cancer detection system powered by custom Convolutional Neural Networks (CNN), capable of accurately classifying lung images as normal, alignant, or benign. <br/><img src='/images/img_2.png'>"
 header:
-    image: /images/img_1.png
-    teaser: /images/img_1.png
+    
+    
 collection: portfolio
 ---
+<link rel="stylesheet" href="/assets/css/custom_portfolio.css">
 
 <div class="portfolio-content">
     <section class="overview">
