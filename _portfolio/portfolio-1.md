@@ -1,13 +1,16 @@
+<link rel="stylesheet" href="/assets/css/custom_portfolio.css">
 ---
-title: "<p style='text-decoration: none !important;' >Lung Cancer Detection Application</p>"
+title: "Lung Cancer Detection Application"
 subtitle: "Final Year Research Project"
-excerpt: "<p style='text-align:justify; margin:5px;'>An advanced lung cancer detection system powered by custom Convolutional Neural Networks (CNN), capable of accurately classifying lung images as normal, alignant, or benign.</p><img src='/images/img_2.png' style='border-radius: 20px;'>"
+excerpt: "<p style='text-align:justify; margin:5px;'>An advanced lung cancer detection system powered by custom Convolutional Neural Networks (CNN), capable of accurately classifying lung images as normal, alignant, or benign.</p><div class='image-gallery'>
+    <img src='/images/img_1.png' class='gallery-img'>
+    <img src='/images/img_2.png' class='gallery-img'>
+    <img src='/images/img_3.png' class='gallery-img'></div>"
 header:
-    
-    
+        
 collection: portfolio
 ---
-<link rel="stylesheet" href="/assets/css/custom_portfolio.css">
+
 
 <div class="portfolio-content">
     <section class="overview">
