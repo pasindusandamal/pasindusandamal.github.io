@@ -101,8 +101,15 @@ ul li::before {
     text-align: center;
 }
 
-.header h3,
-.header h4,
+.header h3{
+    border-bottom: none;
+    text-align: center;
+}
+.header h4 {
+    text-align: center;
+}
 .header h5 {
     margin: 5px 0;
+    border-bottom: 1.5px solid #666;
+    text-align: center;
 }
