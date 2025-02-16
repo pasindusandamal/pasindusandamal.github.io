@@ -3,18 +3,18 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     color: #333;
-    /* background: linear-gradient(to right, #f4f4f4, #eaeaea); */
+    background: linear-gradient(to right, #f4f4f4, #eaeaea);
     padding: 20px;
 }
 
-/* .container {
+.container {
     max-width: 800px;
     margin: 0 auto;
     background: #fff;
     padding: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-} */
+}
 
 /* Header section */
 .header {
