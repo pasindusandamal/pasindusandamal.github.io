@@ -103,14 +103,14 @@ ul li::before {
 }
 .header h1 {
     text-align: center;
-    color: #444;
+   
  
 }
 
 .header h2{
     border-bottom: none;
     text-align: center;
-    margin-top: -10px;
+    margin-top: -14px;
 }
 
 .header h3 {
