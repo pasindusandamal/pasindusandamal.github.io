@@ -7,22 +7,15 @@
 }
 
 .header h1 {
-
     margin: 0 0 5px;
-
 }
 
 .header h2 {
-
-    margin: 0 0 10px;
-
+   margin: 0 0 10px;
 }
 
 .header h3 {
-
     margin: 5px 0;
-
-
 }
 
 /* Section styles */
@@ -32,9 +25,6 @@ section {
 }
 
 section h3 {
-
-
-
     border-bottom: 1px solid #e0e0e0;
     padding-bottom: 5px;
     margin: 15px 0 10px;
@@ -45,22 +35,17 @@ p {
 
     line-height: 1.6;
     margin: 8px 0;
-    text-align: justify;
-
-
+   text-align: justify;
 }
 
 ul {
-    margin: 8px 0;
-    padding-left: 15px;
+   margin: 8px 0;
 }
 
 ul li {
 
     margin-bottom: 6px;
     text-align: justify;
-
-
     line-height: 1.5;
 }
 
@@ -77,25 +62,8 @@ ul li {
 }
 
 .projects div p:first-child {
-    font-weight: 600;
-
-
     margin-bottom: 6px;
 }
-
-/* Links styling */
-a {
-
-
-    text-decoration: none;
-    transition: color 0.2s;
-}
-
-
-
-
-/* Superscript */
-sup {}
 
 /* Skills section */
 .skills p {
@@ -117,19 +85,4 @@ sup {}
     gap: 5px;
 
 
-}
-
-.links a i {}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .container {
-        padding: 20px;
-        margin: 10px;
-    }
-
-    .header h1 {}
-
-    p,
-    ul li {}
 }
