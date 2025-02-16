@@ -1,3 +1,20 @@
+/* Reset and base styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(to right, #f4f4f4, #eaeaea);
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
 
 /* Header section */
 .header {
@@ -124,4 +141,78 @@ sup {
 
 .links a i {
     margin-right: 5px;
+}
+
+
+.portfolio-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+.portfolio-content section {
+    margin-bottom: 30px;
+}
+
+.portfolio-content h2 {
+    font-size: 1.4em;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.portfolio-content p {
+    font-size: 0.95em;
+    color: #444;
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.portfolio-content ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0;
+}
+
+.portfolio-content ul li {
+    font-size: 0.95em;
+    color: #444;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.portfolio-content ul li::before {
+    content: "•";
+    position: absolute;
+    left: 5px;
+    color: #666;
+}
+
+.portfolio-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.overview {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.key-features {
+    background: #fff;
+    padding: 20px;
+    border-left: 3px solid #ddd;
+}
+
+.technical-details, .impact {
+    padding: 0 20px;
 }
