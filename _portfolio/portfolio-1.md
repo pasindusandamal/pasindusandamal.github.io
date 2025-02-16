@@ -1,7 +1,7 @@
 ---
-title: "Lung Cancer Detection Application"
+title: "<p style='text-decoration:none;' >Lung Cancer Detection Application</p>"
 subtitle: "Final Year Research Project"
-excerpt: "<p style='text-align:justify; margin:5px;'>An advanced lung cancer detection system powered by custom Convolutional Neural Networks (CNN), capable of accurately classifying lung images as normal, alignant, or benign.</p> <br/><img src='/images/img_2.png' style='border-radius: 20px;box-shadow:2px 2px'>"
+excerpt: "<p style='text-align:justify; margin:5px;'>An advanced lung cancer detection system powered by custom Convolutional Neural Networks (CNN), capable of accurately classifying lung images as normal, alignant, or benign.</p><img src='/images/img_2.png' style='border-radius: 20px;>"
 header:
     
     
