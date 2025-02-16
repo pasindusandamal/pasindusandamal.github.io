@@ -14,8 +14,8 @@ redirect_from:
 <div class="container">
 
    <section class="header">
-    <h2>Pasindu Sandamal</h2>
-    <h3>Software Engineer</h3>
+    <h1>Pasindu Sandamal</h1>
+    <h2>Software Engineer</h2>
     <h3>+94 776768757</h3>
    </section>
 

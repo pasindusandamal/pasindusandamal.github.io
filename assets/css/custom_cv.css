@@ -100,14 +100,22 @@ ul li::before {
 .header {
     text-align: center;
     margin-bottom: 5px 0;
+    border-bottom: 1.5px solid #666;
+}
+.header h1 {
+    text-align: center;
+    color: #444;
+ 
 }
 
 .header h2{
     border-bottom: none;
     text-align: center;
+    margin-top: -5px;
 }
 
 .header h3 {
-     border-bottom: 1.5px solid #666;
+    border-bottom: none;
+    margin-top: -5px;
     text-align: center;
 }
