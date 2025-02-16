@@ -1,1 +1,147 @@
 
+
+/* Header section */
+.header {
+    text-align: center;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #eee;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin: 0 0 5px;
+  
+}
+
+.header h2 {
+    font-size: 1.2em;
+    margin: 0 0 10px;
+  
+}
+
+.header h3 {
+    font-size: 0.95em;
+    margin: 5px 0;
+  
+    
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+section h3 {
+    font-size: 1.1em;
+   
+    
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 5px;
+    margin: 15px 0 10px;
+}
+
+/* Content styling */
+p {
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin: 8px 0;
+    text-align: justify;
+   
+    
+}
+
+ul {
+    margin: 8px 0;
+    padding-left: 15px;
+}
+
+ul li {
+    font-size: 0.9em;
+    margin-bottom: 6px;
+    text-align: justify;
+   
+    
+    line-height: 1.5;
+}
+
+/* Projects section */
+.projects div {
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.projects div:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.projects div p:first-child {
+    font-weight: 600;
+    
+    
+    margin-bottom: 6px;
+}
+
+/* Links styling */
+a {
+  
+    
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+
+
+
+/* Superscript */
+sup {
+    font-size: 0.75em;
+  
+    
+    margin-left: 3px;
+}
+
+/* Skills section */
+.skills p {
+    line-height: 1.5;
+    margin: 8px 0;
+}
+
+/* Links section */
+.links p {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+   
+    
+}
+
+.links a i {
+    font-size: 1.1em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        margin: 10px;
+    }
+    
+    .header h1 {
+        font-size: 1.8em;
+    }
+    
+    p, ul li {
+        font-size: 0.85em;
+    }
+}
