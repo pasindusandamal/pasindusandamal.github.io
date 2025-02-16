@@ -53,7 +53,7 @@ redirect_from:
     <section class="education">
         <h3>Education</h3>
         <p>B.Sc. (Hons) Software Engineering <sup>2021 Sep – 2024 Dec</sup></p>
-        <p>Plymouth University (UK)</p>     
+        <p style="margin-top:-7px">Plymouth University (UK)</p>     
     </section>
 
      <section class="projects">
