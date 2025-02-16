@@ -31,6 +31,7 @@ p {
     text-align: justify;
     margin: 5px 0;
     color: #666;
+    font-size: 0.9em;
 }
 
 ul {
@@ -42,12 +43,11 @@ ul {
 ul li {
     text-align: justify;
     margin-bottom: 5px;
-    padding-left: 20px;
+    padding-left: 15px;
     position: relative;
     color: #666;
+    font-size: 0.9em;
 }
-
-
 
 .experience ul li {
     margin-left: 15px;
@@ -60,31 +60,37 @@ ul li {
 
 a {
     color: #666;
-    text-decoration: none !important;
-    transition: color 0.3s ease;
+    text-decoration: none;
 }
 
 a:hover {
     color: #444;
-    text-decoration: none !important;
 }
 
 .profile p, 
 .education p, 
 .experience p {
-    margin: 5px 0;
+    margin: 3px 0;
     padding-left: 5px;
 }
 
 sup {
     color: #888;
     margin-left: 5px;
+    font-size: 0.75em;
+    position: relative;
+    top: -0.5em;
 }
 
 .links p {
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 .links a i {
     margin-right: 5px;
+}
+
+/* Remove bullet points from all lists */
+ul li::before {
+    display: none;
 }
