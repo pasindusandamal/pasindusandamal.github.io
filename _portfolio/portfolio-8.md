@@ -1,8 +1,35 @@
 ---
-title: " Python Sinhala App "
+title: "Python School "
 excerpt: "Redesigned the user interfaces mobile application aimed at teaching Python programming in the Sinhala language. 
-         <br/><img src='/images/img_1.png'>"
+         <br/> <div class='image-gallery' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; flex-wrap: nowrap;'>
+    <img src='/images/img_1.png' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
+    <img src='/images/img_2.png' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
+    <img src='/images/img_2.png' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' > </div>"
 collection: portfolio
 ---
 
-<p align="justify">Lung cancer will remain the single most powerful cause of cancer deaths and carry along enormous public health problems all over the world. Chances of survival for a lung cancer patient depend much on the stage at which it was detected. Medical personnel keep putting emphasis on timely and, hence, accurate approaches to diagnosis while this are aware of their high value toward the opportunity for early detection. The project was to make a state-of-art in-house system for lung cancer detection with the help of the latest and most advanced diagnostic technologies for early diagnosis of lung cancer. The reason to focus on this project from a human, emotional view is very meaningful: the early detection can make a difference in the life of a lung cancer patient. In general statistical analysis, the previous best diagnosis showed an improved survival. Most of the time, the progression of lung cancer goes on without giving visible signs up to the point when it becomes advanced, and only then does the possibility of effective treatment choice reduce significantly. This project would bridge, therefore, this very important gap, adopting and integrating a technological solution towards the early diagnosis of lung cancer. This would thus provide a way through which lung cancer patients' lives could be improved, being lengthened. This project developed a system that utilizes state-of-the-art machine learning algorithms in the careful analysis of images obtained from computed tomography (CT) scans. Thus, of all the diagnostic tools availed for the discovery of abnormalities arising within the lung, CT scans have been determined to be one of the best. This will be able to upload the images of CT scans, and from there on, all the uploaded content will be taken care of by the most advanced machine learning model of the system. This model is so delicately trained that it will be predicting that if there are some signs of malignancy, the accuracy levels are astonishing. It literally points out where the indicators of lung cancer are not just alerting the user but also giving actionable insight. A highly valued and integral part of the system is connecting the diagnosed patient and the health practitioner in a seamless way. After confirming the fact of lung cancer diagnosis, full information comes into the system about the level of specialists in this field of treatment right away. It also eases access to the medical consultations very much since it enables users to make an appointment for consultation directly on the platform. To this effect, in awareness of the sensitivity and emergency that is such diagnoses, the system is further well endowed to an ability that it can automatically establish the user's location and display the nearest medical facilities well able to handle such cases. This has made it possible for patients to indicate their preference regarding the medical facility this would be going to and be able to fill in a form requiring his personal details and send the same through mail to the facility of his choice. This further promise swift and prompt communication and medical intervention. This is also an improvement in the diagnostic process and better coordination of care through the integration of the latest machine learning techniques within a user-friendly digital front of healthcare. The perspective will, therefore, be used to demonstrate how the potential view can integrate 7 pragmatic health solutions with breakthrough technologies that will go a long way in significantly boosting the early detection rates of severe/fatal diseases such as lung cancer. </p>
+<div class="portfolio-content">
+    <section class="overview">
+        <h2>Project Overview</h2>
+        <p>Task Fusion is a full-stack task management application designed to streamline everyday task organization and 
+            enhance productivity.  </p>
+    </section>
+
+    <section class="key-features">
+        <h2>Key Features</h2>
+        <ul>
+            <li></li>
+            
+        </ul>
+    </section>
+
+    <section class="technical-details">
+        <h2>Technical Implementation</h2>
+        <p></p>
+    </section>
+
+    <section class="impact">
+        <h2>Impact</h2>
+        <p></p>
+    </section>
+</div>

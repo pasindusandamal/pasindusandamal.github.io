@@ -1,7 +1,34 @@
 ---
 title: "Shrimp Counter"
-excerpt: "The shrimp_count_application is a GitHub project that provides a web application for counting shrimp in images.<br/><img src='/images/img_1.png'>"
+excerpt: "The shrimp_count_application is a GitHub project that provides a web application for counting shrimp in images.<br/> <div class='image-gallery' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; flex-wrap: nowrap;'>
+    <img src='/images/img_1.png' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
+    <img src='/images/img_2.png' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
+    <img src='/images/img_2.png' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' > </div>"
 collection: portfolio
 ---
 
-<p align="justify">The shrimp_count_application is a GitHub project that provides a web application for counting shrimp in images. The application allows users to upload images and displays the detected shrimp count. The project includes the necessary files and configurations to deploy the application using Gunicorn. </p>
+<div class="portfolio-content">
+    <section class="overview">
+        <h2>Project Overview</h2>
+        <p>Task Fusion is a full-stack task management application designed to streamline everyday task organization and 
+            enhance productivity.  </p>
+    </section>
+
+    <section class="key-features">
+        <h2>Key Features</h2>
+        <ul>
+            <li></li>
+            
+        </ul>
+    </section>
+
+    <section class="technical-details">
+        <h2>Technical Implementation</h2>
+        <p></p>
+    </section>
+
+    <section class="impact">
+        <h2>Impact</h2>
+        <p></p>
+    </section>
+</div>

@@ -1,7 +1,6 @@
 ---
-title: "Task Fusion"
-excerpt: "Task Fusion is a full-stack task management application designed to streamline everyday task organization and 
-enhance productivity.  <br/> <div class='image-gallery' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; flex-wrap: nowrap;'>
+title: "automated-medium-article-generator"
+excerpt: "This project is an automated Medium article generator that allows users to generate and publish articles to the Medium platform. The project includes a MediumPublisher class that handles the integration with the Medium API for publishing articles.<br/> <div class='image-gallery' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; flex-wrap: nowrap;'>
     <img src='/images/img_1.png' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
     <img src='/images/img_2.png' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
     <img src='/images/img_2.png' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' > </div>"

@@ -1,7 +1,34 @@
 ---
 title: " MERN Application Generator"
-excerpt: "A powerful tool designed to automate the creation of MERN stack applications, enabling developers to generate fully functional CRUD applications in minutes. This generator simplifies the setup process by automatically installing all necessary packages and integrating seamlessly with MongoDB for efficient data management.<br/><img src='/images/img_1.png'>"
+excerpt: "A powerful tool designed to automate the creation of MERN stack applications, enabling developers to generate fully functional CRUD applications in minutes. This generator simplifies the setup process by automatically installing all necessary packages and integrating seamlessly with MongoDB for efficient data management.<br/> <div class='image-gallery' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; flex-wrap: nowrap;'>
+    <img src='/images/img_1.png' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
+    <img src='/images/img_2.png' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
+    <img src='/images/img_2.png' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' > </div>"
 collection: portfolio
 ---
 
-<p align="justify">Introducing a powerful MERN stack application generator built with Python, designed to streamline the development process for creating robust web applications. This innovative tool automates the setup of a complete MERN (MongoDB, Express.js, React, Node.js) CRUD application, significantly reducing development time. Once the application is initiated, it intelligently installs all relevant packages and dependencies, ensuring that your environment is fully prepared for development. Leveraging MongoDB Compass for seamless database management, this generator allows developers to focus on building features rather than handling tedious configurations. In just a few minutes, you can have a fully functional MERN stack application up and running, equipped with essential CRUD functionalities. Whether you're a seasoned developer or just starting out, this generator simplifies the process of building modern web applications, empowering you to bring your ideas to life with ease and efficiency. </p>
+<div class="portfolio-content">
+    <section class="overview">
+        <h2>Project Overview</h2>
+        <p>Task Fusion is a full-stack task management application designed to streamline everyday task organization and 
+            enhance productivity.  </p>
+    </section>
+
+    <section class="key-features">
+        <h2>Key Features</h2>
+        <ul>
+            <li></li>
+            
+        </ul>
+    </section>
+
+    <section class="technical-details">
+        <h2>Technical Implementation</h2>
+        <p></p>
+    </section>
+
+    <section class="impact">
+        <h2>Impact</h2>
+        <p></p>
+    </section>
+</div>
