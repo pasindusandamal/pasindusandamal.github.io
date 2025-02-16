@@ -60,8 +60,7 @@ redirect_from:
         <h3>Projects</h3>
         <p>B.Sc. (Hons) Software Engineering <sup> 2021 SEP – 2024 DEC</sup></p>
         <p>Plymouth University (UK) </p>  
-       
-    </section>
+     </section>
 
    
 
@@ -72,14 +71,8 @@ redirect_from:
 
     <section class="achievements">
         <h3>Achievements</h3>
-       
-            <p>Cisco IT Essentials 7.0 </p>
-            <p>Successfully completed the Cisco IT Essentials 7.0 course, which provided foundational skills in computer hardware 
-            and software, networking, and security.</p>
-            <p>DUOTHEN 3.0 Coding Competition, NSBM Green University </p>
-            <p>Successfully completed the DUOTHEN 3.0 coding competition, showcasing advanced programming skills and 
-            problem-solving abilities in a competitive environment.</p>
-            </p>
+            <p>Cisco IT Essentials 7.0 <sup>Successfully completed</sup> </p>
+            <p>DUOTHEN 3.0 Coding Competition, NSBM Green University <sup>Successfully completed</sup> </p>
     </section>
 
     <section class="links">
