@@ -72,14 +72,14 @@ redirect_from:
 
     <section class="achievements">
         <h3>Achievements</h3>
-        <p>
-            <li>Cisco IT Essentials 7.0 </p>
-             <p>Successfully completed the Cisco IT Essentials 7.0 course, which provided foundational skills in computer hardware 
+       
+            <p>Cisco IT Essentials 7.0 </p>
+            <p>Successfully completed the Cisco IT Essentials 7.0 course, which provided foundational skills in computer hardware 
             and software, networking, and security.</p>
-             <p>DUOTHEN 3.0 Coding Competition, NSBM Green University </p>
-             <p>Successfully completed the DUOTHEN 3.0 coding competition, showcasing advanced programming skills and 
+            <p>DUOTHEN 3.0 Coding Competition, NSBM Green University </p>
+            <p>Successfully completed the DUOTHEN 3.0 coding competition, showcasing advanced programming skills and 
             problem-solving abilities in a competitive environment.</p>
-        </p>
+            </p>
     </section>
 
     <section class="links">
