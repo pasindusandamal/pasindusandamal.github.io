@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-<link rel="stylesheet" href="/assets/css/custom_cv.css">
+<!-- <link rel="stylesheet" href="/assets/css/custom_cv.css"> -->
 
 {% include base_path %}
 
