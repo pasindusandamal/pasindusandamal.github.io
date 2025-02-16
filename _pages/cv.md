@@ -17,7 +17,6 @@ redirect_from:
         <h2>Software Engineer</h2>
         <h3>+94 776768757</h3>
         <h3><a href="mailto:pkpasindusandamal@gmail.com">pkpasindusandamal@gmail.com</a> <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/ ">LinkedIn Profile</a></h3>
-        </h3>
     </section>
 
     <section class="profile">
