@@ -96,3 +96,13 @@ sup {
 ul li::before {
     display: none;
 }
+
+.header {
+    text-align: center;
+}
+
+.header h3,
+.header h4,
+.header h5 {
+    margin: 5px 0;
+}

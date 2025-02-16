@@ -13,13 +13,11 @@ redirect_from:
 
 <div class="container">
 
-    <section class="header">
-        <h3 style="text-align=center;">Pasindu Sandamal</h3>
-        <h4 style="text-align=center;">Software Engineer</h4>
-        <h5 style="text-align=center;">+94 776768757</h5>
-    </section>
-
-
+   <section class="header">
+    <h3>Pasindu Sandamal</h3>
+    <h4>Software Engineer</h4>
+    <h5>+94 776768757</h5>
+   </section>
 
     <section class="profile">
         <h3>Professional Profile</h3>
@@ -32,10 +30,10 @@ redirect_from:
      <section class="skills">
         <h3>Familer Areas</h3>
         <p>
-            Full Stack Development
-            Mobile App Development
-            Machine Learning
-            Desktop Application
+            Full Stack Development |
+            Mobile App Development |
+            Machine Learning       |   
+            Desktop Application    
         </p>
     </section>
 
