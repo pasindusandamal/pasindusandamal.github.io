@@ -14,9 +14,9 @@ redirect_from:
 <div class="container">
 
     <section class="header">
-        <h3>Pasindu Sandamal</h3>
-        <h3>Software Engineer</h3>
-        <h3>+94 776768757</h3>
+        <h3 style="text-align=center;">Pasindu Sandamal</h3>
+        <h4 style="text-align=center;">Software Engineer</h4>
+        <h5 style="text-align=center;">+94 776768757</h5>
     </section>
 
 
