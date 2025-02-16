@@ -41,7 +41,7 @@ redirect_from:
 
        <section class="experience">
         <h3>Work Experience</h3>
-        <p>Trainee Software Engineer <sup>2024 JULY – 2025 JAN</sup></p>
+        <p>Trainee Software Engineer <sup>2024 July – 2025 Jan</sup></p>
         <p> BevyLabs </p>  
         <ul>
             <li>Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and GEMINI API 
@@ -59,15 +59,33 @@ redirect_from:
 
     <section class="education">
         <h3>Education</h3>
-        <p>Lung Cancer Detection Application (Final Year Research Project) </p>
-        <p>Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung cancer stages as normal, malignant, or benign.</p>
-        <p>Technologies: Python, Flask, TensorFlow, Google Colab, HTML, CSS, JS, Image Processing, Machine Learning, Keras</p>  
+        <p>B.Sc. (Hons) Software Engineering <sup>2021 Sep – 2024 Dec</sup></p>
+        <p>Plymouth University (UK)</p>     
     </section>
 
      <section class="projects">
         <h3>Projects</h3>
-        <p>B.Sc. (Hons) Software Engineering <sup> 2021 SEP – 2024 DEC</sup></p>
-        <p>Plymouth University (UK) </p>  
+        <div>
+        <p>Lung Cancer Detection Application (Final Year Research Project) </p>
+        <p>Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung 
+        cancer stages as normal, malignant, or benign.   </p>
+        <p>Technologies: Python, Flask, TensorFlow, Google Colab, HTML, CSS, JS, Image Processing, Machine Learning, Keras</p>  
+        </div>
+        <div>
+        <p>Task Fusion</p>
+        <p>Technologies: React.js,HTML,CSS ,Node.js ,Git,Golang</p>
+        <p>Technologies: Python, Flask, TensorFlow, Google Colab, HTML, CSS, JS, Image Processing, Machine Learning, Keras</p>  
+        </div>
+         <div>
+        <p>Task Fusion</p>
+        <p>Technologies: React.js,HTML,CSS ,Node.js ,Git,Golang</p>
+        <p>Technologies: Python, Flask, TensorFlow, Google Colab, HTML, CSS, JS, Image Processing, Machine Learning, Keras</p>  
+        </div>
+         <div>
+        <p>Task Fusion</p>
+        <p>Technologies: React.js,HTML,CSS ,Node.js ,Git,Golang</p>
+        <p>Technologies: Python, Flask, TensorFlow, Google Colab, HTML, CSS, JS, Image Processing, Machine Learning, Keras</p>  
+        </div>
      </section>
 
    

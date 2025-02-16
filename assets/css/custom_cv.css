@@ -121,3 +121,32 @@ ul li::before {
     
     margin-bottom: 20px;
 }
+
+.projects div {
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.projects div:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.projects div p:first-child {
+    font-weight: 600;
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.projects div p:nth-child(2) {
+    margin-bottom: 8px;
+}
+
+.projects div p:last-child {
+    color: #666;
+    font-size: 0.85em;
+    font-style: italic;
+}
