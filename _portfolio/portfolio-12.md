@@ -1,7 +1,7 @@
 ---
-title: "shrimp-counting-application-using-yolo "
+title: "character-identifiction-system-python"
 subtitle: "Final Year Research Project"
-excerpt: "<p style='text-align:justify; margin:5px;'>This GitHub repository contains a shrimp counting application that uses the YOLO (You Only Look Once) object detection algorithm. The project includes the necessary files and code to train and run the shrimp counting model.</p> <div class='image-gallery' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; flex-wrap: nowrap;'>
+excerpt: "<p style='text-align:justify; margin:5px;'>An advanced lung cancer detection system powered by custom Convolutional Neural Networks (CNN), capable of accurately classifying lung images as normal, alignant, or benign.</p> <div class='image-gallery' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; flex-wrap: nowrap;'>
     <img src='/images/img_1.png' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
     <img src='/images/img_2.png' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
     <img src='/images/img_2.png' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' > </div>"
