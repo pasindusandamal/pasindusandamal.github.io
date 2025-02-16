@@ -12,6 +12,15 @@ redirect_from:
 {% include base_path %}
 
 <div class="container">
+
+    <section class="header">
+        <h3>Pasindu Sandamal</h3>
+        <h3>Software Engineer</h3>
+        <h3>+94 776768757</h3>
+    </section>
+
+
+
     <section class="profile">
         <h3>Professional Profile</h3>
         <p align="justify">I am a motivated and diligent software engineering graduate with a strong sense of responsibility and a proven ability 
@@ -71,8 +80,8 @@ redirect_from:
 
     <section class="achievements">
         <h3>Achievements</h3>
-            <p>Cisco IT Essentials 7.0 <sup>Successfully completed</sup> </p>
-            <p>DUOTHEN 3.0 Coding Competition, NSBM Green University <sup>Successfully completed</sup> </p>
+            <p>Cisco IT Essentials 7.0 <sup>Successfully completed</sup></p>
+            <p>DUOTHEN 3.0 Coding Competition, NSBM Green University <sup>Successfully completed</sup></p>
     </section>
 
     <section class="links">
