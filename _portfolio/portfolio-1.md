@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="/assets/css/custom_portfolio.css">
 ---
 title: "Lung Cancer Detection Application"
 subtitle: "Final Year Research Project"
@@ -10,7 +9,7 @@ header:
         
 collection: portfolio
 ---
-
+<link rel="stylesheet" href="/assets/css/custom_portfolio.css">
 
 <div class="portfolio-content">
     <section class="overview">
