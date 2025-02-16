@@ -1,8 +1,50 @@
+/* Reset and base styles */
+
+/* body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(to right, #f4f4f4, #eaeaea);
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+} */
 
 /* Header section */
 .header {
     text-align: center;
-  
+    margin-bottom: 30px;
+}
+
+.header h1 {
+   
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.header h2 {
+    
+    margin: 5px 0;
+    color: #666;
+}
+
+.header h3 {
+   
+    margin: 5px 0;
+    font-weight: normal;
+    border: none;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 25px;
 }
 
 section h3 {
@@ -16,17 +58,24 @@ section h3 {
 /* Text content */
 p {
    
-   
+    line-height: 1.6;
+    margin: 8px 0;
     text-align: justify;
-   
+    color: #444;
 }
 
+/* Lists */
+ul {
+    margin: 10px 0;
+    padding-left: 0;
+}
 
 ul li {
     
     margin-bottom: 8px;
     text-align: justify;
-  
+    color: #444;
+    padding-left: 15px;
 }
 
 /* Projects section */
@@ -36,16 +85,50 @@ ul li {
     border-bottom: 1px solid #eee;
 }
 
+.projects div:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
 .projects div p:first-child {
-   
+    font-weight: 600;
+    color: #333;
     margin-bottom: 8px;
 }
 
+/* Links */
+a {
+    color: #444;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #000;
+}
+
+/* Superscript */
+sup {
+   
+    color: #666;
+    margin-left: 5px;
+}
+
+/* Skills section */
+.skills p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Achievements section */
+.achievements p {
+    margin: 8px 0;
+}
 
 /* Links section */
 .links p {
     text-align: left;
-  
+    margin: 10px 0;
     display: flex;
     gap: 20px;
     align-items: center;
@@ -54,6 +137,10 @@ ul li {
 .links a {
     display: inline-flex;
     align-items: center;
-   
+    color: #444;
+}
+
+.links a i {
+    margin-right: 5px;
 }
 
