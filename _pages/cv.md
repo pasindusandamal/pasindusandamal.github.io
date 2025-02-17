@@ -16,7 +16,7 @@ redirect_from:
         <h1>Pasindu Sandamal</h1>
         <h2>Software Engineer</h2>
         <h3>+94 776768757</h3>
-        <h3 style='border-bottom:1px solid;'><a href="mailto:pkpasindusandamal@gmail.com">pkpasindusandamal@gmail.com</a> <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/ ">LinkedIn Profile</a></h3 >
+        <h3 style='border-bottom:1px solid gray;'><a href="mailto:pkpasindusandamal@gmail.com" style='text-decoration:none;'>pkpasindusandamal@gmail.com</a> <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/ " style='text-decoration:none;'>LinkedIn Profile</a></h3 >
     </section>
 
     <section class="profile">
@@ -52,30 +52,25 @@ redirect_from:
         <p style="margin-top:-7px">Plymouth University (UK)</p>     
     </section>
 
-     <section class="projects">
-        <h3>Projects</h3>
-        <div>
-        <p>Lung Cancer Detection Application (Final Year Research Project) </p>
-        <p>Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung 
-        cancer stages as normal, malignant, or benign.   </p>
-        <p>Technologies: Python, Flask, TensorFlow, Google Colab, HTML, CSS, JS, Image Processing, Machine Learning, Keras</p>  
+    <section class="projects">
+    <h3>Projects</h3>
+    <div class="project-item">
+        <p class="project-title">• Lung Cancer Detection Application (Final Year Research Project)</p>
+        <div class="project-details">
+            <p>Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung 
+            cancer stages as normal, malignant, or benign.</p>
+            <p class="technologies">Technologies: Python, Flask, TensorFlow, Google Colab, HTML, CSS, JS, Image Processing, Machine Learning, Keras</p>
         </div>
-        <div>
-        <p>Task Fusion</p>
-        <p>Technologies: React.js,HTML,CSS ,Node.js ,Git,Golang</p>
-        <p>Technologies: Python, Flask, TensorFlow, Google Colab, HTML, CSS, JS, Image Processing, Machine Learning, Keras</p>  
+    </div>
+    <div class="project-item">
+        <p class="project-title">• Task Fusion</p>
+        <div class="project-details">
+            <p>Description of Task Fusion project...</p>
+            <p class="technologies">Technologies: React.js, HTML, CSS, Node.js, Git, Golang</p>
         </div>
-         <div>
-        <p>Task Fusion</p>
-        <p>Technologies: React.js,HTML,CSS ,Node.js ,Git,Golang</p>
-        <p>Technologies: Python, Flask, TensorFlow, Google Colab, HTML, CSS, JS, Image Processing, Machine Learning, Keras</p>  
-        </div>
-         <div>
-        <p>Task Fusion</p>
-        <p>Technologies: React.js,HTML,CSS ,Node.js ,Git,Golang</p>
-        <p>Technologies: Python, Flask, TensorFlow, Google Colab, HTML, CSS, JS, Image Processing, Machine Learning, Keras</p>  
-        </div>
-     </section>
+    </div>
+    <!-- Repeat for other projects -->
+    </section>
 
    
 

@@ -63,12 +63,31 @@ p {
 }
 
 /* Projects section */
-.projects div {
-    margin-bottom: 12px;
+.project-item {
+    margin-bottom: 20px;
+    padding-left: 15px;
 }
 
-.projects div:last-child {
-    margin-bottom: 0;
+.project-title {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #2c3e50;
+}
+
+.project-details {
+    padding-left: 20px;
+}
+
+.project-details p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.technologies {
+    color: #666;
+    font-size: 0.85em !important;
+    font-style: italic;
 }
 
 /* Links styling */
