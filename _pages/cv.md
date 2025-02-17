@@ -16,7 +16,7 @@ redirect_from:
         <h1>Pasindu Sandamal</h1>
         <h2>Software Engineer</h2>
         <h3>+94 776768757</h3>
-        <h3 style="border-bottom: 5px solid #f1eeee !important;margin-top:4px;"><a href="mailto:pkpasindusandamal@gmail.com" style='text-decoration:none;'>pkpasindusandamal@gmail.com</a> <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/ " style='text-decoration:none;'>LinkedIn Profile</a></h3 >
+        <h3 style="border-bottom: 2px solid #f1eeee !important;margin-top:7px;"><a href="mailto:pkpasindusandamal@gmail.com" style='text-decoration:none;'>pkpasindusandamal@gmail.com</a> <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/ " style='text-decoration:none;'>LinkedIn Profile</a></h3 >
     </section>
 
     <section class="profile">
