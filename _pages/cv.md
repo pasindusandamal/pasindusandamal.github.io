@@ -34,7 +34,7 @@ redirect_from:
 
     
     <h3>Work Experience</h3>
-    ** Trainee Software Engineer ** <sup>2024 July – 2025 Jan</sup>
+    <p>Trainee Software Engineer**<sup>2024 July – 2025 Jan</sup></p>
     BevyLabs
 
     <ul>
