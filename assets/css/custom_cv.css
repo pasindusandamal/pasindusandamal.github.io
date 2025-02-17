@@ -53,14 +53,41 @@ p {
 }
 
 /* Experience section */
-.experience ul {
-    margin: 0;
+.experience-item {
+    margin-bottom: 20px;
     padding-left: 15px;
 }
 
-.experience p {
+.experience-title {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #2c3e50;
+}
+
+.experience-details {
+    padding-left: 20px;
+}
+
+.experience-details p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.experience-details ul {
+    list-style: none;
+    padding-left: 0;
     margin: 5px 0;
 }
+
+.experience-details li {
+    text-align: justify;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #2c3e50;
+}
+
 
 /* Projects section */
 .project-item {
