@@ -32,23 +32,17 @@ redirect_from:
         <p>Full Stack Development | Mobile App Development | Machine Learning | Desktop Application</p>
     </section>
 
-       <section class="experience">
+    <section class="experience">
         <h3>Work Experience</h3>
-        <p>Trainee Software Engineer <sup>2024 July – 2025 Jan</sup></p>
-        <p>BevyLabs</p>
+        **Trainee Software Engineer**<sup>2024 July – 2025 Jan</sup>
+        BevyLabs
 
-        <ul>
-            <li>Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and GEMINI API 
-            to extract text from images and generate MCQs or essay prompts for improved content interaction.</li>
-            <li>Designed and implemented an interactive mobile application aimed at teaching Python programming, 
-            incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences 
-            for users.</li>
-            <li>Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, 
-            integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using 
-            Tkinter to allow users to upload images and get a count of detected shrimps.</li>
-            <li>Redesigned the user interfaces mobile application aimed at teaching Python programming in the Sinhala 
-            language.</li>
-        </ul>
+    <ul>
+        <li>Developed a Flutter-based mobile app using `GOOGLE_MLKIT_TEXT_RECOGNITION` package and Gemini API to extract text from images and generate MCQs or essay prompts for improved content interaction.</li>
+        <li>Designed and implemented an interactive mobile application aimed at teaching Python programming, incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences for users.</li>
+        <li>Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using Tkinter to allow users to upload images and get a count of detected shrimps.</li>
+        <li>Redesigned the user interface of a mobile application aimed at teaching Python programming in the Sinhala language.</li>
+    </ul>
 
     </section>
 
