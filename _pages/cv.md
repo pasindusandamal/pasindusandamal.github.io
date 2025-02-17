@@ -16,7 +16,7 @@ redirect_from:
         <h1>Pasindu Sandamal</h1>
         <h2>Software Engineer</h2>
         <h3>+94 776768757</h3>
-        <h3 style='border-bottom:1px solid gray;'><a href="mailto:pkpasindusandamal@gmail.com" style='text-decoration:none;'>pkpasindusandamal@gmail.com</a> <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/ " style='text-decoration:none;'>LinkedIn Profile</a></h3 >
+        <h3 style="border-bottom: 2px solid #808080 !important;"><a href="mailto:pkpasindusandamal@gmail.com" style='text-decoration:none;'>pkpasindusandamal@gmail.com</a> <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/ " style='text-decoration:none;'>LinkedIn Profile</a></h3 >
     </section>
 
     <section class="profile">
@@ -36,7 +36,7 @@ redirect_from:
   <section class="experience">
     <h3>Work Experience</h3>
     <div class="experience-item">
-        <p class="experience-title">• Trainee Software Engineer<sup>2024 July – 2025 Jan</sup></p>
+        <p class="experience-title">Trainee Software Engineer<sup>2024 July – 2025 Jan</sup></p>
         <p>BevyLabs</p>
         <ul class="experience-list">
             <li>Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and Gemini API to extract text from images and generate MCQs or essay prompts for improved content interaction.</li>
