@@ -32,10 +32,10 @@ redirect_from:
         <p>Full Stack Development | Mobile App Development | Machine Learning | Desktop Application</p>
     </section>
 
-    <section class="experience">
-        <h3>Work Experience</h3>
-        **Trainee Software Engineer**<sup>2024 July – 2025 Jan</sup>
-        BevyLabs
+    
+    <h3>Work Experience</h3>
+    ** Trainee Software Engineer ** <sup>2024 July – 2025 Jan</sup>
+    BevyLabs
 
     <ul>
         <li>Developed a Flutter-based mobile app using `GOOGLE_MLKIT_TEXT_RECOGNITION` package and Gemini API to extract text from images and generate MCQs or essay prompts for improved content interaction.</li>
@@ -44,7 +44,7 @@ redirect_from:
         <li>Redesigned the user interface of a mobile application aimed at teaching Python programming in the Sinhala language.</li>
     </ul>
 
-    </section>
+    
 
     <section class="education">
         <h3>Education</h3>
