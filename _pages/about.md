@@ -6,6 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<link rel="stylesheet" href="/assets/css/custom_cv.css">
 
 # 👋 Hi, I'm Pasindu Sandamal,  
 
