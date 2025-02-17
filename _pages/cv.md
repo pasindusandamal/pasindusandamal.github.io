@@ -16,7 +16,7 @@ redirect_from:
         <h1>Pasindu Sandamal</h1>
         <h2>Software Engineer</h2>
         <h3>+94 776768757</h3>
-        <h3><a href="mailto:pkpasindusandamal@gmail.com">pkpasindusandamal@gmail.com</a> <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/ ">LinkedIn Profile</a></h3>
+        <h3 style='border-bottom:1px solid;'><a href="mailto:pkpasindusandamal@gmail.com">pkpasindusandamal@gmail.com</a> <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/ ">LinkedIn Profile</a></h3 >
     </section>
 
     <section class="profile">
@@ -34,7 +34,7 @@ redirect_from:
 
     
     <h3>Work Experience</h3>
-    <p>Trainee Software Engineer**<sup>2024 July – 2025 Jan</sup></p>
+    <p>Trainee Software Engineer<sup>2024 July – 2025 Jan</sup></p>
     BevyLabs
 
     <ul>
