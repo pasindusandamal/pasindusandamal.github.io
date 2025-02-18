@@ -2,9 +2,9 @@
 title: "Task Fusion "
 subtitle: "Final Year Research Project"
 excerpt: "<p style='text-align:justify; margin:5px;'>An advanced lung cancer detection system powered by custom Convolutional Neural Networks (CNN), capable of accurately classifying lung images as normal, alignant, or benign.</p> <div class='image-gallery' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; flex-wrap: nowrap;'>
-    <img src='/images/img_1.png' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
-    <img src='/images/img_2.png' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
-    <img src='/images/img_2.png' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' > </div>"
+    <img src='/images/img_1.png' style='width: 250px; height: 200px; object-fit: cover; ' >
+    <img src='/images/img_2.png' style='width: 250px; height: 200px; object-fit: cover; ' >
+    <img src='/images/img_2.png' style='width: 250px; height: 200px; object-fit: cover; ' > </div>"
 header:
         
 collection: portfolio
