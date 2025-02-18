@@ -24,7 +24,7 @@ redirect_from:
             </h3>
             <div class="action-buttons">
                 <a href="mailto:pkpasindusandamal@gmail.com" class="btn btn-contact" style='text-transform: none;'>Contact Me</a>
-                <a href="/assets/files/resume.pdf" class="btn btn-download" download style='text-transform: none;'>Download CV</a>
+                <a href="/assets/files/resume.pdf" style='text-transform: none;' class="btn btn-download" download>Download CV</a>
             </div>
         </div>
         <div class="avatar-wrapper">
