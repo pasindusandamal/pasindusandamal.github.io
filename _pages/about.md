@@ -19,11 +19,11 @@ redirect_from:
             <h2>Software Engineer</h2>
             <h3>+94 776768757</h3>
             <h3 class="contact-links">
-                <a href="mailto:pkpasindusandamal@gmail.com">pkpasindusandamal@gmail.com</a>
-                <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/">LinkedIn Profile</a>
+                <a href="mailto:pkpasinl.com">pkil.com</a>
+                <a href="https://www.limal-66340423a/">LinkedIn Profile</a>
             </h3>
             <div class="action-buttons">
-                <a href="mailto:pkpasindusandamal@gmail.com" class="btn btn-contact">Contact Me</a>
+                <a href="mailto:pkpasmail.com" class="btn btn-contact">Contact Me</a>
                 <a href="/assets/files/resume.pdf" class="btn btn-download" download>Download CV</a>
             </div>
         </div>
