@@ -8,27 +8,14 @@ redirect_from:
 ---
 <link rel="stylesheet" href="/assets/css/custom_cv.css">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+{% include base_path %}
 
 <div class="container">
     <section class="header">
-        <div class="profile-container">
-            <div class="profile-info">
-                <h1>Pasindu Sandamal</h1>
-                <h2>Software Engineer</h2>
-                <h3>+94 776768757</h3>
-                <h3><a href="pkpasindusandamal@gmail.com">pkpasindusandamal@gmail.com</a></h3>
-                <div class="social-icons_a">
-                    <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/pasindusandamal" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://medium.com/@yourusername" target="_blank"><i class="fab fa-medium"></i></a>
-                    <a href="https://youtube.com/@yourchannel" target="_blank"><i class="fab fa-youtube"></i></a>
-                </div>
-            </div>
-            <div class="profile-image">
-                <img src="/images/profile.jpg" alt="Pasindu Sandamal">
-            </div>
-        </div>
+        <h1>Pasindu Sandamal</h1>
+        <h2>Software Engineer</h2>
+        <h3>+94 776768757</h3>
+        <h3 style="border-bottom: 2px solid #f1eeee !important;margin-top:7px;"><a href="mailto:pkpasindusandamal@gmail.com" style='text-decoration:none;'>pkpasindusandamal@gmail.com</a> <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/ " style='text-decoration:none;'>LinkedIn Profile</a></h3 >
     </section>
 
     <section class="profile">
