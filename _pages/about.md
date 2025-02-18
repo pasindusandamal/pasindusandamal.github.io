@@ -59,12 +59,10 @@ redirect_from:
     </div>
 </section>
 
-    
-
     <section class="education">
         <h3>Education</h3>
         <p>B.Sc. (Hons) Software Engineering <sup>2021 Sep – 2024 Dec</sup></p>
-        <p style="margin-top:-7px">Plymouth University (UK)</p>     
+        <p>Plymouth University (UK)</p>     
     </section>
 
     <section class="projects">
@@ -87,7 +85,7 @@ redirect_from:
     <!-- Repeat for other projects -->
     </section>
    
- <section class="publications">
+    <section class="publications">
         <h3>Publications</h3>
         <p>Enhancing Lung Cancer Diagnosis with Custom-Designed Convolutional Neural Network</p>
     </section>
