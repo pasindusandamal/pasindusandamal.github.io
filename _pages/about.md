@@ -12,12 +12,22 @@ redirect_from:
 {% include base_path %}
 
 <div class="container">
-    <section class="header">
-        <h1>Pasindu Sandamal</h1>
-        <h2>Software Engineer</h2>
-        <h3>+94 776768757</h3>
-        <h3 style="border-bottom: 2px solid #f1eeee !important;margin-top:7px;"><a href="mailto:pkpasindusandamal@gmail.com" style='text-decoration:none;'>pkpasindusandamal@gmail.com</a> <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/ " style='text-decoration:none;'>LinkedIn Profile</a></h3 >
-    </section>
+<section class="header">
+    <div class="header-grid">
+        <div class="contact-info">
+            <h1>Pasindu Sandamal</h1>
+            <h2>Software Engineer</h2>
+            <h3>+94 776768757</h3>
+            <h3 class="contact-links">
+                <a href="mailto:pkpasindusandamal@gmail.com">pkpasindusandamal@gmail.com</a>
+                <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/">LinkedIn Profile</a>
+            </h3>
+        </div>
+        <div class="avatar-wrapper">
+            <img src="/images/profile.jpg" alt="Pasindu Sandamal">
+        </div>
+    </div>
+</section>
 
     <section class="profile">
         <h3>Professional Profile</h3>
@@ -93,8 +103,6 @@ redirect_from:
         <p><a href="https://github.com/pasindusandamal"><i class="fab fa-github"></i> GitHub</a> | <a href="https://www.researchgate.net/profile/Pasindu-Sandamal?ev=hdr_xprf"><i class="fab fa-researchgate"></i> ResearchGate</a></p>
     </section>
 </div>
-
-
 
 
 
