@@ -14,7 +14,7 @@ redirect_from:
 <div class="container">
 <section class="header">
     <div class="header-grid">
-        <div class="contact-info">
+        <div class="contact-info" style='text-align:center;'>
             <h1>Pasindu Sandamal</h1>
             <h2>Software Engineer</h2>
             <h3>+94 776768757</h3>
