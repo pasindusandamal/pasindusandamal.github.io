@@ -8,38 +8,103 @@ redirect_from:
 ---
 <link rel="stylesheet" href="/assets/css/custom_cv.css">
 
-# 👋 Hi, I'm Pasindu Sandamal,  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
+<div class="container">
+    <section class="header">
+        <div class="profile-container">
+            <div class="profile-info">
+                <h1>Pasindu Sandamal</h1>
+                <h2>Software Engineer</h2>
+                <h3>+94 776768757</h3>
+                <h3><a href="mailto:pkpasindusandamal@gmail.com">pkpasindusandamal@gmail.com</a></h3>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/pasindusandamal" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://medium.com/@yourusername" target="_blank"><i class="fab fa-medium"></i></a>
+                    <a href="https://youtube.com/@yourchannel" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="profile-image">
+                <img src="/images/profile.jpg" alt="Pasindu Sandamal">
+            </div>
+        </div>
+    </section>
 
-## Full Stack  | Mobile App  | Machine Learning | Desktop Application ## 
-I'm Passionate about AI-powered mobile applications, full-stack solutions, and intelligent systems that solve real-world problems.  
+    <section class="profile">
+        <h3>Professional Profile</h3>
+        <p>I am a motivated and diligent software engineering graduate with a strong sense of responsibility and a proven ability 
+        to tackle challenges through effective decision-making, teamwork, and leadership. Passionate about advancing my 
+        knowledge while embracing emerging technologies. I am adaptable, eager to learn, and committed to 
+        leveraging my skills to contribute to organizational growth and success.</p>
+    </section>
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](#) [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](#) [![Medium](https://img.shields.io/badge/-Medium-000000?style=flat&logo=medium&logoColor=white)](#) [![ResearchGate](https://img.shields.io/badge/-ResearchGate-00CCBB?style=flat&logo=researchgate&logoColor=white)](#)
+    <section class="skills">
+        <h3>Areas of Expertise</h3>
+        <p>Full Stack Development | Mobile App Development | Machine Learning | Desktop Application</p>
+    </section>
 
+    
+  <section class="experience">
+    <h3>Work Experience</h3>
+    <div class="experience-item">
+        <p class="experience-title">Trainee Software Engineer<sup> 2024 July – 2025 Jan</sup></p>
+        <p>BevyLabs</p>
+        <ul class="experience-list">
+            <li>Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and Gemini API to extract text from images and generate MCQs or essay prompts for improved content interaction.</li>
+            <li>Designed and implemented an interactive mobile application aimed at teaching Python programming, incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences for users.</li>
+            <li>Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using Tkinter to allow users to upload images and get a count of detected shrimps.</li>
+            <li>Redesigned the user interface of a mobile application aimed at teaching Python programming in the Sinhala language.</li>
+        </ul>
+    </div>
+</section>
 
-## ✨ About Me
+    
 
- 
-<p align="justify">I specialize in building scalable, high-performance applications that blend AI and user-centric design. From AI-driven healthcare solutions to intelligent educational platforms, I push the boundaries of technology. In healthcare, my solutions empower medical professionals with advanced diagnostic algorithms and intuitive patient monitoring systems.In education, I'm developing platforms that adapt intelligently to each student's learning journey. These aren't just applications – they're transformative tools that harness the power of artificial intelligence to solve real-world challenges, whether it's helping doctors make more informed decisions or creating personalized learning experiences that evolve with each student's progress.What sets my work apart is the relentless focus on scalability and performance in every solution I architect. In a world where milliseconds matter, I build systems that can handle millions of requests while maintaining lightning-fast response times, all while keeping the user experience intuitive and accessible.This means crafting applications that not only leverage cutting-edge AI technology but do so in a way that feels natural and responsive to users. Whether it's developing healthcare analytics platforms that process vast amounts of patient data or creating educational systems that adapt in real-time to student interactions, I'm committed to pushing the boundaries of what's possible when you combine powerful AI with thoughtful, user-centric design.</p>
+    <section class="education">
+        <h3>Education</h3>
+        <p>B.Sc. (Hons) Software Engineering <sup>2021 Sep – 2024 Dec</sup></p>
+        <p style="margin-top:-7px">Plymouth University (UK)</p>     
+    </section>
 
-## ✨ Working Experience
+    <section class="projects">
+    <h3>Projects</h3>
+    <div class="project-item">
+        <p class="project-title">• Lung Cancer Detection Application (Final Year Research Project)</p>
+        <div class="project-details">
+            <p>Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung 
+            cancer stages as normal, malignant, or benign.</p>
+            <p class="technologies">Technologies: Python, Flask, TensorFlow, Google Colab, HTML, CSS, JS, Image Processing, Machine Learning, Keras</p>
+        </div>
+    </div>
+    <div class="project-item">
+        <p class="project-title">• Task Fusion</p>
+        <div class="project-details">
+            <p>Description of Task Fusion project...</p>
+            <p class="technologies">Technologies: React.js, HTML, CSS, Node.js, Git, Golang</p>
+        </div>
+    </div>
+    <!-- Repeat for other projects -->
+    </section>
 
-**Trainee Software Engineer | 2024 July-2025 Jan**  
-BevyLabs
+   
 
+    <section class="publications">
+        <h3>Publications</h3>
+        <p>Enhancing Lung Cancer Diagnosis with Custom-Designed Convolutional Neural Network</p>
+    </section>
 
-<ul>
-  <li>Developed a Flutter-based mobile app using `GOOGLE_MLKIT_TEXT_RECOGNITION` package and Gemini API to extract text from images and generate MCQs or essay prompts for improved content interaction.</li>
-  <li>Designed and implemented an interactive mobile application aimed at teaching Python programming, incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences for users.</li>
-  <li>Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using Tkinter to allow users to upload images and get a count of detected shrimps.</li>
-  <li>Redesigned the user interface of a mobile application aimed at teaching Python programming in the Sinhala language.</li>
-</ul>
+    <section class="achievements">
+        <h3>Achievements</h3>
+            <p>Cisco IT Essentials 7.0 <sup>Successfully completed</sup></p>
+            <p>DUOTHEN 3.0 Coding Competition, NSBM Green University <sup>Successfully completed</sup></p>
+    </section>
 
-
-## ✨ Education
-
-**BSc (Hons) Software Engineer | 2021 Sep-2024 Dec**  
-Plymouth University (UK)
+    <section class="links">
+        <h3>Links</h3>
+        <p><a href="https://github.com/pasindusandamal"><i class="fab fa-github"></i> GitHub</a> | <a href="https://www.researchgate.net/profile/Pasindu-Sandamal?ev=hdr_xprf"><i class="fab fa-researchgate"></i> ResearchGate</a></p>
+    </section>
+</div>
 
 
 ---
