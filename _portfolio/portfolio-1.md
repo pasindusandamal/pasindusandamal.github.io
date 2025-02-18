@@ -2,9 +2,9 @@
 title: "Lung Cancer Detection Application (Final Year Research Project) "
 subtitle: "Final Year Research Project"
 excerpt: "<p style='text-align:justify; margin:5px;'>An advanced lung cancer detection system powered by custom Convolutional Neural Networks (CNN), capable of accurately classifying lung images as normal, alignant, or benign.</p> <div class='image-gallery' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; flex-wrap: nowrap;'>
-    <img src='/images/img_1.png' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
-    <img src='/images/img_2.png' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
-    <img src='/images/img_2.png' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' > </div>"
+    <img src='/images/lung_img_1.jpg' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
+    <img src='/images/lung_img_2.jpg' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
+    <img src='/images/lung_img_3.jpg' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' > </div>"
 header:
         
 collection: portfolio
@@ -38,4 +38,10 @@ collection: portfolio
         <p>Early detection significantly improves survival rates for lung cancer patients. This system bridges the critical 
         gap in early diagnosis by providing accurate, timely analysis of CT scans and facilitating prompt medical intervention.</p>
     </section>
+
+    <div class='image-gallery' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; flex-wrap: nowrap;'>
+    <img src='/images/lung_img_1.jpg' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
+    <img src='/images/lung_img_2.jpg' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
+    <img src='/images/lung_img_3.jpg' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' > </div>
+    
 </div>
