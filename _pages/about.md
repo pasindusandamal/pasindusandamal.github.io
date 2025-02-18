@@ -15,8 +15,8 @@ redirect_from:
     <div class="header-grid">
        <div class="contact-info" style="line-height: 1.4;">
     <h2 style="margin: 0 0 5px 0;border-bottom:none;">Pasindu Sandamal</h2>
-    <h3 style="margin: 0 0 5px 0;">Software Engineer</h3>
-    <h4 style="margin: 0 0 5px 0;">+94 776768757</h4>
+    <h2 style="margin: 0 0 5px 0;">Software Engineer</h2>
+    <h3 style="margin: 0 0 5px 0;">+94 776768757</h3>
     <h4 class="contact-links" style="margin: 0 0 10px 0;">
         <a href="mailto:pkpasindusandamal@gmail.com">pkpasindusandamal@gmail.com</a>
         <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/">LinkedIn Profile</a>
@@ -50,7 +50,7 @@ redirect_from:
     <h3>Work Experience</h3>
     <div class="experience-item">
         <p class="experience-title">Trainee Software Engineer<sup> 2024 July – 2025 Jan</sup></p>
-        <p style="margin-bottom:-10px;">BevyLabs</p>
+        <p style="margin-top:-10px;">BevyLabs</p>
         <ul class="experience-list">
             <li>Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and Gemini API to extract text from images and generate MCQs or essay prompts for improved content interaction.</li>
             <li>Designed and implemented an interactive mobile application aimed at teaching Python programming, incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences for users.</li>
