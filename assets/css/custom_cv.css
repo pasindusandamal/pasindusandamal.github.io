@@ -156,18 +156,18 @@ sup {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.social-icons {
+.social-icons_a {
     margin-top: 15px;
 }
 
-.social-icons a {
+.social-icons_a a {
     color: #2c3e50;
     font-size: 1.5em;
     margin-right: 15px;
     transition: color 0.3s ease;
 }
 
-.social-icons a:hover {
+.social-icons_a a:hover {
     color: #3498db;
 }
 
@@ -181,7 +181,7 @@ sup {
         margin: 0 0 20px 0;
     }
     
-    .social-icons {
+    .social-icons_a {
         justify-content: center;
     }
 }
