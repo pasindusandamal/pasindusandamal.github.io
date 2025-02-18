@@ -23,7 +23,6 @@ redirect_from:
     <a href="https://medium.com/@yourusername" target="_blank"><i class="fab fa-medium"></i></a>
     <a href="https://youtube.com/@yourchannel" target="_blank"><i class="fab fa-youtube"></i></a>
 </div>
-</div>
 <div class="avatar-container">
     <img src="/images/profile.jpg" alt="Pasindu Sandamal">
 </div>
