@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<link rel="stylesheet" href="/assets/css/custom_cv.css">
 
 {% include base_path %}
 
@@ -15,20 +14,20 @@ redirect_from:
 <section class="header">
     <div class="header-grid">
         <div class="contact-info">
-            <h1>Pasindu Sandamal</h1>
-            <h2>Software Engineer</h2>
-            <h3>+94 776768757</h3>
-            <h3 class="contact-links">
+            <h2>Pasindu Sandamal</h2>
+            <h3>Software Engineer</h3>
+            <h4>+94 776768757</h4>
+            <h4 class="contact-links">
                 <a href="mailto:pkpasindusandamal@gmail.com">pkpasindusandamal@gmail.com</a>
                 <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/">LinkedIn Profile</a>
-            </h3>
+            </h4>
             <div class="action-buttons">
                 <a href="mailto:pkpasindusandamal@gmail.com" class="btn btn-contact">Contact Me</a>
                 <a href="/assets/files/resume.pdf" class="btn btn-download" download>Download CV</a>
             </div>
         </div>
         <div class="avatar-wrapper">
-            <img src="/images/profile 2.jpg" alt="Pasindu Sandamal">
+            <img src="/images/profile/profile 2.jpg" alt="Pasindu Sandamal">
         </div>
     </div>
 </section>
@@ -50,7 +49,7 @@ redirect_from:
   <section class="experience">
     <h3>Work Experience</h3>
     <div class="experience-item">
-        <p class="experience-title">Trainee Software Engineer<sup>2024 July – 2025 Jan</sup></p>
+        <p class="experience-title">Trainee Software Engineer<sup> 2024 July – 2025 Jan</sup></p>
         <p>BevyLabs</p>
         <ul class="experience-list">
             <li>Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and Gemini API to extract text from images and generate MCQs or essay prompts for improved content interaction.</li>
@@ -65,7 +64,7 @@ redirect_from:
 
     <section class="education">
         <h3>Education</h3>
-        <p>B.Sc. (Hons) Software Engineering <sup>2021 Sep – 2024 Dec</sup></p>
+        <p>B.Sc. (Hons) Software Engineering <sup> 2021 Sep – 2024 Dec</sup></p>
         <p style="margin-top:-7px">Plymouth University (UK)</p>     
     </section>
 

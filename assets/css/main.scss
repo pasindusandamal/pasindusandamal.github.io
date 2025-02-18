@@ -260,9 +260,8 @@ h1.archive__item-title {
 
 .avatar-wrapper {
   img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
+    width: 200px;
+    max-width: 200px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
 }
@@ -280,7 +279,7 @@ section {
   
   p {
     color: #34495e;
-    line-height: 1.6;
+    line-height: 1.0;
     text-align: justify;
   }
 }
@@ -297,8 +296,8 @@ section {
     &::before {
       content: "•";
       position: absolute;
-      left: -1.5rem;
-      color: #3498db;
+      left: 1.5rem;
+      color: #19191a;
     }
   }
 }
