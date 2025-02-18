@@ -36,7 +36,7 @@ redirect_from:
   <section class="experience">
     <h3>Work Experience</h3>
     <div class="experience-item">
-        <p class="experience-title">Trainee Software Engineer<sup> 2024 July – 2025 Jan</sup></p>
+        <p class="experience-title">Trainee Software Engineer<sup>2024 July – 2025 Jan</sup></p>
         <p>BevyLabs</p>
         <ul class="experience-list">
             <li>Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and Gemini API to extract text from images and generate MCQs or essay prompts for improved content interaction.</li>
