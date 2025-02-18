@@ -56,7 +56,7 @@
   font-size: 1rem;
 }
 
-/* Responsive Image Gallery */
+/* Responsive Image Gallery with Zoom Effect */
 .responsive-image-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -69,19 +69,42 @@
   height: 200px;
   object-fit: cover;
   border-radius: 4px;
-  transition: transform 0.2s ease;
+  transition: transform 0.3s ease;
+  overflow: hidden;
 }
 
 .gallery-image:hover {
-  transform: scale(1.03);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transform: scale(1.1);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
-/* Title Styling */
-.archive__item-title {
+/* Title Styling - Force Black with No Underline */
+.archive__item-title,
+.archive__item-title a,
+.page__title,
+.portfolio-content h1,
+h1.archive__item-title {
   color: #000 !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+/* Additional styling to override any theme defaults */
+.archive__item-title a:hover,
+.archive__item-title a:visited,
+.archive__item-title a:active {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+
+/* Add underline only for h2, h3 in content */
+.portfolio-content h2,
+.portfolio-content h3 {
+  color: #000;
   border-bottom: 1px solid #ddd;
   padding-bottom: 5px;
+  margin-top: 2rem;
 }
 
 /* Portfolio Content Styling */
@@ -91,11 +114,43 @@
   padding: 1rem 0;
 }
 
-.portfolio-content h2 {
-  color: #000;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 5px;
-  margin-top: 2rem;
+/* Enhanced Image Container for Zoom Effect */
+.responsive-image-gallery {
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery-image {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-image img {
+  transition: transform 0.5s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-image:hover img {
+  transform: scale(1.1);
+}
+
+/* Add overlay effect on hover */
+.gallery-image::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0);
+  transition: background-color 0.3s ease;
+}
+
+.gallery-image:hover::after {
+  background-color: rgba(0,0,0,0.1);
 }
 
 /* Responsive Adjustments */
