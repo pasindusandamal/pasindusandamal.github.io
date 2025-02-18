@@ -1,207 +1,234 @@
 /* Base styles */
 body {
     line-height: 1.4;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
     color: #333;
-}
-
-.container {
+  }
+  
+  .container {
     margin: 0 auto;
     padding: 20px;
     max-width: 900px;
-}
-
-/* Header section */
-.header {
+  }
+  
+  /* Header section - works for both profile layouts */
+  .header {
     text-align: center;
     margin-bottom: 30px;
     border-bottom: 2px solid #f1eeee;
     padding-bottom: 20px;
-}
-
-.profile-container {
+  }
+  
+  .profile-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
-}
-
-.profile-info {
+  }
+  
+  .profile-info {
     text-align: left;
     flex: 2;
-}
-
-.profile-image {
+  }
+  
+  .profile-image {
     flex: 1;
     text-align: right;
     max-width: 150px;
-}
-
-.profile-image img {
+  }
+  
+  .profile-image img {
     width: 100%;
     border-radius: 50%;
     border: 2px solid #f1eeee;
-}
-
-.header h1 {
+  }
+  
+  .header h1 {
     margin: 0;
     font-size: 2em;
     line-height: 1.2;
-}
-
-.header h2 {
+  }
+  
+  .header h2 {
     margin: 5px 0;
     font-size: 1.4em;
     font-weight: 500;
     color: #555;
-}
-
-.header h3 {
+  }
+  
+  .header h3 {
     margin: 5px 0;
     font-size: 1em;
     font-weight: normal;
     color: #666;
-}
-
-.social-icons_a {
+  }
+  
+  .social-icons_a {
     margin-top: 10px;
-}
-
-.social-icons_a a {
+  }
+  
+  .social-icons_a a {
     margin-right: 12px;
     color: #2c3e50;
     font-size: 1.2em;
     text-decoration: none;
-}
-
-.social-icons_a a:hover {
+  }
+  
+  .social-icons_a a:hover {
     color: #34495e;
-}
-
-/* Section styles */
-section {
+  }
+  
+  /* Section styles - common for all sections */
+  section {
     margin-bottom: 25px;
-}
-
-section h3 {
+  }
+  
+  section h3 {
     margin: 0 0 15px 0;
     font-size: 1.2em;
     color: #2c3e50;
     border-bottom: 1px solid #f1eeee;
     padding-bottom: 5px;
-}
-
-/* Content styling */
-p {
+  }
+  
+  /* Content styling - normalized for both layouts */
+  p {
     margin: 0 0 10px 0;
     text-align: justify;
     font-size: 0.95em;
     line-height: 1.5;
-}
-
-/* Experience section */
-.experience-item {
+  }
+  
+  /* Experience section - compatible with both list and paragraph formats */
+  .experience-item {
     margin-bottom: 20px;
-}
-
-.experience-title, .project-title {
+  }
+  
+  .experience-title, 
+  .project-title {
     font-weight: 600;
     color: #2c3e50;
     margin-bottom: 5px;
-    position: relative;
-}
-
-.experience-details {
+  }
+  
+  .experience-details {
     margin-left: 20px;
-}
-
-.bullet-point {
+  }
+  
+  /* Bullet points styling - works for both custom bullets and list items */
+  .bullet-point {
     position: relative;
     padding-left: 20px;
     margin-bottom: 8px;
     font-size: 0.95em;
-}
-
-.bullet-point::before {
+  }
+  
+  .bullet-point::before {
     content: "•";
     position: absolute;
     left: 0;
     color: #2c3e50;
-}
-
-.experience-list {
+  }
+  
+  .experience-list {
     margin: 10px 0 0 0;
     padding-left: 20px;
-}
-
-.experience-list li {
+  }
+  
+  .experience-list li {
     margin-bottom: 8px;
     font-size: 0.95em;
     line-height: 1.5;
-}
-
-/* Projects section */
-.project-item {
+  }
+  
+  /* Projects section - compatible with both formats */
+  .project-item {
     margin-bottom: 20px;
-}
-
-.project-details {
+  }
+  
+  .project-details {
     padding-left: 20px;
     margin-top: 5px;
-}
-
-.technologies {
+  }
+  
+  .technologies {
     color: #666;
-    font-size: 0.9em !important;
-     margin-top: 5px;
-}
-
-/* Links styling */
-a {
+    font-size: 0.9em;
+    font-style: italic;
+    margin-top: 5px;
+  }
+  
+  /* Links styling - consistent across both formats */
+  a {
     color: #2c3e50;
     text-decoration: none;
-}
-
-a:hover {
+  }
+  
+  a:hover {
     color: #34495e;
-}
-
-/* Superscript */
-sup {
+  }
+  
+  /* Superscript - improved styling for both formats */
+  sup {
     color: #666;
     font-size: 0.75em;
     font-weight: normal;
     margin-left: 8px;
     font-style: italic;
-}
-
-/* Publication section */
-.publications p {
+  }
+  
+  /* Publication section */
+  .publications p {
     margin-bottom: 8px;
-}
-
-/* Achievements section */
-.achievements p {
+  }
+  
+  /* Achievements section */
+  .achievements p {
     margin-bottom: 8px;
-}
-
-/* Links section */
-.links p {
+  }
+  
+  /* Links section */
+  .links p {
     margin-bottom: 8px;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
+  }
+  
+  /* Responsive adjustments - works for both formats */
+  @media (max-width: 768px) {
     .profile-container {
-        flex-direction: column-reverse;
+      flex-direction: column-reverse;
     }
     
-    .profile-info, .profile-image {
-        text-align: center;
-        margin-bottom: 15px;
+    .profile-info, 
+    .profile-image {
+      text-align: center;
+      margin-bottom: 15px;
     }
     
     .profile-image {
-        margin: 0 auto 20px;
+      margin: 0 auto 20px;
     }
-}
+    
+    .experience-title, 
+    .project-title {
+      padding-left: 0;
+    }
+    
+    .experience-details,
+    .project-details {
+      padding-left: 10px;
+    }
+  }
+  
+  /* Compatibility fixes for both formats */
+  /* For the format that uses lists */
+  ul {
+    padding-left: 20px;
+    margin: 5px 0 10px 0;
+  }
+  
+  /* For the format that uses p tags with bullets */
+  p.project-title,
+  p.experience-title {
+    padding-left: 0;
+    margin-bottom: 10px;
+  }
