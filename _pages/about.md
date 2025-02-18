@@ -49,13 +49,13 @@ redirect_from:
     <h3>Work Experience</h3>
     <div class="experience-item">
         <p class="project-title">• Trainee Software Engineer<sup>2024 July – 2025 Jan</sup></p>
-        <div class="experience-details">
-            <p style="margin-top:-5px">BevyLabs</p>
-            <p>Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and Gemini API to extract text from images and generate MCQs or essay prompts for improved content interaction.</p>
-            <p>Designed and implemented an interactive mobile application aimed at teaching Python programming, incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences for users.</p>
-            <p>Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using Tkinter to allow users to upload images and get a count of detected shrimps.</p>
-            <p>Redesigned the user interface of a mobile application aimed at teaching Python programming in the Sinhala language.</p>
-        </div>
+       <div class="experience-details">
+    <p style="margin-top:-5px">BevyLabs</p>
+    <p class="bullet-point">• Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and Gemini API to extract text from images and generate MCQs or essay prompts for improved content interaction.</p>
+    <p class="bullet-point">• Designed and implemented an interactive mobile application aimed at teaching Python programming, incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences for users.</p>
+    <p class="bullet-point">• Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using Tkinter to allow users to upload images and get a count of detected shrimps.</p>
+    <p class="bullet-point">• Redesigned the user interface of a mobile application aimed at teaching Python programming in the Sinhala language.</p>
+</div>
     </div>
 </section>
 
