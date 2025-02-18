@@ -1,176 +1,135 @@
----
----
-
 /*
- * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * Enhanced Academic Pages Styling
+ * Modern, clean, and responsive design
  */
 
+/* Required Jekyll imports */
 @import 
     "vendor/breakpoint/breakpoint",
-
     "themes",
     "theme/{{ site.site_theme | default: 'default' }}",
-
     "include/mixins",
-    "vendor/susy/susy",
+    "vendor/susy/susy";
 
+/* Core Layout Styles */
+@import 
     "layout/reset",
     "layout/base",
-
-    "include/utilities",
     "layout/tables",
     "layout/buttons",
     "layout/notices",
     "layout/masthead",
     "layout/navigation",
     "layout/footer",
-    "syntax",
-
     "layout/forms",
-
     "layout/page",
     "layout/archive",
-    "layout/sidebar",
-    
+    "layout/sidebar";
+
+/* Vendor Dependencies */
+@import 
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands",
-    "vendor/magnific-popup/magnific-popup"
-;
+    "vendor/magnific-popup/magnific-popup";
 
-/* Custom Portfolio Styling */
-
-/* Portfolio Excerpt */
-.portfolio-excerpt {
-  width: 100%;
-  margin-bottom: 20px;
+/* Enhanced Portfolio Styling */
+.portfolio-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
-.project-description {
-  text-align: justify;
-  line-height: 1.6;
-  margin-bottom: 15px;
-  font-size: 1rem;
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
 }
 
-/* Responsive Image Gallery with Zoom Effect */
-.responsive-image-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 15px;
-  margin: 15px 0;
+.portfolio-item {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+    }
 }
 
-.gallery-image {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 4px;
-  transition: transform 0.3s ease;
-  overflow: hidden;
+/* Modern Image Gallery */
+.gallery-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    
+    img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+        
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
 }
 
-.gallery-image:hover {
-  transform: scale(1.1);
-  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
-  z-index: 1;
+/* Typography Enhancements */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    position: relative;
+    
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        width: 60px;
+        height: 4px;
+        background: linear-gradient(90deg, #3498db, #2ecc71);
+        border-radius: 2px;
+    }
 }
 
-/* Title Styling - Force Black with No Underline */
-.archive__item-title,
-.archive__item-title a,
-.page__title,
-.portfolio-content h1,
-h1.archive__item-title {
-  color: #000 !important;
-  text-decoration: none !important;
-  border-bottom: 1px solid #ddd;
-  
-}
-
-/* Additional styling to override any theme defaults */
-.archive__item-title a:hover,
-.archive__item-title a:visited,
-.archive__item-title a:active {
-  color: #000 !important;
-  text-decoration: none !important;
-}
-
-/* Add underline only for h2, h3 in content */
-.portfolio-content h2,
-.portfolio-content h3 {
-  color: #000;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 5px;
-  margin-top: 2rem;
-}
-
-/* Portfolio Content Styling */
-.portfolio-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem 0;
-}
-
-/* Enhanced Image Container for Zoom Effect */
-.responsive-image-gallery {
-  overflow: hidden;
-  position: relative;
-}
-
-.gallery-image {
-  display: block;
-  position: relative;
-  overflow: hidden;
-}
-
-.gallery-image img {
-  transition: transform 0.5s ease;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.gallery-image:hover img {
-  transform: scale(1.1);
-}
-
-/* Add overlay effect on hover */
-.gallery-image::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0);
-  transition: background-color 0.3s ease;
-}
-
-.gallery-image:hover::after {
-  background-color: rgba(0,0,0,0.1);
-}
-
-/* Responsive Adjustments */
+/* Responsive Design */
 @media (max-width: 768px) {
-  .responsive-image-gallery {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  }
-  
-  .gallery-image {
-    height: 150px;
-  }
+    .portfolio-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
 }
 
-@media (max-width: 480px) {
-  .responsive-image-gallery {
-    grid-template-columns: 1fr;
-  }
-  
-  .gallery-image {
-    height: 180px;
-  }
+/* Animation Effects */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-in {
+    animation: fadeIn 0.6s ease-out forwards;
+}
+
+/* Custom Button Styling */
+.custom-button {
+    padding: 12px 24px;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #3498db, #2ecc71);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    
+    &:hover {
+        transform: scale(1.05);
+    }
 }
