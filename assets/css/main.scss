@@ -182,16 +182,16 @@ h1.archive__item-title {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 /* Header Section */
 .header-grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 2rem;
+  gap: 1rem;
   align-items: start;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .contact-info {
