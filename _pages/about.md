@@ -86,10 +86,8 @@ redirect_from:
     </div>
     <!-- Repeat for other projects -->
     </section>
-
    
-
-    <section class="publications">
+ <section class="publications">
         <h3>Publications</h3>
         <p>Enhancing Lung Cancer Diagnosis with Custom-Designed Convolutional Neural Network</p>
     </section>
