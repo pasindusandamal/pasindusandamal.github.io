@@ -163,3 +163,25 @@ sup {
         justify-content: center;
     }
 }
+
+.experience-list {
+    list-style: none;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.experience-list li {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 8px;
+    text-align: justify;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.experience-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #2c3e50;
+}
