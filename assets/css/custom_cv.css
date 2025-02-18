@@ -66,19 +66,7 @@ p {
     margin-left: 20px;
 }
 
-.bullet-point {
-    position: relative;
-    padding-left: 25px;
-    margin: 5px 0;
-    text-align: justify;
-}
 
-.bullet-point::before {
-    content: "•";
-    position: absolute;
-    left: 8px;
-    color: #2c3e50;
-}
 
 /* Projects section */
 .project-item {
