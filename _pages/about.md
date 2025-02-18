@@ -24,7 +24,7 @@ redirect_from:
             </h3>
         </div>
         <div class="avatar-wrapper">
-            <img src="/images/profile.jpg" alt="Pasindu Sandamal">
+            <img src="/images/profile 2.jpg" alt="Pasindu Sandamal">
         </div>
     </div>
 </section>
