@@ -48,7 +48,7 @@ redirect_from:
   <section class="experience">
     <h3>Work Experience</h3>
     <div class="experience-item">
-        <p class="experience-title">Trainee Software Engineer<sup> 2024 July – 2025 Jan</sup></p>
+        <p class="experience-title">Trainee Software Engineer<sup>2024 July – 2025 Jan</sup></p>
         <p>BevyLabs</p>
         <ul class="experience-list">
             <li>Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and Gemini API to extract text from images and generate MCQs or essay prompts for improved content interaction.</li>
@@ -59,10 +59,12 @@ redirect_from:
     </div>
 </section>
 
+    
+
     <section class="education">
         <h3>Education</h3>
         <p>B.Sc. (Hons) Software Engineering <sup>2021 Sep – 2024 Dec</sup></p>
-        <p>Plymouth University (UK)</p>     
+        <p style="margin-top:-7px">Plymouth University (UK)</p>     
     </section>
 
     <section class="projects">
@@ -84,7 +86,9 @@ redirect_from:
     </div>
     <!-- Repeat for other projects -->
     </section>
+
    
+
     <section class="publications">
         <h3>Publications</h3>
         <p>Enhancing Lung Cancer Diagnosis with Custom-Designed Convolutional Neural Network</p>
@@ -101,9 +105,6 @@ redirect_from:
         <p><a href="https://github.com/pasindusandamal"><i class="fab fa-github"></i> GitHub</a> | <a href="https://www.researchgate.net/profile/Pasindu-Sandamal?ev=hdr_xprf"><i class="fab fa-researchgate"></i> ResearchGate</a></p>
     </section>
 </div>
-
-
----
 
 
 
