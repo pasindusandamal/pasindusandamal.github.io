@@ -52,8 +52,6 @@ p {
     line-height: 1.5;
 }
 
-
-
 /* Projects section */
 .project-item {
     margin-bottom: 20px;
@@ -111,4 +109,57 @@ sup {
 /* Links section */
 .links p {
     margin: 5px 0;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-image {
+    margin-left: 30px;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    color: #2c3e50;
+    font-size: 1.5em;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #3498db;
+}
+
+@media (max-width: 768px) {
+    .profile-container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    
+    .profile-image {
+        margin: 0 0 20px 0;
+    }
+    
+    .social-icons {
+        justify-content: center;
+    }
 }
