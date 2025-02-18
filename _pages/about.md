@@ -23,8 +23,8 @@ redirect_from:
                 <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/">LinkedIn Profile</a>
             </h3>
             <div class="action-buttons">
-                <a href="mailto:pkpasindusandamal@gmail.com" class="btn btn-contact" style='text-transform: none;'>Contact Me</a>
-                <a href="/assets/files/resume.pdf" style='text-transform: none;' class="btn btn-download" download>Download CV</a>
+                <a href="mailto:pkpasindusandamal@gmail.com" class="btn btn-contact" style='text-decoration:none;'>Contact Me</a>
+                <a href="/assets/files/resume.pdf" style='text-decoration: none;' class="btn btn-download" download>Download CV</a>
             </div>
         </div>
         <div class="avatar-wrapper">
