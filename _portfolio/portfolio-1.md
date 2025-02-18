@@ -1,10 +1,10 @@
 ---
 title: "Lung Cancer Detection Application (Final Year Research Project) "
 subtitle: "Final Year Research Project"
-excerpt: "<p style='text-align:justify; margin:5px;'>An advanced lung cancer detection system powered by custom Convolutional Neural Networks (CNN), capable of accurately classifying lung images as normal, alignant, or benign.</p> <div class='image-gallery' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; flex-wrap: nowrap;'>
-    <img src='/images/lung_img_1.jpg' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
-    <img src='/images/lung_img_2.jpg' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
-    <img src='/images/lung_img_3.jpg' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' > </div>"
+excerpt: "<p style='text-align:justify; margin:5px;'>An advanced lung cancer detection system powered by custom Convolutional Neural Networks (CNN), capable of accurately classifying lung images as normal, alignant, or benign.</p> <div class='image-gallery' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; flex-wrap: nowrap; padding: 15px; background: rgba(0,0,0,0.02); border-radius: 12px;'>
+    <img src='/images/lung_img_1.jpg' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; transition: transform 0.3s ease; box-shadow: 0 2px 8px rgba(0,0,0,0.1); &:hover { transform: scale(1.05); box-shadow: 0 4px 12px rgba(0,0,0,0.2); }' >
+    <img src='/images/lung_img_2.jpg' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; transition: transform 0.3s ease; box-shadow: 0 2px 8px rgba(0,0,0,0.1); &:hover { transform: scale(1.05); box-shadow: 0 4px 12px rgba(0,0,0,0.2); }' >
+    <img src='/images/lung_img_3.jpg' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; transition: transform 0.3s ease; box-shadow: 0 2px 8px rgba(0,0,0,0.1); &:hover { transform: scale(1.05); box-shadow: 0 4px 12px rgba(0,0,0,0.2); }' > </div>"
 header:
         
 collection: portfolio
@@ -39,9 +39,9 @@ collection: portfolio
         gap in early diagnosis by providing accurate, timely analysis of CT scans and facilitating prompt medical intervention.</p>
     </section>
 
-    <div class='image-gallery' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; flex-wrap: nowrap;'>
-    <img src='/images/lung_img_1.jpg' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
-    <img src='/images/lung_img_2.jpg' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' >
-    <img src='/images/lung_img_3.jpg' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; ; ' > </div>
+    <div class='image-gallery' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; flex-wrap: nowrap; padding: 15px; background: rgba(0,0,0,0.02); border-radius: 12px;'>
+    <img src='/images/lung_img_1.jpg' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; transition: transform 0.3s ease; box-shadow: 0 2px 8px rgba(0,0,0,0.1); &:hover { transform: scale(1.05); box-shadow: 0 4px 12px rgba(0,0,0,0.2); }' >
+    <img src='/images/lung_img_2.jpg' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; transition: transform 0.3s ease; box-shadow: 0 2px 8px rgba(0,0,0,0.1); &:hover { transform: scale(1.05); box-shadow: 0 4px 12px rgba(0,0,0,0.2); }' >
+    <img src='/images/lung_img_3.jpg' style='width: 250px; height: 200px; object-fit: cover; border-radius: 8px; transition: transform 0.3s ease; box-shadow: 0 2px 8px rgba(0,0,0,0.1); &:hover { transform: scale(1.05); box-shadow: 0 4px 12px rgba(0,0,0,0.2); }' > </div>
     
 </div>
