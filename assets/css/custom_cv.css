@@ -1,8 +1,8 @@
 /* Base styles */
 body {
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.5;
-    color: #2c3e50;
+   
+    line-height: 1.2;
+   
 }
 
 .container {
@@ -19,17 +19,17 @@ body {
 
 .header h1 {
     margin: 0;
-    font-size: inherit;
+    font-size: 2em;
 }
 
 .header h2 {
     margin: 5px 0;
-    font-size: inherit;
+    font-size: 1.2em;
 }
 
 .header h3 {
     margin: 5px 0;
-    font-size: inherit;
+    font-size: 0.9em;
     font-weight: normal;
 }
 
@@ -40,7 +40,7 @@ section {
 
 section h3 {
     margin: 10px 0;
-    font-size: inherit;
+    font-size: 1.1em;
     color: #2c3e50;
 }
 
@@ -52,27 +52,7 @@ p {
     line-height: 1.5;
 }
 
-.experience-list {
-    list-style: none;
-    padding-left: 20px;
-    margin: 10px 0;
-}
 
-.experience-list li {
-    position: relative;
-    padding-left: 15px;
-    margin-bottom: 8px;
-    text-align: justify;
-    font-size: inherit;
-    line-height: 1.5;
-}
-
-.experience-list li::before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    color: #2c3e50;
-}
 
 /* Projects section */
 .project-item {
@@ -92,15 +72,14 @@ p {
 
 .project-details p {
     margin: 5px 0;
-    font-size: inherit;
+    font-size: 0.9em;
     line-height: 1.5;
 }
 
 .technologies {
     color: #666;
-    font-size: inherit;
+    font-size: 0.85em !important;
     font-style: italic;
-    
 }
 
 /* Links styling */
@@ -115,10 +94,8 @@ a:hover {
 
 /* Superscript */
 sup {
-    position: relative;
-    top: -0.5em;
     color: #666;
-    font-size: inherit;
+    font-size: 0.75em;
 }
 
 /* Skills section */
@@ -135,55 +112,3 @@ sup {
 .links p {
     margin: 5px 0;
 }
-
-/* Typography scale */
-h1 {
-    font-size: 1.8em;
-    margin: 0 0 10px 0;
-}
-
-h2 {
-    font-size: 1.3em;
-    margin: 0 0 8px 0;
-}
-
-h3 {
-    font-size: 1.1em;
-    margin: 0 0 8px 0;
-}
-
-p, li, .technologies {
-    font-size: 0.9em;
-    line-height: 1.5;
-    margin: 5px 0;
-}
-
-/* Remove individual font-size declarations */
-.header h1,
-.header h2,
-.header h3,
-section h3,
-.experience-list li,
-.project-details p,
-.technologies,
-sup {
-    font-size: inherit;
-}
-
-/* Maintain specific styles without font-size variations */
-.project-title {
-    font-weight: 600;
-    color: #2c3e50;
-}
-
-.technologies {
-    color: #666;
-    font-style: italic;
-}
-
-sup {
-    position: relative;
-    top: -0.5em;
-    color: #666;
-}
-
