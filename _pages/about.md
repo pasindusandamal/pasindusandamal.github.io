@@ -13,19 +13,19 @@ redirect_from:
 <div class="container">
 <section class="header">
     <div class="header-grid">
-        <div class="contact-info">
-            <h2>Pasindu Sandamal</h2>
-            <h3>Software Engineer</h3>
-            <h4>+94 776768757</h4>
-            <h4 class="contact-links">
-                <a href="mailto:pkpasindusandamal@gmail.com">pkpasindusandamal@gmail.com</a>
-                <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/">LinkedIn Profile</a>
-            </h4>
-            <div class="action-buttons">
-                <a href="mailto:pkpasindusandamal@gmail.com" class="btn btn-contact">Contact Me</a>
-                <a href="/assets/files/resume.pdf" class="btn btn-download" download>Download CV</a>
-            </div>
-        </div>
+       <div class="contact-info" style="line-height: 1.2;">
+    <h2 style="margin: 0 0 5px 0;">Pasindu Sandamal</h2>
+    <h3 style="margin: 0 0 5px 0;">Software Engineer</h3>
+    <h4 style="margin: 0 0 5px 0;">+94 776768757</h4>
+    <h4 class="contact-links" style="margin: 0 0 10px 0;">
+        <a href="mailto:pkpasindusandamal@gmail.com">pkpasindusandamal@gmail.com</a>
+        <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/">LinkedIn Profile</a>
+    </h4>
+    <div class="action-buttons" style="margin-top: 10px;">
+        <a href="mailto:pkpasindusandamal@gmail.com" class="btn btn-contact">Contact Me</a>
+        <a href="/assets/files/resume.pdf" class="btn btn-download" download>Download CV</a>
+    </div>
+</div>
         <div class="avatar-wrapper">
             <img src="/images/profile/profile 2.jpg" alt="Pasindu Sandamal">
         </div>
