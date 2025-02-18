@@ -22,6 +22,10 @@ redirect_from:
                 <a href="mailto:pkpasindusandamal@gmail.com">pkpasindusandamal@gmail.com</a>
                 <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/">LinkedIn Profile</a>
             </h3>
+            <div class="action-buttons">
+                <a href="mailto:pkpasindusandamal@gmail.com" class="btn btn-contact">Contact Me</a>
+                <a href="/assets/files/resume.pdf" class="btn btn-download" download>Download CV</a>
+            </div>
         </div>
         <div class="avatar-wrapper">
             <img src="/images/profile 2.jpg" alt="Pasindu Sandamal">
