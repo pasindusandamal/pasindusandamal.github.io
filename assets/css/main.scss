@@ -87,7 +87,8 @@
 h1.archive__item-title {
   color: #000 !important;
   text-decoration: none !important;
-  border-bottom: none !important;
+  border-bottom: 1px solid #ddd;
+  
 }
 
 /* Additional styling to override any theme defaults */
