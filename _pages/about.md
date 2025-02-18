@@ -6,29 +6,17 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
 <link rel="stylesheet" href="/assets/css/custom_cv.css">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+{% include base_path %}
 
 <div class="container">
     <section class="header">
-        <div class="profile-container">
-            <div class="profile-info">
-                <h1>Pasindu Sandamal</h1>
-                <h2>Software Engineer</h2>
-                <h3>+94 776768757</h3>
-                <h3><a href="pkpasindusandamal@gmail.com">pkpasindusandamal@gmail.com</a></h3>
-                <div class="social-icons_a">
-                    <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/pasindusandamal" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://medium.com/@yourusername" target="_blank"><i class="fab fa-medium"></i></a>
-                    <a href="https://youtube.com/@yourchannel" target="_blank"><i class="fab fa-youtube"></i></a>
-                </div>
-            </div>
-            <div class="profile-image">
-                <img src="/images/profile.jpg" alt="Pasindu Sandamal">
-            </div>
-        </div>
+        <h1>Pasindu Sandamal</h1>
+        <h2>Software Engineer</h2>
+        <h3>+94 776768757</h3>
+        <h3 style="border-bottom: 2px solid #f1eeee !important;margin-top:7px;"><a href="mailto:pkpasindusandamal@gmail.com" style='text-decoration:none;'>pkpasindusandamal@gmail.com</a> <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/ " style='text-decoration:none;'>LinkedIn Profile</a></h3 >
     </section>
 
     <section class="profile">
@@ -45,17 +33,17 @@ redirect_from:
     </section>
 
     
-<section class="experience">
+  <section class="experience">
     <h3>Work Experience</h3>
     <div class="experience-item">
-        <p class="project-title">Trainee Software Engineer<sup>2024 July – 2025 Jan</sup></p>
-       <div class="experience-details">
-    <p>BevyLabs</p>
-    <p class="bullet-point">Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and Gemini API to extract text from images and generate MCQs or essay prompts for improved content interaction.</p>
-    <p class="bullet-point">Designed and implemented an interactive mobile application aimed at teaching Python programming, incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences for users.</p>
-    <p class="bullet-point">Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using Tkinter to allow users to upload images and get a count of detected shrimps.</p>
-    <p class="bullet-point">Redesigned the user interface of a mobile application aimed at teaching Python programming in the Sinhala language.</p>
-</div>
+        <p class="experience-title">Trainee Software Engineer<sup>2024 July – 2025 Jan</sup></p>
+        <p>BevyLabs</p>
+        <ul class="experience-list">
+            <li>Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and Gemini API to extract text from images and generate MCQs or essay prompts for improved content interaction.</li>
+            <li>Designed and implemented an interactive mobile application aimed at teaching Python programming, incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences for users.</li>
+            <li>Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using Tkinter to allow users to upload images and get a count of detected shrimps.</li>
+            <li>Redesigned the user interface of a mobile application aimed at teaching Python programming in the Sinhala language.</li>
+        </ul>
     </div>
 </section>
 
