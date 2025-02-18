@@ -40,3 +40,81 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
+
+/* Custom Portfolio Styling */
+
+/* Portfolio Excerpt */
+.portfolio-excerpt {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.project-description {
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+/* Responsive Image Gallery */
+.responsive-image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Title Styling */
+.archive__item-title {
+  color: #000 !important;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Portfolio Content Styling */
+.portfolio-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.portfolio-content h2 {
+  color: #000;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-top: 2rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .responsive-image-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  
+  .gallery-image {
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-image-gallery {
+    grid-template-columns: 1fr;
+  }
+  
+  .gallery-image {
+    height: 180px;
+  }
+}
