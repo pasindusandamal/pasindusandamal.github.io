@@ -13,8 +13,8 @@ redirect_from:
 
 <div class="container">
 <section class="header">
-    <div class="header-grid">
-        <div class="contact-info">
+    <div class="row">
+        <div class="col-left">
             <h1>Pasindu Sandamal</h1>
             <h2>Software Engineer</h2>
             <h3>+94 776768757</h3>
@@ -23,7 +23,7 @@ redirect_from:
                 <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/">LinkedIn Profile</a>
             </h3>
         </div>
-        <div class="avatar-wrapper">
+        <div class="col-right">
             <img src="/images/profile.jpg" alt="Pasindu Sandamal">
         </div>
     </div>
