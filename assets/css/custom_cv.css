@@ -1,5 +1,3 @@
-
-
 .container {
 
     margin: 0 auto;
@@ -50,7 +48,7 @@ p {
 
 .project-title {
     font-weight: 600;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     color: #2c3e50;
 }
 
@@ -174,4 +172,19 @@ sup {
     position: absolute;
     left: 0;
     color: #2c3e50;
+}
+
+.experience-item {
+    margin-bottom: 20px;
+}
+
+.experience-details {
+    margin-left: 15px;
+}
+
+.experience-details p {
+    margin: 5px 0;
+    text-align: justify;
+    font-size: 0.9em;
+    line-height: 1.5;
 }
