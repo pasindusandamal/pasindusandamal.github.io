@@ -13,17 +13,19 @@ redirect_from:
 
 <div class="container">
 <section class="header">
-    <div class="header-flex">
+    <div class="header-grid">
         <div class="contact-info">
             <h1>Pasindu Sandamal</h1>
             <h2>Software Engineer</h2>
             <h3>+94 776768757</h3>
-            <h3 class="contact-links"><a href="mailto:pkpasindusandamal@gmail.com">pkpasindusandamal@gmail.com</a> <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/">LinkedIn Profile</a></h3>
-            <div class="avatar-container">
+            <h3 class="contact-links">
+                <a href="mailto:pkpasindusandamal@gmail.com">pkpasindusandamal@gmail.com</a>
+                <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/">LinkedIn Profile</a>
+            </h3>
+        </div>
+        <div class="avatar-wrapper">
             <img src="/images/profile.jpg" alt="Pasindu Sandamal">
         </div>
-        </div>
-        
     </div>
 </section>
 
