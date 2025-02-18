@@ -236,51 +236,46 @@ body {
     margin-bottom: 10px;
   }
 
-  .header-grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+  .header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     gap: 20px;
-    align-items: start;
-    padding: 20px 0;
 }
 
 .contact-info {
-    padding-right: 20px;
+    flex: 1;
 }
 
-.contact-info h1 {
-    margin: 0 0 10px 0;
-    font-size: 2em;
+.avatar-container {
+    flex-shrink: 0;
+    width: 200px;
 }
 
-.contact-info h2 {
-    margin: 0 0 8px 0;
-    font-size: 1.3em;
-}
-
-.contact-info h3 {
-    margin: 0 0 5px 0;
-    font-size: 1em;
-}
-
-.avatar-wrapper {
-    justify-self: end;
-}
-
-.avatar-wrapper img {
+.avatar-container img {
     width: 200px;
     height: 200px;
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-@media (max-width: 768px) {
-    .header-grid {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
+.contact-links {
+    border-bottom: 2px solid #f1eeee;
+    margin-top: 7px;
+}
 
-    .avatar-wrapper {
-        justify-self: center;
+.contact-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 768px) {
+    .header-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact-info {
+        text-align: center;
     }
 }
