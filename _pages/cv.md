@@ -23,9 +23,6 @@ redirect_from:
                 <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/">LinkedIn Profile</a>
             </h3>
         </div>
-        <div class="avatar-wrapper">
-            <img src="/images/profile.jpg" alt="Pasindu Sandamal">
-        </div>
     </div>
 </section>
 
