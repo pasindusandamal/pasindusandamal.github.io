@@ -49,7 +49,7 @@ redirect_from:
     <h3>Work Experience</h3>
     <div class="experience-item">
         <p class="experience-title">Trainee Software Engineer<sup>2024 July – 2025 Jan</sup></p>
-        <p style='margin-top:-5px'>BevyLabs</p>
+        <p style='margin-bottom:5px'>BevyLabs</p>
         <ul class="experience-list">
             <li>Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and Gemini API to extract text from images and generate MCQs or essay prompts for improved content interaction.</li>
             <li>Designed and implemented an interactive mobile application aimed at teaching Python programming, incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences for users.</li>
