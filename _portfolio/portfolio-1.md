@@ -1,10 +1,10 @@
 ---
 title: "Lung Cancer Detection Application (Final Year Research Project) "
 subtitle: "Final Year Research Project"
-excerpt: "<p style='text-align:justify; margin:5px;'> Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung cancer stages as normal, malignant, or benign. </p> <div class='image-gallery' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; flex-wrap: nowrap;'>
-    <img src='/images/lung_img_1.jpg' style='width: 250px; height: 200px; object-fit: cover;' >
-    <img src='/images/lung_img_2.jpg' style='width: 250px; height: 200px; object-fit: cover;' >
-    <img src='/images/lung_img_3.jpg' style='width: 250px; height: 200px; object-fit: cover;' ></div>"
+excerpt: "<p style='text-align:justify; margin:5px;'> Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung cancer stages as normal, malignant, or benign. </p> <div class='image-gallery' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; flex-wrap: wrap;'>
+    <img src='/images/lung_img_1.jpg' style='width: 100%; max-width: 250px; height: 200px; object-fit: cover; margin-bottom: 10px;' >
+    <img src='/images/lung_img_2.jpg' style='width: 100%; max-width: 250px; height: 200px; object-fit: cover; margin-bottom: 10px;' >
+    <img src='/images/lung_img_3.jpg' style='width: 100%; max-width: 250px; height: 200px; object-fit: cover; margin-bottom: 10px;' ></div>"
 header:
         
 collection: portfolio
