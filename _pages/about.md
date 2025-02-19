@@ -14,9 +14,9 @@ redirect_from:
 <section class="header">
     <div class="header-grid">
        <div class="contact-info" style="line-height: 1.4; text-align:center;">
-    <h2 style="margin: 0 0 5px 0;border-bottom:none;">Pasindu Sandamal</h2>
-    <h2 style="margin: 0 0 5px 0;border-bottom:none;">Software Engineer</h2>
-    <h3 style="margin: 0 0 5px 0;border-bottom:none;">+94 776768757</h3>
+    <h2 style="margin-bottom: 2px;border-bottom:none;">Pasindu Sandamal</h2>
+    <h2 style="margin-top: 0;;border-bottom:none;">Software Engineer</h2>
+    <h3 style="margin-bottom: 2px;border-bottom:none;">+94 776768757</h3>
     <h4 class="contact-links" style="margin: 0 0 10px 0;">
         <a href="mailto:pkpasindusandamal@gmail.com">pkpasindusandamal@gmail.com</a>
         <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/">LinkedIn Profile</a>
@@ -32,8 +32,8 @@ redirect_from:
     </div>
 </section>
 
-    <section class="profile" style=" border-bottom: 1px solid #ddd;">
-        <h3>Professional Profile</h3>
+    <section class="profile" >
+        <h3 style=" border-bottom: 1px solid #ddd;">Professional Profile</h3>
         <p>I am a motivated and diligent software engineering graduate with a strong sense of responsibility and a proven ability 
         to tackle challenges through effective decision-making, teamwork, and leadership. Passionate about advancing my 
         knowledge while embracing emerging technologies. I am adaptable, eager to learn, and committed to 
