@@ -401,32 +401,59 @@ section {
 
 .masthead {
   &__inner-wrap {
+    display: flex;
+    flex-direction: column;
     padding: 1em;
     max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
-
-    nav {
-      margin-top: 1.5em; /* Add gap between title and navigation */
-      padding-top: 1em; /* Additional padding */
-      border-top: 1px solid #f2f3f3; /* Optional separator line */
-    }
+    margin: 0 auto;
   }
 }
 
 .site-title {
-  margin-bottom: 1em; /* Add space below title */
-  padding-bottom: 0.5em;
+  text-align: left;
+  margin-bottom: 1.5em;
 }
 
-/* Ensure responsive design */
-@media (max-width: 768px) {
-  .masthead {
-    &__inner-wrap {
-      nav {
-        margin-top: 1em;
-        padding-top: 0.5em;
+.greedy-nav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #f2f3f3;
+  padding-top: 1em;
+
+  .visible-links {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    
+    li {
+      flex: none;
+      padding: 0 1.5em;
+      
+      a {
+        text-decoration: none;
+        color: #2c3e50;
+        
+        &:hover {
+          color: #34495e;
+        }
       }
     }
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .masthead__inner-wrap {
+    padding: 0.5em;
+  }
+
+  .site-title {
+    margin-bottom: 1em;
+  }
+
+  .greedy-nav .visible-links li {
+    padding: 0 0.5em;
   }
 }
