@@ -25,12 +25,12 @@ redirect_from:
        <a href="mailto:pkpasindusandamal@gmail.com" class="btn btn-contact" style="text-decoration: none; padding: 6px 18px; border-radius: 5px; background-color: #2c3e50; color: white; font-size: 0.9em;">Contact Me</a>
        <a href="/assets/files/resume.pdf" class="btn btn-download" style="text-decoration: none; padding: 6px 18px; border-radius: 5px; border: 2px solid #2c3e50; color: #2c3e50; font-size: 0.9em;" download>Download CV</a>
    </div>
- </div>
+</div>
 </div>
         <div class="avatar-wrapper">
             <img src="/images/profile/profile 2.jpg" alt="Pasindu Sandamal">
         </div>
-  
+    </div>
 </section>
 
     <section class="profile" >
