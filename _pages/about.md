@@ -25,8 +25,8 @@ redirect_from:
 </div>
 </div>
     <div class="action-buttons" style="margin-top: 5px; display: flex; gap: 20px; justify-content: center;">
-        <a href="mailto:pkpasindusandamal@gmail.com" class="btn btn-contact" style="text-decoration: none; padding: 6px 18px; border-radius: 5px; background-color: #2c3e50; color: white; font-size: 0.9em;">Contact Me</a>
-        <a href="/assets/files/resume.pdf" class="btn btn-download" style="text-decoration: none; padding: 6px 18px; border-radius: 5px; border: 2px solid #2c3e50; color: #2c3e50; font-size: 0.9em;" download>Download CV</a>
+        <a href="mailto:pkpasindusandamal@gmail.com" class="btn btn-contact" style="text-decoration: none; padding: 6px 18px; : 5px; background-color: #2c3e50; color: white; font-size: 0.9em;">Contact Me</a>
+        <a href="/assets/files/resume.pdf" class="btn btn-download" style="text-decoration: none; padding: 6px 18px; : 5px; border: 2px solid #2c3e50; color: #2c3e50; font-size: 0.9em;" download>Download CV</a>
     </div>
     <div style="margin-top: 15px; display: flex; justify-content: center; gap: 20px;">
         <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/" style="color: #2c3e50; font-size: 1.2em;"><i class="fab fa-linkedin"></i></a>
@@ -108,7 +108,7 @@ redirect_from:
     <!-- First Row -->
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
         <!-- Project Card 1 -->
-        <div style="position: relative; height: 200px; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#lung-cancer'">
+        <div style="position: relative; height: 200px; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#lung-cancer'">
             <img src="/images/portfolio/lung_img_1.jpg" alt="Lung Cancer Detection" style="width: 100%; height: 100%; object-fit: cover;">
             <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(44, 62, 80, 0.85); padding: 20px; color: white; opacity: 0; transition: opacity 0.3s; display: flex; flex-direction: column; justify-content: center;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0'">
                 <h4 style="margin: 0 0 10px 0;">Lung Cancer Detection Application</h4>
@@ -118,7 +118,7 @@ redirect_from:
         </div>
 
         <!-- Project Card 2 -->
-        <div style="position: relative; height: 200px; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#task-fusion'">
+        <div style="position: relative; height: 200px; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#task-fusion'">
             <img src="/images/portfolio/Fish Count Img 1.png" alt="Task Fusion" style="width: 100%; height: 100%; object-fit: cover;">
             <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(44, 62, 80, 0.85); padding: 20px; color: white; opacity: 0; transition: opacity 0.3s; display: flex; flex-direction: column; justify-content: center;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0'">
                 <h4 style="margin: 0 0 10px 0;">Task Fusion</h4>
@@ -132,7 +132,7 @@ redirect_from:
     <!-- Second Row -->
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
         <!-- Project Card 3 -->
-        <div style="position: relative; height: 200px; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#project3'">
+        <div style="position: relative; height: 200px; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#project3'">
             <img src="/images/portfolio/Python School 1.png" alt="Project 3" style="width: 100%; height: 100%; object-fit: cover;">
             <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(44, 62, 80, 0.85); padding: 20px; color: white; opacity: 0; transition: opacity 0.3s; display: flex; flex-direction: column; justify-content: center;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0'">
                 <h4 style="margin: 0 0 10px 0;">Project 3</h4>
@@ -142,7 +142,7 @@ redirect_from:
         </div>
 
         <!-- Project Card 4 -->
-        <div style="position: relative; height: 200px; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#project4'">
+        <div style="position: relative; height: 200px; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#project4'">
             <img src="/images/portfolio/image_buddy_img_1.jpg" alt="Project 4" style="width: 100%; height: 100%; object-fit: cover;">
             <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(44, 62, 80, 0.85); padding: 20px; color: white; opacity: 0; transition: opacity 0.3s; display: flex; flex-direction: column; justify-content: center;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0'">
                 <h4 style="margin: 0 0 10px 0;">Project 4</h4>
@@ -154,7 +154,7 @@ redirect_from:
 
     <!-- More Projects Button -->
     <div style="text-align: center; margin-top: 30px;">
-        <a href="/portfolio/" style="display: inline-block; padding: 10px 25px; background-color: #2c3e50; color: white; text-decoration: none; border-radius: 5px; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#34495e'" onmouseout="this.style.backgroundColor='#2c3e50'">
+        <a href="/portfolio/" style="display: inline-block; padding: 10px 25px; background-color: #2c3e50; color: white; text-decoration: none; : 5px; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#34495e'" onmouseout="this.style.backgroundColor='#2c3e50'">
             View More Projects
         </a>
     </div>
@@ -165,7 +165,7 @@ redirect_from:
     
     <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 15px;">
         <!-- News Card 1 -->
-        <div style="display: flex; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); height: 200px; @media (max-width: 768px) { height: auto; flex-direction: column; }">
+        <div style="display: flex; background: #fff; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); height: 200px; @media (max-width: 768px) { height: auto; flex-direction: column; }">
             <div style="flex: 1; min-width: 200px; max-width: 300px; height: 200px; @media (max-width: 768px) { height: 200px; max-width: 100%; }">
                 <img src="/images/profile/profile 2.jpg" alt="Graduation" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
@@ -176,7 +176,7 @@ redirect_from:
         </div>
 
         <!-- News Card 2 -->
-        <div style="display: flex; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); height: 200px; @media (max-width: 768px) { height: auto; flex-direction: column; }">
+        <div style="display: flex; background: #fff; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); height: 200px; @media (max-width: 768px) { height: auto; flex-direction: column; }">
             <div style="flex: 1; min-width: 200px; max-width: 300px; height: 200px; @media (max-width: 768px) { height: 200px; max-width: 100%; }">
                 <img src="/images/task_fusion.jpg" alt="Medium Article" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
@@ -195,7 +195,7 @@ redirect_from:
     
     <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 15px;">
         <!-- Project Card 1 -->
-        <div style="display: flex; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); @media (max-width: 768px) { flex-direction: column; }">
+        <div style="display: flex; background: #fff; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); @media (max-width: 768px) { flex-direction: column; }">
             <div style="flex: 1; min-width: 200px; max-width: 300px; @media (max-width: 768px) { max-width: 100%; }">
                 <img src="/images/lung_cancer_project.jpg" alt="Lung Cancer Detection" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
@@ -207,7 +207,7 @@ redirect_from:
         </div>
 
         <!-- Project Card 2 -->
-        <div style="display: flex; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); @media (max-width: 768px) { flex-direction: column; }">
+        <div style="display: flex; background: #fff; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); @media (max-width: 768px) { flex-direction: column; }">
             <div style="flex: 1; min-width: 200px; max-width: 300px; @media (max-width: 768px) { max-width: 100%; }">
                 <img src="/images/task_fusion.jpg" alt="Task Fusion" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
@@ -221,7 +221,7 @@ redirect_from:
 
     <!-- More Projects Button -->
     <div style="text-align: center; margin-top: 30px;">
-        <a href="/portfolio/" style="display: inline-block; padding: 10px 25px; background-color: #2c3e50; color: white; text-decoration: none; border-radius: 5px; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#34495e'" onmouseout="this.style.backgroundColor='#2c3e50'">
+        <a href="/portfolio/" style="display: inline-block; padding: 10px 25px; background-color: #2c3e50; color: white; text-decoration: none; : 5px; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#34495e'" onmouseout="this.style.backgroundColor='#2c3e50'">
             View More Projects
         </a>
     </div>
@@ -231,37 +231,37 @@ redirect_from:
     <h3 style="border-bottom: 1px solid #ddd;">Areas of Expertise</h3>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0;">
         <!-- Full Stack Development Card -->
-        <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
+        <div style="background: #fff; padding: 20px; : 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
             <i class="fas fa-layer-group" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
             <h4 style="margin: 0; color: #2c3e50;">Full Stack Development</h4>
         </div>
         
         <!-- Mobile App Development Card -->
-        <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
+        <div style="background: #fff; padding: 20px; : 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
             <i class="fas fa-mobile-alt" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
             <h4 style="margin: 0; color: #2c3e50;">Mobile App Development</h4>
         </div>
         
         <!-- Machine Learning Card -->
-        <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
+        <div style="background: #fff; padding: 20px; : 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
             <i class="fas fa-brain" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
             <h4 style="margin: 0; color: #2c3e50;">Machine Learning</h4>
         </div>
         
         <!-- Desktop Application Card -->
-        <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
+        <div style="background: #fff; padding: 20px; : 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
             <i class="fas fa-desktop" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
             <h4 style="margin: 0; color: #2c3e50;">Desktop Application</h4>
         </div>
 
         <!-- Desktop Application Card -->
-        <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
+        <div style="background: #fff; padding: 20px; : 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
             <i class="fas fa-desktop" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
             <h4 style="margin: 0; color: #2c3e50;">Desktop Application</h4>
         </div>
 
         <!-- Desktop Application Card -->
-        <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
+        <div style="background: #fff; padding: 20px; : 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
             <i class="fas fa-desktop" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
             <h4 style="margin: 0; color: #2c3e50;">Desktop Application</h4>
         </div>
