@@ -84,7 +84,7 @@ redirect_from:
         <p style="margin-top: 0; color: #666;">BevyLabs</p>
         <ul class="experience-list" style="list-style-type: none; padding-left: 20px;">
             <li style="position: relative; padding-left: 20px; margin-bottom: 10px;">
-                <span style="position: absolute; left: 0; content: '•'; color: #2c3e50;">•</span>
+                <span style="position: absolute; left: 0;  color: #2c3e50;">•</span>
                 Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and Gemini API to extract text from images and generate MCQs or essay prompts for improved content interaction.
             </li>
             <li style="position: relative; padding-left: 20px; margin-bottom: 10px;">
