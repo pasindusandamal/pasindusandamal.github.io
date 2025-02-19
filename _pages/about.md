@@ -71,6 +71,7 @@ redirect_from:
             </li>
         </ul>
    </div>
+   <br><br>
 
    <div class="experience-item">
         <p class="experience-title" style="margin-bottom: 2px;">Computer Hardware Technician<sup> 2018 Sep - 2019 Jan</sup></p>
