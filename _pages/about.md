@@ -73,19 +73,17 @@ redirect_from:
     <div class="project-item">
         <p class="project-title">• Lung Cancer Detection Application (Final Year Research Project)</p>
         <div class="project-details">
-            <p>Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung 
-            cancer stages as normal, malignant, or benign.</p>
-            <p class="technologies">Technologies: Python, Flask, TensorFlow, Google Colab, HTML, CSS, JS, Image Processing, Machine Learning, Keras</p>
+        <p class="experience-title" style="margin-bottom: 2px;">Description of Task Fusion project...<sup> 2024 July – 2025 Jan</sup></p>
+        <p style="margin-top: 0; color: #666;">Technologies: React.js, HTML, CSS, Node.js, Git, Golang</p>
         </div>
     </div>
     <div class="project-item">
-        <p class="project-title">• Task Fusion</p>
+        <p class="project-title">• Lung Cancer Detection Application (Final Year Research Project)</p>
         <div class="project-details">
-            <p>Description of Task Fusion project...</p>
-            <p class="technologies">Technologies: React.js, HTML, CSS, Node.js, Git, Golang</p>
+        <p class="experience-title" style="margin-bottom: 2px;">Description of Task Fusion project...<sup> 2024 July – 2025 Jan</sup></p>
+        <p style="margin-top: 0; color: #666;">Technologies: React.js, HTML, CSS, Node.js, Git, Golang</p>
         </div>
     </div>
-    <!-- Repeat for other projects -->
     </section>
 
    
@@ -97,8 +95,8 @@ redirect_from:
 
     <section class="achievements">
         <h3>Achievements</h3>
-            <p>Cisco IT Essentials 7.0 <sup>Successfully completed</sup></p>
-            <p>DUOTHEN 3.0 Coding Competition, NSBM Green University <sup>Successfully completed</sup></p>
+            <p class="experience-title" style="margin-bottom: 2px;">Description of Task Fusion project...<sup> 2024 July – 2025 Jan</sup></p>
+            <p style="margin-top: 0; color: #666;">Technologies: React.js, HTML, CSS, Node.js, Git, Golang</p>
     </section>
 
     <section class="links">
