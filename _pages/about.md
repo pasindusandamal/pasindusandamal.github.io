@@ -105,8 +105,8 @@ redirect_from:
 <section class="projects">
     <h3 style="border-bottom: 1px solid #ddd;">Projects</h3>
     
-    <!-- First Row -->
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
+   <!-- First Row -->
+   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
         <!-- Project Card 1 -->
         <div style="position: relative; height: 200px; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#lung-cancer'">
             <img src="/images/portfolio/lung_img_1.jpg" alt="Lung Cancer Detection" style="width: 100%; height: 100%; object-fit: cover;">
@@ -115,10 +115,10 @@ redirect_from:
                 <p style="margin: 0; font-size: 0.9em;">Python-based application using CNN for lung cancer detection</p>
                 <p style="margin-top: 10px; font-size: 0.8em; color: #ddd;">Python, TensorFlow, Flask</p>
             </div>
-        </div>
+      </div>
 
-     <!-- Project Card 2 -->
-        <div style="position: relative; height: 200px; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#task-fusion'">
+   <!-- Project Card 2 -->
+   <div style="position: relative; height: 200px; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#task-fusion'">
             <img src="/images/portfolio/Fish Count Img 1.png" alt="Task Fusion" style="width: 100%; height: 100%; object-fit: cover;">
             <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(44, 62, 80, 0.85); padding: 20px; color: white; opacity: 0; transition: opacity 0.3s; display: flex; flex-direction: column; justify-content: center;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0'">
                 <h4 style="margin: 0 0 10px 0;">Task Fusion</h4>
