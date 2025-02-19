@@ -14,10 +14,10 @@ redirect_from:
 
 <section class="header" style="display: flex; align-items: flex-start; justify-content: space-between; gap: 30px; margin: 20px 0;">
 <div class="contact-info" style="flex: 2; text-align: center;">
-<h2 style="margin: 0 0 8px 0; font-size: 1.5em; border:none;">Pasindu Sandamal</h2>
-<h2 style="margin: 0 0 8px 0; font-size: 1.2em; border:none;">Software Engineer</h2>
-<h3 style="margin: 0 0 8px 0; font-size: 1em; border:none;">+94 776768757</h3>
-<h4 class="contact-links" style="margin: 0 0 8px 0;">
+<h2 style="margin: 0 0 4px 0; font-size: 1.5em; border:none;">Pasindu Sandamal</h2>
+<h2 style="margin: 0 0 4px 0; font-size: 1.2em; border:none;">Software Engineer</h2>
+<h3 style="margin: 0 0 4px 0; font-size: 1em; border:none;">+94 776768757</h3>
+<h4 class="contact-links" style="margin: 0 0 4px 0;">
     <a href="mailto:pkpasindusandamal@gmail.com" style="display: block;">pkpasindusandamal@gmail.com</a>
 </h4>
     <div class="action-buttons" style="margin-top: 5px; display: flex; gap: 10px; justify-content: center;">
