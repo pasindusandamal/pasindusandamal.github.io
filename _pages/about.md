@@ -73,8 +73,65 @@ redirect_from:
         <p style="margin-top: 0; color: #666;">Plymouth University UK</p>    
     </section>
 
-  <section class="projects">
+<section class="projects">
     <h3 style="border-bottom: 1px solid #ddd;">Projects</h3>
+    
+    <!-- First Row -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
+        <!-- Project Card 1 -->
+        <div style="position: relative; height: 200px; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#lung-cancer'">
+            <img src="/images/lung_cancer_project.jpg" alt="Lung Cancer Detection" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(44, 62, 80, 0.85); padding: 20px; color: white; opacity: 0; transition: opacity 0.3s; display: flex; flex-direction: column; justify-content: center;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0'">
+                <h4 style="margin: 0 0 10px 0;">Lung Cancer Detection Application</h4>
+                <p style="margin: 0; font-size: 0.9em;">Python-based application using CNN for lung cancer detection</p>
+                <p style="margin-top: 10px; font-size: 0.8em; color: #ddd;">Python, TensorFlow, Flask</p>
+            </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div style="position: relative; height: 200px; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#task-fusion'">
+            <img src="/images/task_fusion.jpg" alt="Task Fusion" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(44, 62, 80, 0.85); padding: 20px; color: white; opacity: 0; transition: opacity 0.3s; display: flex; flex-direction: column; justify-content: center;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0'">
+                <h4 style="margin: 0 0 10px 0;">Task Fusion</h4>
+                <p style="margin: 0; font-size: 0.9em;">Project management and collaboration platform</p>
+                <p style="margin-top: 10px; font-size: 0.8em; color: #ddd;">React.js, Node.js, Golang</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Second Row -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
+        <!-- Project Card 3 -->
+        <div style="position: relative; height: 200px; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#project3'">
+            <img src="/images/project3.jpg" alt="Project 3" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(44, 62, 80, 0.85); padding: 20px; color: white; opacity: 0; transition: opacity 0.3s; display: flex; flex-direction: column; justify-content: center;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0'">
+                <h4 style="margin: 0 0 10px 0;">Project 3</h4>
+                <p style="margin: 0; font-size: 0.9em;">Description of Project 3</p>
+                <p style="margin-top: 10px; font-size: 0.8em; color: #ddd;">Technologies Used</p>
+            </div>
+        </div>
+
+        <!-- Project Card 4 -->
+        <div style="position: relative; height: 200px; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#project4'">
+            <img src="/images/project4.jpg" alt="Project 4" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(44, 62, 80, 0.85); padding: 20px; color: white; opacity: 0; transition: opacity 0.3s; display: flex; flex-direction: column; justify-content: center;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0'">
+                <h4 style="margin: 0 0 10px 0;">Project 4</h4>
+                <p style="margin: 0; font-size: 0.9em;">Description of Project 4</p>
+                <p style="margin-top: 10px; font-size: 0.8em; color: #ddd;">Technologies Used</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- More Projects Button -->
+    <div style="text-align: center; margin-top: 30px;">
+        <a href="/portfolio/" style="display: inline-block; padding: 10px 25px; background-color: #2c3e50; color: white; text-decoration: none; border-radius: 5px; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#34495e'" onmouseout="this.style.backgroundColor='#2c3e50'">
+            View More Projects
+        </a>
+    </div>
+</section>
+
+      <section class="projects">
+    <h3 style="border-bottom: 1px solid #ddd;">News</h3>
     
     <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 15px;">
         <!-- Project Card 1 -->
