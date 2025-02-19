@@ -189,22 +189,21 @@ redirect_from:
 </section>
   
 
-<section class="publication">
+<section class="news">
     <h3 style="border-bottom: 1px solid #ddd;">Publication</h3>
     
    <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 15px;">
-        <!-- Project Card 1 -->
-        <div style="display: flex; background: #fff; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); @media (max-width: 768px) { flex-direction: column; }">
-            <div style="flex: 1; min-width: 200px; max-width: 300px; @media (max-width: 768px) { max-width: 100%; }">
-                <img src="/images/achievements/publication_img_1.jpg" alt="Lung Cancer Detection" style="width: 100%; height: 100%; object-fit: cover;">
+        <!-- News Card 1 -->
+        <div style="display: flex; background: #fff; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); height: 200px; @media (max-width: 768px) { height: auto; flex-direction: column; }">
+            <div style="flex: 1; min-width: 200px; max-width: 300px; height: 200px; @media (max-width: 768px) { height: 200px; max-width: 100%; }">
+                <img src="/images/achievements/publication_img_1.jpg" alt="Graduation" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
-            <div style="flex: 2; padding: 20px;">
-                <h4 style="margin: 0 0 10px 0; color: #2c3e50;">Lung Cancer Detection Application</h4>
-                <p style="margin: 0 0 10px 0; color: #666; font-size: 0.9em;">Enhacing Lung Cancer Detection Using Custom Convolutional Neural Network </p>
-                <p style="margin: 0; color: #888; font-size: 0.85em;">Technologies: Python, TensorFlow, Flask, OpenCV, CNN</p>
+            <div style="flex: 2; padding: 20px; overflow-y: auto;">
+                <h4 style="margin: 0 0 10px 0; color: #2c3e50;">My Graduation</h4>
+                <p style="margin: 0 0 10px 0; color: #666; font-size: 0.9em;">Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung cancer stages.</p>
             </div>
-     </div>
-   
+    </div>
+  
 </section>
 
    <section class="skills">
