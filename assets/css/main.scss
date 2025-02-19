@@ -332,3 +332,87 @@ section {
   }
 }
 
+/* Navigation Styling */
+.masthead {
+  &__inner-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}
+
+.site-title {
+  text-align: left;
+  margin: 0;
+  padding-left: 1em;
+  font-size: 1.2em;
+  flex: 0 0 auto;
+}
+
+.greedy-nav {
+  flex: 1;
+  background: transparent;
+
+  .visible-links {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      position: relative;
+      display: inline-block;
+      padding: 0 1em;
+      
+      a {
+        display: block;
+        color: #2c3e50;
+        text-decoration: none;
+        padding: 0.5em;
+        font-size: 1em;
+
+        &:hover {
+          color: #34495e;
+        }
+      }
+    }
+  }
+
+  button.greedy-nav__toggle {
+    display: none;
+  }
+
+  .hidden-links {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .greedy-nav {
+    button.greedy-nav__toggle {
+      display: block;
+    }
+
+    .visible-links {
+      display: none;
+      width: 100%;
+      
+      &.js-visible {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      li {
+        display: block;
+        padding: 0.5em 0;
+      }
+    }
+  }
+}
+
