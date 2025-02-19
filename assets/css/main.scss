@@ -329,34 +329,35 @@ section {
   }
 }
 
-.site-title {
-  text-align: left;
-  margin: 0;
-  padding-left: 1em;
-  font-size: 1.2em;
-  flex: 0 0 auto;
-}
-
+// Navigation styles
 .greedy-nav {
-  flex: 1;
   position: relative;
-  display: flex;
-  justify-content: center;
-  
+  min-width: 250px;
+  background: transparent;
+
+  button {
+    display: none; // Hide hamburger button by default
+  }
+
   .visible-links {
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    overflow: visible;
+    margin: 0;
     padding: 0;
-    
+
     li {
-      flex: none;
-      padding: 0 1.5em;
+      position: relative;
+      display: inline-block;
       
       a {
-        text-decoration: none;
+        position: relative;
+        display: block;
         color: #2c3e50;
-        
+        text-decoration: none;
+        padding: 0.5em 1em;
+
         &:hover {
           color: #34495e;
         }
@@ -365,7 +366,59 @@ section {
   }
 
   .hidden-links {
-    display: none; // Hide hamburger by default
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    margin-top: 15px;
+    padding: 5px;
+    border: 1px solid #f2f3f3;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+}
+
+// Mobile styles
+@media screen and (max-width: 768px) {
+  .greedy-nav {
+    button {
+      display: block; // Show hamburger button on mobile
+      margin: 0;
+      padding: 0.5em;
+      border: 0;
+      outline: none;
+      background-color: transparent;
+      cursor: pointer;
+    }
+
+    .visible-links {
+      display: none; // Hide regular links on mobile
+      
+      &.show {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        margin-top: 15px;
+        padding: 5px;
+        border: 1px solid #f2f3f3;
+        border-radius: 4px;
+        background: #fff;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        z-index: 20;
+        
+        li {
+          display: block;
+          border-bottom: 1px solid #f2f3f3;
+          
+          &:last-child {
+            border-bottom: none;
+          }
+        }
+      }
+    }
   }
 }
 
