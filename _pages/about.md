@@ -24,12 +24,12 @@ redirect_from:
     </h4>
 </div>
 </div>
+ <br>
     <div class="action-buttons" style="margin-top: 5px; display: flex; gap: 20px; justify-content: center;">
         <a href="mailto:pkpasindusandamal@gmail.com" class="btn btn-contact" style="text-decoration: none; padding: 6px 18px; : 5px; background-color: #2c3e50; color: white; font-size: 0.9em;">Contact Me</a>
         <a href="/assets/files/resume.pdf" class="btn btn-download" style="text-decoration: none; padding: 6px 18px; : 5px; border: 2px solid #2c3e50; color: #2c3e50; font-size: 0.9em;" download>Download CV</a>
     </div>
-    <br>
-    <div style="margin-top: 15px; display: flex; justify-content: center; gap: 20px;">
+       <div style="margin-top: 15px; display: flex; justify-content: center; gap: 20px;">
         <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/" style="color: #2c3e50; font-size: 1.2em;"><i class="fab fa-linkedin"></i></a>
         <a href="https://github.com/pasindusandamal" style="color: #2c3e50; font-size: 1.2em;"><i class="fab fa-github"></i></a>
         <a href="https://medium.com/@yourusername" style="color: #2c3e50; font-size: 1.2em;"><i class="fab fa-medium"></i></a>
