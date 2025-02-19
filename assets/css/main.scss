@@ -309,17 +309,19 @@ section {
 /* Add this to your existing main.scss file */
 
 .grid__item {
-  margin-left: 3em; /* Increase this value to add more space */
+  margin-left: 2em; /* Adjusted from 3em to 2em */
   margin-bottom: 3em;
   @include breakpoint($large) {
     padding-left: 4em; /* Increase padding for larger screens */
+    margin-left: 8em; /* Match sidebar margin */
   }
 }
 
 .sidebar {
-  margin-right: 5em; /* Increased margin between sidebar and content */
+  margin-right: 8em; /* Increased from 5em to 8em for more spacing */
   @include breakpoint($large) {
     padding-right: 4em; /* Add padding for larger screens */
+    margin-right: 8em; /* Ensure consistent spacing on larger screens */
   }
   
   .author__name {

@@ -190,7 +190,7 @@ redirect_from:
 
    
 
-  <section class="publication">
+<section class="publication">
     <h3 style="border-bottom: 1px solid #ddd;">Publication</h3>
     
      <!-- News Card 2 -->
@@ -204,18 +204,10 @@ redirect_from:
             </div>
         </div>
    </div>
-
- 
-
-   <!-- More Projects Button -->
-   <div style="text-align: center; margin-top: 30px;">
-        <a href="/portfolio/" style="display: inline-block; padding: 10px 25px; background-color: #2c3e50; color: white; text-decoration: none; : 5px; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#34495e'" onmouseout="this.style.backgroundColor='#2c3e50'">
-            View More Projects
-        </a>
-    </div>
+</section>
 
 
-   <section class="skills">
+<section class="skills">
     <h3 style="border-bottom: 1px solid #ddd;">Areas of Expertise</h3>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0;">
         <!-- Full Stack Development Card -->
