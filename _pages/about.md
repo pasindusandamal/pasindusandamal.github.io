@@ -13,21 +13,27 @@ redirect_from:
 <div class="container">
 
 <section class="header" style="display: flex; align-items: flex-start; justify-content: space-between; gap: 30px; margin: 20px 0;">
-    <div class="contact-info" style="flex: 2; text-align: center;">
-        <h2 style="margin: 0; font-size: 1.5em;border:none;">Pasindu Sandamal</h2>
-        <h2 style="margin: 0; font-size: 1.2em;border:none;">Software Engineer</h2>
-        <h3 style="margin: 0; font-size: 1em;border:none;">+94 776768757</h3>
-        <h4 class="contact-links" style="margin: 2px 0;">
-            <a href="mailto:pkpasindusandamal@gmail.com" style="display: block;">pkpasindusandamal@gmail.com</a>
-            <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/">LinkedIn Profile</a>
-        </h4>
-        <div class="action-buttons" style="margin-top: 5px; display: flex; gap: 10px; justify-content: center;">
-            <a href="mailto:pkpasindusandamal@gmail.com" class="btn btn-contact" style="text-decoration: none; padding: 6px 18px; border-radius: 5px; background-color: #2c3e50; color: white; font-size: 0.9em;">Contact Me</a>
-            <a href="/assets/files/resume.pdf" class="btn btn-download" style="text-decoration: none; padding: 6px 18px; border-radius: 5px; border: 2px solid #2c3e50; color: #2c3e50; font-size: 0.9em;" download>Download CV</a>
-        </div>
+<div class="contact-info" style="flex: 2; text-align: center;">
+    <h2 style="margin: 0; font-size: 1.5em;border:none;">Pasindu Sandamal</h2>
+    <h2 style="margin: 0; font-size: 1.2em;border:none;">Software Engineer</h2>
+    <h3 style="margin: 0; font-size: 1em;border:none;">+94 776768757</h3>
+    <h4 class="contact-links" style="margin: 2px 0;">
+        <a href="mailto:pkpasindusandamal@gmail.com" style="display: block;">pkpasindusandamal@gmail.com</a>
+        <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/">LinkedIn Profile</a>
+    </h4>
+    <div class="action-buttons" style="margin-top: 5px; display: flex; gap: 10px; justify-content: center;">
+        <a href="mailto:pkpasindusandamal@gmail.com" class="btn btn-contact" style="text-decoration: none; padding: 6px 18px; border-radius: 5px; background-color: #2c3e50; color: white; font-size: 0.9em;">Contact Me</a>
+        <a href="/assets/files/resume.pdf" class="btn btn-download" style="text-decoration: none; padding: 6px 18px; border-radius: 5px; border: 2px solid #2c3e50; color: #2c3e50; font-size: 0.9em;" download>Download CV</a>
     </div>
+    <div style="margin-top: 15px; display: flex; justify-content: center; gap: 20px;">
+        <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/" style="color: #2c3e50; font-size: 1.2em;"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/pasindusandamal" style="color: #2c3e50; font-size: 1.2em;"><i class="fab fa-github"></i></a>
+        <a href="https://medium.com/@yourusername" style="color: #2c3e50; font-size: 1.2em;"><i class="fab fa-medium"></i></a>
+        <a href="https://www.researchgate.net/profile/Pasindu-Sandamal" style="color: #2c3e50; font-size: 1.2em;"><i class="fab fa-researchgate"></i></a>
+    </div>
+</div>
     <div class="avatar-wrapper" style="flex: 1;">
-        <img src="/images/profile/profile 2.jpg" alt="Pasindu Sandamal" style="height: 300px; width: 200px;">
+        <img src="/images/profile/profile 2.jpg" alt="Pasindu Sandamal" style="height: 250px; width: 200px;">
     </div>
 </section>
 
