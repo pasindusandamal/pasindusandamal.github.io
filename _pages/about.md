@@ -21,7 +21,7 @@ redirect_from:
         <a href="mailto:pkpasindusandamal@gmail.com">pkpasindusandamal@gmail.com</a>
         <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/">LinkedIn Profile</a>
     </h4>
-    <div class="action-buttons" style="margin-top: 10px;">
+    <div class="action-buttons" style="margin-top: 10px; text-align:center;">
         <a href="mailto:pkpasindusandamal@gmail.com" class="btn btn-contact">Contact Me</a>
         <a href="/assets/files/resume.pdf" class="btn btn-download" download>Download CV</a>
     </div>
