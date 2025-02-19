@@ -174,12 +174,9 @@ h1.archive__item-title {
   }
 }
 
-<<<<<<< HEAD
 
 
 
-=======
->>>>>>> d7af3c489fd8b87966ce11dc7e2a050794b8aff9
 /* About Page Styling */
 
 
@@ -315,23 +312,14 @@ section {
 /* Add this to your existing main.scss file */
 
 .grid__item {
-<<<<<<< HEAD
   margin-left: 3em; /* Increase this value to add more space */
   margin-bottom: 3em;
   @include breakpoint($large) {
     padding-left: 4em; /* Increase padding for larger screens */
-=======
-  margin-left: 2em; /* Adjusted from 3em to 2em */
-  margin-bottom: 3em;
-  @include breakpoint($large) {
-    padding-left: 4em; /* Increase padding for larger screens */
-    margin-left: 8em; /* Match sidebar margin */
->>>>>>> d7af3c489fd8b87966ce11dc7e2a050794b8aff9
   }
 }
 
 .sidebar {
-<<<<<<< HEAD
   margin-right: 4em; /* Add margin to the right of sidebar */
   @include breakpoint($large) {
     padding-right: 4em; /* Add padding for larger screens */
@@ -339,33 +327,6 @@ section {
 }
 
 
-=======
-  margin-right: 8em; /* Increased from 5em to 8em for more spacing */
-  @include breakpoint($large) {
-    padding-right: 4em; /* Add padding for larger screens */
-    margin-right: 8em; /* Ensure consistent spacing on larger screens */
-  }
-  
-  .author__name {
-    font-size: 1.3em;  /* Larger name size */
-  }
-  
-  .author__bio {
-    font-size: 1.1em;  /* Larger bio text */
-  }
-  
-  .author__urls-wrapper {
-    .author__urls {
-      font-size: 1em;  /* Larger links text */
-      
-      li {
-        padding: 0.5em 0;  /* Add spacing between links */
-      }
-    }
-  }
-}
-
->>>>>>> d7af3c489fd8b87966ce11dc7e2a050794b8aff9
 /* Ensure proper spacing on mobile */
 @media (max-width: 768px) {
   .grid__item {
@@ -404,20 +365,11 @@ section {
     
     li {
       flex: none;
-<<<<<<< HEAD
       padding: 0 1.5em;
-=======
-      padding: 0 2em;  /* Increased padding between nav items */
->>>>>>> d7af3c489fd8b87966ce11dc7e2a050794b8aff9
       
       a {
         text-decoration: none;
         color: #2c3e50;
-<<<<<<< HEAD
-=======
-        font-size: 1.1em;  /* Slightly larger font size */
-        font-weight: 500;
->>>>>>> d7af3c489fd8b87966ce11dc7e2a050794b8aff9
         
         &:hover {
           color: #34495e;
@@ -427,23 +379,6 @@ section {
   }
 }
 
-<<<<<<< HEAD
-=======
-/* Footer Styling */
-.page__footer {
-  text-align: center;
-  padding: 2em 0;
-  
-  .page__footer-copyright {
-    font-size: 0.9em;
-    
-    p {
-      margin: 0;
-    }
-  }
-}
-
->>>>>>> d7af3c489fd8b87966ce11dc7e2a050794b8aff9
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .masthead__inner-wrap {
