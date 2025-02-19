@@ -1,14 +1,14 @@
 ---
-title: "Lung Cancer Detection Application"
-subtitle: "Final Year Research Project"
+title: "IOT Based Smart Garden System"
+subtitle: "IOT Based Smart Garden System"
 excerpt: |
   <div class="portfolio-excerpt">
-    <p class="project-description">Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung cancer stages as normal, malignant, or benign.</p>
+    <p class="project-description">Developed IOT Based Smart Garden System</p>
     
     <div class="responsive-image-gallery">
-      <img src="/images/lung_img_1.jpg" alt="Lung cancer detection interface" class="gallery-image">
-      <img src="/images/lung_img_2.jpg" alt="CT scan analysis results" class="gallery-image">
-      <img src="/images/lung_img_3.jpg" alt="Machine learning visualization" class="gallery-image">
+      <img src="/images/portfolio/IOT 1.jpeg" alt="Lung cancer detection interface" class="gallery-image">
+      <img src="/images/portfolio/IOT 2.jpeg" alt="CT scan analysis results" class="gallery-image">
+      <img src="/images/portfolio/IOT 3.jpeg" alt="Machine learning visualization" class="gallery-image">
     </div>
   </div>
 header:
@@ -18,17 +18,17 @@ header:
 <div class="portfolio-content">
   <section class="overview">
     <h2>Project Overview</h2>
-    <p>A state-of-art system for early lung cancer detection using advanced machine learning algorithms and CT scan analysis.</p>
+    <p>Developed IOT Based Smart Garden System</p>
   </section>
   
   <section class="technical-details">
     <h2>Technologies</h2>
-    <p>Technologies: Python, Flask, TensorFlow, Google Colab, HTML, CSS, JS, Image Processing, Machine Learning, Keras</p>
+    <p>Technologies: Firebase, C++, Arduino</p>
   </section>
   
   <div class="responsive-image-gallery">
-    <img src="/images/lung_img_1.jpg" alt="Lung cancer detection interface" class="gallery-image">
-    <img src="/images/lung_img_2.jpg" alt="CT scan analysis results" class="gallery-image">
-    <img src="/images/lung_img_3.jpg" alt="Machine learning visualization" class="gallery-image">
+     <img src="/images/portfolio/IOT 1.jpeg" alt="Lung cancer detection interface" class="gallery-image">
+     <img src="/images/portfolio/IOT 2.jpeg" alt="CT scan analysis results" class="gallery-image">
+     <img src="/images/portfolio/IOT 3.jpeg" alt="Machine learning visualization" class="gallery-image">
   </div>
 </div>

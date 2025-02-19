@@ -6,9 +6,9 @@ excerpt: |
     <p class="project-description">Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung cancer stages as normal, malignant, or benign.</p>
     
     <div class="responsive-image-gallery">
-      <img src="/images/lung_img_1.jpg" alt="Lung cancer detection interface" class="gallery-image">
-      <img src="/images/lung_img_2.jpg" alt="CT scan analysis results" class="gallery-image">
-      <img src="/images/lung_img_3.jpg" alt="Machine learning visualization" class="gallery-image">
+      <img src="/images/portfolio/lung_img_1.jpg" alt="Lung cancer detection interface" class="gallery-image">
+      <img src="/images/portfolio/lung_img_2.jpg" alt="CT scan analysis results" class="gallery-image">
+      <img src="/images/portfolio/lung_img_3.jpg" alt="Machine learning visualization" class="gallery-image">
     </div>
   </div>
 header:
@@ -27,8 +27,8 @@ header:
   </section>
   
   <div class="responsive-image-gallery">
-    <img src="/images/lung_img_1.jpg" alt="Lung cancer detection interface" class="gallery-image">
-    <img src="/images/lung_img_2.jpg" alt="CT scan analysis results" class="gallery-image">
-    <img src="/images/lung_img_3.jpg" alt="Machine learning visualization" class="gallery-image">
+    <img src="/images/portfolio/lung_img_1.jpg" alt="Lung cancer detection interface" class="gallery-image">
+    <img src="/images/portfolio/lung_img_2.jpg" alt="CT scan analysis results" class="gallery-image">
+    <img src="/images/portfolio/lung_img_3.jpg" alt="Machine learning visualization" class="gallery-image">
   </div>
 </div>

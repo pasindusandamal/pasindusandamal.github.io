@@ -1,14 +1,14 @@
 ---
-title: "Lung Cancer Detection Application"
-subtitle: "Final Year Research Project"
+title: "AES Vault"
+subtitle: "AES Vault"
 excerpt: |
   <div class="portfolio-excerpt">
-    <p class="project-description">Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung cancer stages as normal, malignant, or benign.</p>
+    <p class="project-description">Developed a Python-based application to encrypt and dycrypt files.</p>
     
     <div class="responsive-image-gallery">
-      <img src="/images/lung_img_1.jpg" alt="Lung cancer detection interface" class="gallery-image">
-      <img src="/images/lung_img_2.jpg" alt="CT scan analysis results" class="gallery-image">
-      <img src="/images/lung_img_3.jpg" alt="Machine learning visualization" class="gallery-image">
+      <img src="/images/portfolio/AES Vault 1.jpg" alt="Lung cancer detection interface" class="gallery-image">
+      <img src="/images/portfolio/AES Vault 2.jpg" alt="CT scan analysis results" class="gallery-image">
+      <img src="/images/portfolio/AES Vault 3.jpg" alt="Machine learning visualization" class="gallery-image">
     </div>
   </div>
 header:
@@ -18,17 +18,17 @@ header:
 <div class="portfolio-content">
   <section class="overview">
     <h2>Project Overview</h2>
-    <p>A state-of-art system for early lung cancer detection using advanced machine learning algorithms and CT scan analysis.</p>
+    <p>Developed a Python-based application to encrypt and dycrypt files.</p>
   </section>
   
   <section class="technical-details">
     <h2>Technologies</h2>
-    <p>Technologies: Python, Flask, TensorFlow, Google Colab, HTML, CSS, JS, Image Processing, Machine Learning, Keras</p>
+    <p>Technologies: Python, Flask, HTML, CSS, JS</p>
   </section>
   
   <div class="responsive-image-gallery">
-    <img src="/images/lung_img_1.jpg" alt="Lung cancer detection interface" class="gallery-image">
-    <img src="/images/lung_img_2.jpg" alt="CT scan analysis results" class="gallery-image">
-    <img src="/images/lung_img_3.jpg" alt="Machine learning visualization" class="gallery-image">
+     <img src="/images/portfolio/AES Vault 1.jpg" alt="Lung cancer detection interface" class="gallery-image">
+      <img src="/images/portfolio/AES Vault 2.jpg" alt="CT scan analysis results" class="gallery-image">
+      <img src="/images/portfolio/AES Vault 3.jpg" alt="Machine learning visualization" class="gallery-image">
   </div>
 </div>

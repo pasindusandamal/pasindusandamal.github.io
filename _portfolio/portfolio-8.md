@@ -1,14 +1,14 @@
 ---
-title: "Lung Cancer Detection Application"
-subtitle: "Final Year Research Project"
+title: "Python Blog Generator"
+subtitle: "Python Blog Generator"
 excerpt: |
   <div class="portfolio-excerpt">
-    <p class="project-description">Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung cancer stages as normal, malignant, or benign.</p>
+    <p class="project-description">Designed a mobile application that generate python related news using ollama.</p>
     
     <div class="responsive-image-gallery">
-      <img src="/images/lung_img_1.jpg" alt="Lung cancer detection interface" class="gallery-image">
-      <img src="/images/lung_img_2.jpg" alt="CT scan analysis results" class="gallery-image">
-      <img src="/images/lung_img_3.jpg" alt="Machine learning visualization" class="gallery-image">
+      <img src="/images/portfolio/Ollama Python 1.jpg" alt="Lung cancer detection interface" class="gallery-image">
+      <img src="/images/portfolio/Ollama Python 2.jpg" alt="CT scan analysis results" class="gallery-image">
+      <img src="/images/portfolio/Ollama Python 3.jpg" alt="Machine learning visualization" class="gallery-image">
     </div>
   </div>
 header:
@@ -18,7 +18,7 @@ header:
 <div class="portfolio-content">
   <section class="overview">
     <h2>Project Overview</h2>
-    <p>A state-of-art system for early lung cancer detection using advanced machine learning algorithms and CT scan analysis.</p>
+    <p>Designed a mobile application that generate python related news using ollama.</p>
   </section>
   
   <section class="technical-details">
@@ -27,8 +27,8 @@ header:
   </section>
   
   <div class="responsive-image-gallery">
-    <img src="/images/lung_img_1.jpg" alt="Lung cancer detection interface" class="gallery-image">
-    <img src="/images/lung_img_2.jpg" alt="CT scan analysis results" class="gallery-image">
-    <img src="/images/lung_img_3.jpg" alt="Machine learning visualization" class="gallery-image">
+    <img src="/images/portfolio/Ollama Python 1.jpg" alt="Lung cancer detection interface" class="gallery-image">
+    <img src="/images/portfolio/Ollama Python 2.jpg" alt="CT scan analysis results" class="gallery-image">
+    <img src="/images/portfolio/Ollama Python 3.jpg" alt="Machine learning visualization" class="gallery-image">
   </div>
 </div>
