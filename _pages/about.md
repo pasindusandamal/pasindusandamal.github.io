@@ -30,7 +30,7 @@ redirect_from:
         <div class="avatar-wrapper">
             <img src="/images/profile/profile 2.jpg" alt="Pasindu Sandamal">
         </div>
-    </div>
+    
 </section>
 
     <section class="profile" >
