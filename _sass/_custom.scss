@@ -1,0 +1,15 @@
+.page {
+  padding-left: 2rem;  // Adds space between sidebar and content
+  
+  @media screen and (max-width: $small) {
+    padding-left: 0;  // Removes padding on mobile screens
+  }
+}
+
+.sidebar {
+  margin-right: 2rem;  // Adds space on the right side of sidebar
+  
+  @media screen and (max-width: $small) {
+    margin-right: 0;  // Removes margin on mobile screens
+  }
+}
