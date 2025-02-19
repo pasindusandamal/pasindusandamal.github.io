@@ -174,9 +174,6 @@ h1.archive__item-title {
   }
 }
 
-
-
-
 /* About Page Styling */
 
 
@@ -338,7 +335,9 @@ section {
 .masthead {
   &__inner-wrap {
     display: flex;
-    flex-direction: column;
+    flex-direction: row; // Changed to row
+    justify-content: space-between;
+    align-items: center;
     padding: 1em;
     max-width: 1280px;
     margin: 0 auto;
@@ -347,49 +346,72 @@ section {
 
 .site-title {
   text-align: left;
-  margin-bottom: 1.5em;
+  margin: 0;
+  padding-left: 1em;
+  font-size: 1.2em;
+  flex: 0 0 auto;
 }
 
 .greedy-nav {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  border-top: 1px solid #f2f3f3;
-  padding-top: 1em;
+  flex: 1;
+  background: transparent;
 
   .visible-links {
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-    
+    list-style: none; // Add this
+
     li {
-      flex: none;
-      padding: 0 1.5em;
+      position: relative;
+      display: inline-block;
+      padding: 0 1em;
       
       a {
-        text-decoration: none;
+        display: block;
         color: #2c3e50;
-        
+        text-decoration: none;
+        padding: 0.5em;
+        font-size: 1em;
+
         &:hover {
           color: #34495e;
         }
       }
     }
   }
+
+  button.greedy-nav__toggle {
+    display: none; // Hide hamburger by default
+  }
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .masthead__inner-wrap {
-    padding: 0.5em;
+    flex-wrap: wrap;
   }
 
-  .site-title {
-    margin-bottom: 1em;
-  }
+  .greedy-nav {
+    button.greedy-nav__toggle {
+      display: block; // Show hamburger on mobile
+    }
 
-  .greedy-nav .visible-links li {
-    padding: 0 0.5em;
+    .visible-links {
+      display: none;
+      width: 100%;
+      
+      &.visible {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      li {
+        display: block;
+        padding: 0.5em 0;
+      }
+    }
   }
 }
