@@ -41,34 +41,27 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
-/* Add this to your existing main.scss file */
-
-.grid__item {
-  margin-left: 3em; /* Increase this value to add more space */
-  @include breakpoint($large) {
-    padding-left: 4em; /* Increase padding for larger screens */
-  }
+// Add these custom styles at the end of the file
+.page {
+    padding-left: 4em;  // Increase this value for a larger gap
+    
+    @media (max-width: 768px) {
+        padding-left: 1em;
+    }
 }
 
-.sidebar {
-  margin-right: 2em; /* Add margin to the right of sidebar */
-  @include breakpoint($large) {
-    padding-right: 2em; /* Add padding for larger screens */
-  }
+.archive {
+    padding-left: 4em;  // Increase this value for a larger gap
+    
+    @media (max-width: 768px) {
+        padding-left: 1em;
+    }
 }
 
-/* If the above doesn't work, try this alternative approach */
-.grid {
-  display: grid;
-  grid-template-columns: minmax(200px, 1fr) 3fr; /* Adjust the ratio */
-  gap: 3em; /* Increase this value to add more space between sidebar and content */
-  padding: 0 1em;
-}
-
-/* Ensure proper spacing on mobile */
-@media (max-width: 768px) {
-  .grid__item {
-    margin-left: 0;
-    padding: 0 1em;
-  }
+.layout--single {
+    padding-left: 4em;  // Increase this value for a larger gap
+    
+    @media (max-width: 768px) {
+        padding-left: 1em;
+    }
 }
