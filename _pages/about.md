@@ -16,7 +16,7 @@ redirect_from:
 <div class="contact-info" style="flex: 2; text-align: center;">
 <div class="contact-info" style="flex: 2; text-align: center; line-height: 1;">
    <div class="contact-info" style="flex: 2; text-align: center; line-height: 1;">
-    <h2 style="margin: 0 0 3px 0; font-size: 1.6em; border:none; padding: 0;">Pasindu Sandamal</h2>
+    <h2 style="margin: 0 0 3px 0; font-size: 1.7em; border:none; padding: 0;">Pasindu Sandamal</h2>
     <h2 style="margin: 0 0 3px 0; font-size: 1.4em; border:none; padding: 0;">Software Engineer</h2>
     <h3 style="margin: 0 0 3px 0; font-size: 1.2em; border:none; padding: 0;">+94 776768757</h3>
     <h4 class="contact-links" style="margin: 0 0 3px 0; padding: 0;">
@@ -48,22 +48,57 @@ redirect_from:
         leveraging my skills to contribute to organizational growth and success.</p>
     </section>
 
-    <section class="skills" >
-        <h3 style=" border-bottom: 1px solid #ddd;">Areas of Expertise</h3>
-        <p>Full Stack Development | Mobile App Development | Machine Learning | Desktop Application</p>
-    </section>
+<section class="skills">
+    <h3 style="border-bottom: 1px solid #ddd;">Areas of Expertise</h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0;">
+        <!-- Full Stack Development Card -->
+        <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
+            <i class="fas fa-layer-group" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
+            <h4 style="margin: 0; color: #2c3e50;">Full Stack Development</h4>
+        </div>
+        
+        <!-- Mobile App Development Card -->
+        <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
+            <i class="fas fa-mobile-alt" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
+            <h4 style="margin: 0; color: #2c3e50;">Mobile App Development</h4>
+        </div>
+        
+        <!-- Machine Learning Card -->
+        <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
+            <i class="fas fa-brain" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
+            <h4 style="margin: 0; color: #2c3e50;">Machine Learning</h4>
+        </div>
+        
+        <!-- Desktop Application Card -->
+        <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
+            <i class="fas fa-desktop" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
+            <h4 style="margin: 0; color: #2c3e50;">Desktop Application</h4>
+        </div>
+    </div>
+</section>
 
-    
-  <section class="experience">
-    <h3 style=" border-bottom: 1px solid #ddd;">Work Experience</h3>
+<section class="experience">
+    <h3 style="border-bottom: 1px solid #ddd;">Work Experience</h3>
     <div class="experience-item">
         <p class="experience-title" style="margin-bottom: 2px;">Trainee Software Engineer<sup> 2024 July – 2025 Jan</sup></p>
         <p style="margin-top: 0; color: #666;">BevyLabs</p>
-        <ul class="experience-list">
-            <li>Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and Gemini API to extract text from images and generate MCQs or essay prompts for improved content interaction.</li>
-            <li>Designed and implemented an interactive mobile application aimed at teaching Python programming, incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences for users.</li>
-            <li>Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using Tkinter to allow users to upload images and get a count of detected shrimps.</li>
-            <li>Redesigned the user interface of a mobile application aimed at teaching Python programming in the Sinhala language.</li>
+        <ul class="experience-list" style="list-style-type: none; padding-left: 20px;">
+            <li style="position: relative; padding-left: 20px; margin-bottom: 10px;">
+                <span style="position: absolute; left: 0; content: '•'; color: #2c3e50;">•</span>
+                Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and Gemini API to extract text from images and generate MCQs or essay prompts for improved content interaction.
+            </li>
+            <li style="position: relative; padding-left: 20px; margin-bottom: 10px;">
+                <span style="position: absolute; left: 0; content: '•'; color: #2c3e50;">•</span>
+                Designed and implemented an interactive mobile application aimed at teaching Python programming, incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences for users.
+            </li>
+            <li style="position: relative; padding-left: 20px; margin-bottom: 10px;">
+                <span style="position: absolute; left: 0; content: '•'; color: #2c3e50;">•</span>
+                Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using Tkinter to allow users to upload images and get a count of detected shrimps.
+            </li>
+            <li style="position: relative; padding-left: 20px; margin-bottom: 10px;">
+                <span style="position: absolute; left: 0; content: '•'; color: #2c3e50;">•</span>
+                Redesigned the user interface of a mobile application aimed at teaching Python programming in the Sinhala language.
+            </li>
         </ul>
     </div>
 </section>
@@ -166,8 +201,16 @@ redirect_from:
    
 
     <section class="publications">
-        <h3 style=" border-bottom: 1px solid #ddd;">Publications</h3>
-        <p>Enhancing Lung Cancer Diagnosis with Custom-Designed Convolutional Neural Network</p>
+       <div style="display: flex; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); @media (max-width: 768px) { flex-direction: column; }">
+            <div style="flex: 1; min-width: 200px; max-width: 300px; @media (max-width: 768px) { max-width: 100%; }">
+                <img src="/images/task_fusion.jpg" alt="Task Fusion" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div style="flex: 2; padding: 20px;">
+                <h4 style="margin: 0 0 10px 0; color: #2c3e50;">Task Fusion</h4>
+                <p style="margin: 0 0 10px 0; color: #666; font-size: 0.9em;">Description of Task Fusion project...</p>
+                <p style="margin: 0; color: #888; font-size: 0.85em;">Technologies: React.js, HTML, CSS, Node.js, Git, Golang</p>
+            </div>
+        </div>
     </section>
 
     <section class="achievements">
