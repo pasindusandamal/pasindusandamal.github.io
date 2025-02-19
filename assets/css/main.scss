@@ -1,9 +1,4 @@
----
-
----
-
-
-
+--- ---
 /*
 
  * This file controls what is imported from /_sass
@@ -18,67 +13,65 @@
 
 
 
-@import 
-
-    "vendor/breakpoint/breakpoint",
+@import "vendor/breakpoint/breakpoint",
 
 
 
-    "themes",
+"themes",
 
-    "theme/{{ site.site_theme | default: 'default' }}",
-
-
-
-    "include/mixins",
-
-    "vendor/susy/susy",
+"theme/{{ site.site_theme | default: 'default' }}",
 
 
 
-    "layout/reset",
+"include/mixins",
 
-    "layout/base",
-
-
-
-    "include/utilities",
-
-    "layout/tables",
-
-    "layout/buttons",
-
-    "layout/notices",
-
-    "layout/masthead",
-
-    "layout/navigation",
-
-    "layout/footer",
-
-    "syntax",
+"vendor/susy/susy",
 
 
 
-    "layout/forms",
+"layout/reset",
+
+"layout/base",
 
 
 
-    "layout/page",
+"include/utilities",
 
-    "layout/archive",
+"layout/tables",
 
-    "layout/sidebar",
+"layout/buttons",
 
-    
+"layout/notices",
 
-    "vendor/font-awesome/fontawesome",
+"layout/masthead",
 
-    "vendor/font-awesome/solid",
+"layout/navigation",
 
-    "vendor/font-awesome/brands",
+"layout/footer",
 
-    "vendor/magnific-popup/magnific-popup"
+"syntax",
+
+
+
+"layout/forms",
+
+
+
+"layout/page",
+
+"layout/archive",
+
+"layout/sidebar",
+
+
+
+"vendor/font-awesome/fontawesome",
+
+"vendor/font-awesome/solid",
+
+"vendor/font-awesome/brands",
+
+"vendor/magnific-popup/magnific-popup"
 
 ;
 
@@ -150,7 +143,7 @@
 
   transform: scale(1.1);
 
-  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 
   z-index: 1;
 
@@ -176,7 +169,7 @@ h1.archive__item-title {
 
   border-bottom: 1px solid #ddd;
 
-  
+
 
 }
 
@@ -292,7 +285,7 @@ h1.archive__item-title {
 
   height: 100%;
 
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
 
   transition: background-color 0.3s ease;
 
@@ -302,7 +295,7 @@ h1.archive__item-title {
 
 .gallery-image:hover::after {
 
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 
 }
 
@@ -318,7 +311,7 @@ h1.archive__item-title {
 
   }
 
-  
+
 
   .gallery-image {
 
@@ -338,7 +331,7 @@ h1.archive__item-title {
 
   }
 
-  
+
 
   .gallery-image {
 
@@ -364,11 +357,11 @@ h1.archive__item-title {
 
   grid-template-columns: 2fr 1fr;
 
- 
+
 
   align-items: center;
 
- 
+
 
 }
 
@@ -378,9 +371,9 @@ h1.archive__item-title {
 
 .contact-links {
 
- 
 
-  
+
+
 
   a {
 
@@ -388,9 +381,9 @@ h1.archive__item-title {
 
     text-decoration: none;
 
-    
 
-    
+
+
 
     &:hover {
 
@@ -414,7 +407,7 @@ h1.archive__item-title {
 
   margin-top: 1.5rem;
 
-  
+
 
   .btn {
 
@@ -426,7 +419,7 @@ h1.archive__item-title {
 
     transition: all 0.3s ease;
 
-    
+
 
     &.btn-contact {
 
@@ -434,7 +427,7 @@ h1.archive__item-title {
 
       color: white;
 
-      
+
 
       &:hover {
 
@@ -446,7 +439,7 @@ h1.archive__item-title {
 
     }
 
-    
+
 
     &.btn-download {
 
@@ -454,7 +447,7 @@ h1.archive__item-title {
 
       color: #2c3e50;
 
-      
+
 
       &:hover {
 
@@ -480,9 +473,9 @@ h1.archive__item-title {
 
     margin-top: 0;
 
-    margin-left:25px;
+    margin-left: 25px;
 
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
   }
 
@@ -496,17 +489,17 @@ section {
 
   margin-bottom: 2rem;
 
-  
+
 
   h3 {
 
     color: #2c3e50;
 
-   
 
 
 
-   
+
+
 
   }
 
@@ -516,13 +509,13 @@ section {
 
     border-bottom: 2px solid #eee;
 
-    
 
-   
+
+
 
   }
 
-  
+
 
   p {
 
@@ -566,7 +559,7 @@ section {
 
   color: #7f8c8d;
 
- 
+
 
 }
 
@@ -584,7 +577,7 @@ section {
 
   }
 
-  
+
 
   .action-buttons {
 
@@ -592,7 +585,7 @@ section {
 
   }
 
-  
+
 
   .avatar-wrapper {
 
@@ -602,7 +595,7 @@ section {
 
   }
 
-  
+
 
   .project-details {
 
