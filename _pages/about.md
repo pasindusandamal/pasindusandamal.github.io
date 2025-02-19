@@ -73,23 +73,35 @@ redirect_from:
         <p style="margin-top: 0; color: #666;">Plymouth University UK</p>    
     </section>
 
-    <section class="projects">
-    <h3 style=" border-bottom: 1px solid #ddd;">Projects</h3>
-    <div class="project-item">
-        <p class="project-title">• Lung Cancer Detection Application (Final Year Research Project)</p>
-        <div class="project-details">
-        <p class="experience-title" style="margin-bottom: 2px;">Description of Task Fusion project...<sup> 2024 July – 2025 Jan</sup></p>
-        <p style="margin-top: 0; color: #666;">Technologies: React.js, HTML, CSS, Node.js, Git, Golang</p>
+  <section class="projects">
+    <h3 style="border-bottom: 1px solid #ddd;">Projects</h3>
+    
+    <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 15px;">
+        <!-- Project Card 1 -->
+        <div style="display: flex; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); @media (max-width: 768px) { flex-direction: column; }">
+            <div style="flex: 1; min-width: 200px; max-width: 300px; @media (max-width: 768px) { max-width: 100%; }">
+                <img src="/images/lung_cancer_project.jpg" alt="Lung Cancer Detection" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div style="flex: 2; padding: 20px;">
+                <h4 style="margin: 0 0 10px 0; color: #2c3e50;">Lung Cancer Detection Application</h4>
+                <p style="margin: 0 0 10px 0; color: #666; font-size: 0.9em;">Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung cancer stages.</p>
+                <p style="margin: 0; color: #888; font-size: 0.85em;">Technologies: Python, TensorFlow, Flask, OpenCV, CNN</p>
+            </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div style="display: flex; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); @media (max-width: 768px) { flex-direction: column; }">
+            <div style="flex: 1; min-width: 200px; max-width: 300px; @media (max-width: 768px) { max-width: 100%; }">
+                <img src="/images/task_fusion.jpg" alt="Task Fusion" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div style="flex: 2; padding: 20px;">
+                <h4 style="margin: 0 0 10px 0; color: #2c3e50;">Task Fusion</h4>
+                <p style="margin: 0 0 10px 0; color: #666; font-size: 0.9em;">Description of Task Fusion project...</p>
+                <p style="margin: 0; color: #888; font-size: 0.85em;">Technologies: React.js, HTML, CSS, Node.js, Git, Golang</p>
+            </div>
         </div>
     </div>
-    <div class="project-item">
-        <p class="project-title">• Lung Cancer Detection Application (Final Year Research Project)</p>
-        <div class="project-details">
-        <p class="experience-title" style="margin-bottom: 2px;">Description of Task Fusion project...<sup> 2024 July – 2025 Jan</sup></p>
-        <p style="margin-top: 0; color: #666;">Technologies: React.js, HTML, CSS, Node.js, Git, Golang</p>
-        </div>
-    </div>
-    </section>
+</section>
 
    
 
