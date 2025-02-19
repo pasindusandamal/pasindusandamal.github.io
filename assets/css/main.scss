@@ -174,19 +174,29 @@ h1.archive__item-title {
   }
 }
 
+
+
+
 /* About Page Styling */
+
 
 /* Header Section */
 .header-grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
+ 
   align-items: center;
+ 
 }
 
+
 .contact-links {
+ 
+  
   a {
     color: #3498db;
     text-decoration: none;
+    
     
     &:hover {
       color: #111213;
@@ -243,10 +253,15 @@ section {
   
   h3 {
     color: #2c3e50;
+   
+
+   
   }
   h4 {
     color: #2c3e50;
     border-bottom: 2px solid #eee;
+    
+   
   }
   
   p {
@@ -255,6 +270,7 @@ section {
     text-align: justify;
   }
 }
+
 
 /* Project Section */
 .project-title {
@@ -269,6 +285,7 @@ section {
 
 .technologies {
   color: #7f8c8d;
+ 
 }
 
 /* Responsive Design */
@@ -309,6 +326,7 @@ section {
   }
 }
 
+
 /* Ensure proper spacing on mobile */
 @media (max-width: 768px) {
   .grid__item {
@@ -320,9 +338,7 @@ section {
 .masthead {
   &__inner-wrap {
     display: flex;
-    flex-direction: row; // Changed to row
-    justify-content: space-between; // Added space between
-    align-items: center; // Center align items vertically
+    flex-direction: column;
     padding: 1em;
     max-width: 1280px;
     margin: 0 auto;
@@ -331,19 +347,15 @@ section {
 
 .site-title {
   text-align: left;
-  margin: 0; // Removed bottom margin
-  padding-left: 1em;  // Add this line for some padding
-  font-size: 1.2em;   // Adjust size as needed
-  flex: 0 0 auto; // Prevent title from growing
+  margin-bottom: 1.5em;
 }
 
 .greedy-nav {
-  flex: 1; // Take remaining space
   position: relative;
   display: flex;
   justify-content: center;
-  padding-top: 0; // Removed top padding
-  border: none; // Removed border
+  border-top: 1px solid #f2f3f3;
+  padding-top: 1em;
 
   .visible-links {
     display: flex;
@@ -370,55 +382,15 @@ section {
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .masthead__inner-wrap {
-    flex-direction: row; // Keep row layout
     padding: 0.5em;
   }
 
   .site-title {
-    padding-left: 0.5em;
     margin-bottom: 1em;
   }
 
   .greedy-nav .visible-links li {
     padding: 0 0.5em;
-  }
-
-  .greedy-nav {
-    .visible-links {
-      display: none; // Hide links only on mobile
-    }
-    
-    .hidden-links {
-      display: block; // Show hamburger menu on mobile
-    }
-  }
-}
-
-/* Publication styling */
-.publication__title {
-  margin: 0 0 5px 0;
-  font-size: 1.2em;
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-.publication__venue {
-  margin: 0 0 10px 0;
-  font-size: 0.9em;
-  color: #666;
-}
-
-.publication__links {
-  margin-top: 10px;
-  
-  a {
-    color: #2c3e50;
-    text-decoration: none;
-    margin-right: 15px;
-    
-    &:hover {
-      text-decoration: underline;
-    }
   }
 }
 
