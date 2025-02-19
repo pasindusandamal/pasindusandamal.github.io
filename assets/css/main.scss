@@ -342,3 +342,59 @@ section {
     padding: 0 1em;
   }
 }
+
+/* Add this after your existing navigation styles */
+.greedy-nav {
+  display: flex;
+  justify-content: center;
+  
+  .visible-links {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    
+    li {
+      flex: none; // Remove flex growth
+      padding: 0 1em; // Add some spacing between items
+      
+      a {
+        text-decoration: none;
+        color: #2c3e50;
+        
+        &:hover {
+          color: #34495e;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .hidden-links {
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  .search-toggle {
+    position: absolute;
+    right: 0;
+  }
+}
+
+/* Ensure responsive behavior */
+@media (max-width: 768px) {
+  .greedy-nav {
+    .visible-links {
+      justify-content: flex-start;
+      
+      li {
+        padding: 0 0.5em;
+      }
+    }
+    
+    .hidden-links {
+      right: 2em;
+      transform: none;
+    }
+  }
+}
