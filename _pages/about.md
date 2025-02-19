@@ -16,7 +16,7 @@ redirect_from:
 <div class="contact-info" style="flex: 2; text-align: center;">
 <div class="contact-info" style="flex: 2; text-align: center; line-height: 1;">
    <div class="contact-info" style="flex: 2; text-align: center; line-height: 1;">
-    <h2 style="margin: 0 0 3px 0; font-size: 1.7em; border:none; padding: 0;">Pasindu Sandamal</h2>
+    <h2 style="margin: 0 0 3px 0; font-size: 1.10em; border:none; padding: 0;">Pasindu Sandamal</h2>
     <h2 style="margin: 0 0 3px 0; font-size: 1.4em; border:none; padding: 0;">Software Engineer</h2>
     <h3 style="margin: 0 0 3px 0; font-size: 1.2em; border:none; padding: 0;">+94 776768757</h3>
     <h4 class="contact-links" style="margin: 0 0 3px 0; padding: 0;">
@@ -24,7 +24,7 @@ redirect_from:
     </h4>
 </div>
 </div>
-    <div class="action-buttons" style="margin-top: 5px; display: flex; gap: 10px; justify-content: center;">
+    <div class="action-buttons" style="margin-top: 5px; display: flex; gap: 20px; justify-content: center;">
         <a href="mailto:pkpasindusandamal@gmail.com" class="btn btn-contact" style="text-decoration: none; padding: 6px 18px; border-radius: 5px; background-color: #2c3e50; color: white; font-size: 0.9em;">Contact Me</a>
         <a href="/assets/files/resume.pdf" class="btn btn-download" style="text-decoration: none; padding: 6px 18px; border-radius: 5px; border: 2px solid #2c3e50; color: #2c3e50; font-size: 0.9em;" download>Download CV</a>
     </div>
@@ -138,7 +138,7 @@ redirect_from:
     </div>
 </section>
 
-    <section class="projects">
+<section class="projects">
     <h3 style="border-bottom: 1px solid #ddd;">News</h3>
     
     <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 15px;">
@@ -170,8 +170,8 @@ redirect_from:
 
    
 
-    <section class="publications">
-         <h3 style="border-bottom: 1px solid #ddd;">Publications</h3>
+  <section class="projects">
+    <h3 style="border-bottom: 1px solid #ddd;">Publications</h3>
     
     <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 15px;">
         <!-- Project Card 1 -->
@@ -185,7 +185,27 @@ redirect_from:
                 <p style="margin: 0; color: #888; font-size: 0.85em;">Technologies: Python, TensorFlow, Flask, OpenCV, CNN</p>
             </div>
         </div>
-    </section>
+
+        <!-- Project Card 2 -->
+        <div style="display: flex; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); @media (max-width: 768px) { flex-direction: column; }">
+            <div style="flex: 1; min-width: 200px; max-width: 300px; @media (max-width: 768px) { max-width: 100%; }">
+                <img src="/images/task_fusion.jpg" alt="Task Fusion" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div style="flex: 2; padding: 20px;">
+                <h4 style="margin: 0 0 10px 0; color: #2c3e50;">Task Fusion</h4>
+                <p style="margin: 0 0 10px 0; color: #666; font-size: 0.9em;">Description of Task Fusion project...</p>
+                <p style="margin: 0; color: #888; font-size: 0.85em;">Technologies: React.js, HTML, CSS, Node.js, Git, Golang</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- More Projects Button -->
+    <div style="text-align: center; margin-top: 30px;">
+        <a href="/portfolio/" style="display: inline-block; padding: 10px 25px; background-color: #2c3e50; color: white; text-decoration: none; border-radius: 5px; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#34495e'" onmouseout="this.style.backgroundColor='#2c3e50'">
+            View More Projects
+        </a>
+    </div>
+</section>
 
     <section class="skills">
     <h3 style="border-bottom: 1px solid #ddd;">Areas of Expertise</h3>
