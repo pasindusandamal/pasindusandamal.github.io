@@ -12,7 +12,7 @@ redirect_from:
 
 <div class="container">
 
-<section class="header" style="display: flex; align-items: flex-start; justify-content: space-between; gap: 30px; margin: 20px 0;">
+<section class="header" style="display: flex; align-items: flex-start; justify-content: space-between; gap: 30px; margin: 20px 0;" >
 <div class="contact-info" style="flex: 2; text-align: center;">
 <div class="contact-info" style="flex: 2; text-align: center; line-height: 1;">
    <div class="contact-info" style="flex: 2; text-align: center; line-height: 1;">
