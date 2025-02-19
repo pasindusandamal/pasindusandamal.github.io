@@ -11,33 +11,20 @@ locale                   : "en-US"
 site_theme               : "default"
 title                    : "PS"
 title_separator          : "-"
-<<<<<<< HEAD
 name                     : "Pasindu Sandamal"
 description              : "Personal Website"
 url                      : "https://pasindusandamal.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "pasindusandamal/pasindusandamal.github.io"
 github                   : [metadata]
-=======
-name                     : &name "Pasindu Sandamal"
-description              : &description "personal description"
-url                      : https://github.com/pasindusandamal # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/pasindusandamal/pasindusandamal.github.io"
->>>>>>> 521e140a44b072aafbbc74af5d16f32bdf8944f5
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-<<<<<<< HEAD
   avatar           : "profile 2.jpg"
   name             : "Pasindu Sandamal"
-=======
-  avatar           : "profile.png"
-  name             : ""
->>>>>>> 521e140a44b072aafbbc74af5d16f32bdf8944f5
   pronouns         : # example: "she/her"  
   bio              : "Software Engineer"
   location         : "Sri Lanka"
