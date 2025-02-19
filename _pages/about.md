@@ -27,7 +27,7 @@ redirect_from:
         </div>
     </div>
     <div class="avatar-wrapper" style="flex: 1;">
-        <img src="/images/profile/profile 2.jpg" alt="Pasindu Sandamal" style="height: 200px; width: 200px;">
+        <img src="/images/profile/profile 2.jpg" alt="Pasindu Sandamal" style="height: 300px; width: 200px;">
     </div>
 </section>
 
