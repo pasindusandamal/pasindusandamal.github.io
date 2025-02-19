@@ -17,7 +17,14 @@ main:
 
   # - title: "Teaching"
   #   url: /teaching/    
+<<<<<<< HEAD
           
+=======
+    
+  - title: "Portfolio"
+    url: /portfolio/
+        
+>>>>>>> d7af3c489fd8b87966ce11dc7e2a050794b8aff9
   - title: "Blog Posts"
     url: /year-archive/
     

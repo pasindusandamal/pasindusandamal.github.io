@@ -56,13 +56,21 @@ redirect_from:
 
     
 
+<<<<<<< HEAD
     <section class="education">
+=======
+  <section class="education">
+>>>>>>> d7af3c489fd8b87966ce11dc7e2a050794b8aff9
         <h3>Education</h3>
         <p>B.Sc. (Hons) Software Engineering <sup>2021 Sep – 2024 Dec</sup></p>
         <p style="margin-top:-7px">Plymouth University (UK)</p>     
     </section>
 
+<<<<<<< HEAD
     <section class="projects">
+=======
+   <section class="projects">
+>>>>>>> d7af3c489fd8b87966ce11dc7e2a050794b8aff9
     <h3>Projects</h3>
     <div class="project-item">
         <p class="project-title">• Lung Cancer Detection Application (Final Year Research Project)</p>
@@ -84,18 +92,30 @@ redirect_from:
 
    
 
+<<<<<<< HEAD
     <section class="publications">
+=======
+   <section class="publications">
+>>>>>>> d7af3c489fd8b87966ce11dc7e2a050794b8aff9
         <h3>Publications</h3>
         <p>Enhancing Lung Cancer Diagnosis with Custom-Designed Convolutional Neural Network</p>
     </section>
 
+<<<<<<< HEAD
     <section class="achievements">
+=======
+   <section class="achievements">
+>>>>>>> d7af3c489fd8b87966ce11dc7e2a050794b8aff9
         <h3>Achievements</h3>
             <p>Cisco IT Essentials 7.0 <sup>Successfully completed</sup></p>
             <p>DUOTHEN 3.0 Coding Competition, NSBM Green University <sup>Successfully completed</sup></p>
     </section>
 
+<<<<<<< HEAD
     <section class="links">
+=======
+   <section class="links">
+>>>>>>> d7af3c489fd8b87966ce11dc7e2a050794b8aff9
         <h3>Links</h3>
         <p><a href="https://github.com/pasindusandamal"><i class="fab fa-github"></i> GitHub</a> | <a href="https://www.researchgate.net/profile/Pasindu-Sandamal?ev=hdr_xprf"><i class="fab fa-researchgate"></i> ResearchGate</a></p>
     </section>

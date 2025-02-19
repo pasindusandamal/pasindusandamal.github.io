@@ -23,11 +23,19 @@ github                   : [metadata]
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
+<<<<<<< HEAD
   avatar           : "profile 2.jpg"
   name             : "Pasindu Sandamal"
   pronouns         : # example: "she/her"  
   bio              : "Software Engineer"
   location         : "Sri Lanka"
+=======
+  avatar           : "profile.jpg"
+  name             : ""
+  pronouns         : # example: "she/her"  
+  bio              : "Software engineer with a passion for creating innovative solutions and a drive to learn."
+  location         : "Kekirawa LK"
+>>>>>>> d7af3c489fd8b87966ce11dc7e2a050794b8aff9
   employer         : "Plymouth University"
   uri              : # URL
   email            : "pkpasindusandamal@gmail.com" 
