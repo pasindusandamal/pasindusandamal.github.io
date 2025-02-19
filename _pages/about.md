@@ -13,7 +13,7 @@ redirect_from:
 <div class="container">
 
 <section class="header" style="display: flex; align-items: flex-start; justify-content: space-between; gap: 30px; margin: 20px 0;">
-    <div class="contact-info" style="flex: 2; text-align: left;">
+    <div class="contact-info" style="flex: 2; text-align: center;">
         <h2 style="margin: 0; font-size: 1.5em;">Pasindu Sandamal</h2>
         <h2 style="margin: 0; font-size: 1.2em;">Software Engineer</h2>
         <h3 style="margin: 0; font-size: 1em;">+94 776768757</h3>
