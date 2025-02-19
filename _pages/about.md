@@ -187,11 +187,9 @@ redirect_from:
         </div>
    </div>
 </section>
+  
 
-   
-
-<<<<<<< HEAD
-  <section class="publication">
+<section class="publication">
     <h3 style="border-bottom: 1px solid #ddd;">Publication</h3>
     
    <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 15px;">
@@ -206,38 +204,10 @@ redirect_from:
                 <p style="margin: 0; color: #888; font-size: 0.85em;">Technologies: Python, TensorFlow, Flask, OpenCV, CNN</p>
             </div>
      </div>
-
- 
-
-   <!-- More Projects Button -->
-   <div style="text-align: center; margin-top: 30px;">
-        <a href="/portfolio/" style="display: inline-block; padding: 10px 25px; background-color: #2c3e50; color: white; text-decoration: none; : 5px; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#34495e'" onmouseout="this.style.backgroundColor='#2c3e50'">
-            View More Projects
-        </a>
-    </div>
+   
 </section>
 
    <section class="skills">
-=======
-<section class="publication">
-    <h3 style="border-bottom: 1px solid #ddd;">Publication</h3>
-    
-     <!-- News Card 2 -->
-   <div style="display: flex; background: #fff; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); height: 200px; @media (max-width: 768px) { height: auto; flex-direction: column; }">
-            <div style="flex: 1; min-width: 200px; max-width: 300px; height: 200px; @media (max-width: 768px) { height: 200px; max-width: 100%; }">
-                <img src="/images/achievements/publication_img_1.jpg" alt="Medium Article" style="width: 100%; height: 100%; object-fit: cover;">
-            </div>
-            <div style="flex: 2; padding: 20px; overflow-y: auto;">
-                <h4 style="margin: 0 0 10px 0; color: #2c3e50;">My First Medium Article</h4>
-                <p style="margin: 0 0 10px 0; color: #666; font-size: 0.9em;">Description of Task Fusion project...</p>
-            </div>
-        </div>
-   </div>
-</section>
-
-
-<section class="skills">
->>>>>>> d7af3c489fd8b87966ce11dc7e2a050794b8aff9
     <h3 style="border-bottom: 1px solid #ddd;">Areas of Expertise</h3>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0;">
         <!-- Full Stack Development Card -->
