@@ -312,7 +312,7 @@ section {
 /* Add this to your existing main.scss file */
 
 .grid__item {
-  margin-left: 3em; /* Increase this value to add more space */
+  margin-left: 2em; /* Increase this value to add more space */
   margin-bottom: 3em;
   @include breakpoint($large) {
     padding-left: 4em; /* Increase padding for larger screens */
