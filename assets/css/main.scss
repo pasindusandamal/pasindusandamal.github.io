@@ -244,7 +244,7 @@ h1.archive__item-title {
 .avatar-wrapper {
   img {
     margin-top: 0;
-    margin-left: 10px;
+    margin-left:25px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
 }
@@ -315,16 +315,16 @@ section {
 
 .grid__item {
   margin-left: 3em; /* Increase this value to add more space */
-  margin-bottom: 2em;
+  margin-bottom: 3em;
   @include breakpoint($large) {
     padding-left: 4em; /* Increase padding for larger screens */
   }
 }
 
 .sidebar {
-  margin-right: 2em; /* Add margin to the right of sidebar */
+  margin-right: 4em; /* Add margin to the right of sidebar */
   @include breakpoint($large) {
-    padding-right: 2em; /* Add padding for larger screens */
+    padding-right: 4em; /* Add padding for larger screens */
   }
 }
 
