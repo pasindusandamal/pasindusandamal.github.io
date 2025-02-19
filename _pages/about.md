@@ -189,7 +189,6 @@ redirect_from:
 </section>
   
 
-<section class="news">
     <h3 style="border-bottom: 1px solid #ddd;">Publication</h3>
     
    <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 15px;">
@@ -204,7 +203,7 @@ redirect_from:
             </div>
     </div>
   
-</section>
+
 
    <section class="skills">
     <h3 style="border-bottom: 1px solid #ddd;">Areas of Expertise</h3>
