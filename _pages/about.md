@@ -84,19 +84,19 @@ redirect_from:
         <p style="margin-top: 0; color: #666;">BevyLabs</p>
         <ul class="experience-list" style="list-style-type: none; padding-left: 20px;">
             <li style="position: relative; padding-left: 20px; margin-bottom: 10px;">
-                <span style="position: absolute; left: 0;  color: #2c3e50;">•</span>
+                <span style="position: absolute; left: 0;  color: #2c3e50;"></span>
                 Developed a Flutter-based mobile app using GOOGLE_MLKIT_TEXT_RECOGNITION package and Gemini API to extract text from images and generate MCQs or essay prompts for improved content interaction.
             </li>
             <li style="position: relative; padding-left: 20px; margin-bottom: 10px;">
-                <span style="position: absolute; left: 0; content: '•'; color: #2c3e50;">•</span>
+                <span style="position: absolute; left: 0;color: #2c3e50;"></span>
                 Designed and implemented an interactive mobile application aimed at teaching Python programming, incorporating engaging tutorials, quizzes, and real-time coding exercises to enhance learning experiences for users.
             </li>
             <li style="position: relative; padding-left: 20px; margin-bottom: 10px;">
-                <span style="position: absolute; left: 0; content: '•'; color: #2c3e50;">•</span>
+                <span style="position: absolute; left: 0;  color: #2c3e50;"></span>
                 Developed a machine learning model for shrimp detection using the YOLO (You Only Look Once) framework, integrating it with Python and Flask for deployment, and further incorporated it into a Python GUI using Tkinter to allow users to upload images and get a count of detected shrimps.
             </li>
             <li style="position: relative; padding-left: 20px; margin-bottom: 10px;">
-                <span style="position: absolute; left: 0; content: '•'; color: #2c3e50;">•</span>
+                <span style="position: absolute; left: 0;  color: #2c3e50;"></span>
                 Redesigned the user interface of a mobile application aimed at teaching Python programming in the Sinhala language.
             </li>
         </ul>
