@@ -310,6 +310,7 @@ plugins:
   - jekyll-redirect-from
   - jemoji
   - jekyll-include-cache
+  - jekyll-remote-theme  # Add this plugin
 
 # Mimic GitHub Pages with --safe
 whitelist:
@@ -358,5 +359,6 @@ compress_html:
     envs: development
 
 # Theme settings
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll  # Remove or comment this line
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "default"
