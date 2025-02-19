@@ -48,34 +48,7 @@ redirect_from:
         leveraging my skills to contribute to organizational growth and success.</p>
     </section>
 
-<section class="skills">
-    <h3 style="border-bottom: 1px solid #ddd;">Areas of Expertise</h3>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0;">
-        <!-- Full Stack Development Card -->
-        <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
-            <i class="fas fa-layer-group" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
-            <h4 style="margin: 0; color: #2c3e50;">Full Stack Development</h4>
-        </div>
-        
-        <!-- Mobile App Development Card -->
-        <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
-            <i class="fas fa-mobile-alt" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
-            <h4 style="margin: 0; color: #2c3e50;">Mobile App Development</h4>
-        </div>
-        
-        <!-- Machine Learning Card -->
-        <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
-            <i class="fas fa-brain" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
-            <h4 style="margin: 0; color: #2c3e50;">Machine Learning</h4>
-        </div>
-        
-        <!-- Desktop Application Card -->
-        <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
-            <i class="fas fa-desktop" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
-            <h4 style="margin: 0; color: #2c3e50;">Desktop Application</h4>
-        </div>
-    </div>
-</section>
+
 
 <section class="experience">
     <h3 style="border-bottom: 1px solid #ddd;">Work Experience</h3>
@@ -165,7 +138,7 @@ redirect_from:
     </div>
 </section>
 
-      <section class="projects">
+    <section class="projects">
     <h3 style="border-bottom: 1px solid #ddd;">News</h3>
     
     <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 15px;">
@@ -198,28 +171,52 @@ redirect_from:
    
 
     <section class="publications">
-       <div style="display: flex; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); @media (max-width: 768px) { flex-direction: column; }">
+         <h3 style="border-bottom: 1px solid #ddd;">Publications</h3>
+    
+    <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 15px;">
+        <!-- Project Card 1 -->
+        <div style="display: flex; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); @media (max-width: 768px) { flex-direction: column; }">
             <div style="flex: 1; min-width: 200px; max-width: 300px; @media (max-width: 768px) { max-width: 100%; }">
-                <img src="/images/task_fusion.jpg" alt="Task Fusion" style="width: 100%; height: 100%; object-fit: cover;">
+                <img src="/images/lung_cancer_project.jpg" alt="Lung Cancer Detection" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
             <div style="flex: 2; padding: 20px;">
-                <h4 style="margin: 0 0 10px 0; color: #2c3e50;">Task Fusion</h4>
-                <p style="margin: 0 0 10px 0; color: #666; font-size: 0.9em;">Description of Task Fusion project...</p>
-                <p style="margin: 0; color: #888; font-size: 0.85em;">Technologies: React.js, HTML, CSS, Node.js, Git, Golang</p>
+                <h4 style="margin: 0 0 10px 0; color: #2c3e50;">Lung Cancer Detection Application</h4>
+                <p style="margin: 0 0 10px 0; color: #666; font-size: 0.9em;">Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung cancer stages.</p>
+                <p style="margin: 0; color: #888; font-size: 0.85em;">Technologies: Python, TensorFlow, Flask, OpenCV, CNN</p>
             </div>
         </div>
     </section>
 
-    <section class="achievements">
-        <h3 style=" border-bottom: 1px solid #ddd;">Achievements</h3>
-            <p class="experience-title" style="margin-bottom: 2px;">Description of Task Fusion project...<sup> 2024 July – 2025 Jan</sup></p>
-            <p style="margin-top: 0; color: #666;">Technologies: React.js, HTML, CSS, Node.js, Git, Golang</p>
-    </section>
+    <section class="skills">
+    <h3 style="border-bottom: 1px solid #ddd;">Areas of Expertise</h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0;">
+        <!-- Full Stack Development Card -->
+        <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
+            <i class="fas fa-layer-group" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
+            <h4 style="margin: 0; color: #2c3e50;">Full Stack Development</h4>
+        </div>
+        
+        <!-- Mobile App Development Card -->
+        <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
+            <i class="fas fa-mobile-alt" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
+            <h4 style="margin: 0; color: #2c3e50;">Mobile App Development</h4>
+        </div>
+        
+        <!-- Machine Learning Card -->
+        <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
+            <i class="fas fa-brain" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
+            <h4 style="margin: 0; color: #2c3e50;">Machine Learning</h4>
+        </div>
+        
+        <!-- Desktop Application Card -->
+        <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
+            <i class="fas fa-desktop" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
+            <h4 style="margin: 0; color: #2c3e50;">Desktop Application</h4>
+        </div>
+    </div>
+</section>
 
-    <section class="links">
-        <h3 style=" border-bottom: 1px solid #ddd;">Links</h3>
-        <p><a href="https://github.com/pasindusandamal"><i class="fab fa-github"></i> GitHub</a> | <a href="https://www.researchgate.net/profile/Pasindu-Sandamal?ev=hdr_xprf"><i class="fab fa-researchgate"></i> ResearchGate</a></p>
-    </section>
+ 
 </div>
 
 

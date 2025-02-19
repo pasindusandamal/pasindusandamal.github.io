@@ -273,24 +273,6 @@ section {
   }
 }
 
-/* Experience Section */
-.experience-list {
-  list-style: none;
-  padding-left: 1.5rem;
-  
-  li {
-    position: relative;
-    margin-bottom: 1rem;
-    
-    &::before {
-      content: "•";
-      position: absolute;
-      left: -1.5rem;
-      color: #131414;
-      margin-left: 5px;
-    }
-  }
-}
 
 /* Project Section */
 .project-title {
