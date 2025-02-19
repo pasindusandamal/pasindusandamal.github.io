@@ -13,7 +13,7 @@ redirect_from:
 <div class="container">
 <section class="header">
     <div class="header-grid">
-       <div class="contact-info" style="line-height: 1.4;">
+       <div class="contact-info" style="line-height: 1.4; text-align:center;">
     <h2 style="margin: 0 0 5px 0;border-bottom:none;">Pasindu Sandamal</h2>
     <h2 style="margin: 0 0 5px 0;">Software Engineer</h2>
     <h3 style="margin: 0 0 5px 0;">+94 776768757</h3>
@@ -64,8 +64,8 @@ redirect_from:
 
     <section class="education">
         <h3>Education</h3>
-        <p>B.Sc. (Hons) Software Engineering <sup> 2021 Sep – 2024 Dec</sup></p>
-        <p style="margin-top:-7px">Plymouth University (UK)</p>     
+        <p class="experience-title" style="margin-bottom: 2px;">BSC(Hons) Software Engineering<sup> 2024 July – 2025 Jan</sup></p>
+        <p style="margin-top: 0; color: #666;">Plymouth University UK</p>    
     </section>
 
     <section class="projects">
