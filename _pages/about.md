@@ -28,6 +28,7 @@ redirect_from:
         <a href="mailto:pkpasindusandamal@gmail.com" class="btn btn-contact" style="text-decoration: none; padding: 6px 18px; : 5px; background-color: #2c3e50; color: white; font-size: 0.9em;">Contact Me</a>
         <a href="/assets/files/resume.pdf" class="btn btn-download" style="text-decoration: none; padding: 6px 18px; : 5px; border: 2px solid #2c3e50; color: #2c3e50; font-size: 0.9em;" download>Download CV</a>
     </div>
+    <br>
     <div style="margin-top: 15px; display: flex; justify-content: center; gap: 20px;">
         <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/" style="color: #2c3e50; font-size: 1.2em;"><i class="fab fa-linkedin"></i></a>
         <a href="https://github.com/pasindusandamal" style="color: #2c3e50; font-size: 1.2em;"><i class="fab fa-github"></i></a>
@@ -71,7 +72,7 @@ redirect_from:
             </li>
         </ul>
    </div>
-   <br><br>
+   <br>
 
    <div class="experience-item">
         <p class="experience-title" style="margin-bottom: 2px;">Computer Hardware Technician<sup> 2018 Sep - 2019 Jan</sup></p>
@@ -117,7 +118,7 @@ redirect_from:
             </div>
       </div>
 
-   <!-- Project Card 2 -->
+   
    <div style="position: relative; height: 200px; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#task-fusion'">
             <img src="/images/portfolio/Fish Count Img 1.png" alt="Task Fusion" style="width: 100%; height: 100%; object-fit: cover;">
             <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(44, 62, 80, 0.85); padding: 20px; color: white; opacity: 0; transition: opacity 0.3s; display: flex; flex-direction: column; justify-content: center;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0'">
@@ -129,7 +130,7 @@ redirect_from:
         
    </div>
 
-    <!-- Second Row -->
+   
    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
         <!-- Project Card 3 -->
         <div style="position: relative; height: 200px; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#project3'">
@@ -141,7 +142,7 @@ redirect_from:
             </div>
       </div>
 
-        <!-- Project Card 4 -->
+       
    <div style="position: relative; height: 200px; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#project4'">
             <img src="/images/portfolio/image_buddy_img_1.jpg" alt="Project 4" style="width: 100%; height: 100%; object-fit: cover;">
             <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(44, 62, 80, 0.85); padding: 20px; color: white; opacity: 0; transition: opacity 0.3s; display: flex; flex-direction: column; justify-content: center;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0'">
@@ -152,7 +153,7 @@ redirect_from:
         </div>
    </div>
 
-    <!-- More Projects Button -->
+  
    <div style="text-align: center; margin-top: 30px;">
         <a href="/portfolio/" style="display: inline-block; padding: 10px 25px; background-color: #2c3e50; color: white; text-decoration: none; : 5px; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#34495e'" onmouseout="this.style.backgroundColor='#2c3e50'">
             View More Projects
@@ -175,6 +176,7 @@ redirect_from:
             </div>
     </div>
 
+<br>
    <!-- News Card 2 -->
    <div style="display: flex; background: #fff; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); height: 200px; @media (max-width: 768px) { height: auto; flex-direction: column; }">
             <div style="flex: 1; min-width: 200px; max-width: 300px; height: 200px; @media (max-width: 768px) { height: 200px; max-width: 100%; }">
@@ -188,8 +190,8 @@ redirect_from:
    </div>
 </section>
   
-
-    <h3 style="border-bottom: 1px solid #ddd;">Publication</h3>
+<br>
+   <h3 style="border-bottom: 1px solid #ddd;">Publication</h3>
     
    <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 15px;">
         <!-- News Card 1 -->
