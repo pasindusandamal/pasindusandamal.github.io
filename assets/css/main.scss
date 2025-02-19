@@ -174,9 +174,6 @@ h1.archive__item-title {
   }
 }
 
-
-
-
 /* About Page Styling */
 
 
@@ -320,12 +317,29 @@ section {
 }
 
 .sidebar {
-  margin-right: 4em; /* Add margin to the right of sidebar */
+  margin-right: 5em; /* Increased margin between sidebar and content */
   @include breakpoint($large) {
     padding-right: 4em; /* Add padding for larger screens */
   }
+  
+  .author__name {
+    font-size: 1.3em;  /* Larger name size */
+  }
+  
+  .author__bio {
+    font-size: 1.1em;  /* Larger bio text */
+  }
+  
+  .author__urls-wrapper {
+    .author__urls {
+      font-size: 1em;  /* Larger links text */
+      
+      li {
+        padding: 0.5em 0;  /* Add spacing between links */
+      }
+    }
+  }
 }
-
 
 /* Ensure proper spacing on mobile */
 @media (max-width: 768px) {
@@ -365,16 +379,32 @@ section {
     
     li {
       flex: none;
-      padding: 0 1.5em;
+      padding: 0 2em;  /* Increased padding between nav items */
       
       a {
         text-decoration: none;
         color: #2c3e50;
+        font-size: 1.1em;  /* Slightly larger font size */
+        font-weight: 500;
         
         &:hover {
           color: #34495e;
         }
       }
+    }
+  }
+}
+
+/* Footer Styling */
+.page__footer {
+  text-align: center;
+  padding: 2em 0;
+  
+  .page__footer-copyright {
+    font-size: 0.9em;
+    
+    p {
+      margin: 0;
     }
   }
 }
