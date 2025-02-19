@@ -174,29 +174,19 @@ h1.archive__item-title {
   }
 }
 
-
-
-
 /* About Page Styling */
-
 
 /* Header Section */
 .header-grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
- 
   align-items: center;
- 
 }
 
-
 .contact-links {
- 
-  
   a {
     color: #3498db;
     text-decoration: none;
-    
     
     &:hover {
       color: #111213;
@@ -253,15 +243,10 @@ section {
   
   h3 {
     color: #2c3e50;
-   
-
-   
   }
   h4 {
     color: #2c3e50;
     border-bottom: 2px solid #eee;
-    
-   
   }
   
   p {
@@ -270,7 +255,6 @@ section {
     text-align: justify;
   }
 }
-
 
 /* Project Section */
 .project-title {
@@ -285,7 +269,6 @@ section {
 
 .technologies {
   color: #7f8c8d;
- 
 }
 
 /* Responsive Design */
@@ -326,7 +309,6 @@ section {
   }
 }
 
-
 /* Ensure proper spacing on mobile */
 @media (max-width: 768px) {
   .grid__item {
@@ -338,7 +320,9 @@ section {
 .masthead {
   &__inner-wrap {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     padding: 1em;
     max-width: 1280px;
     margin: 0 auto;
@@ -347,16 +331,18 @@ section {
 
 .site-title {
   text-align: left;
-  margin-bottom: 1.5em;
+  margin: 0;
+  padding-left: 1em;
+  font-size: 1.2em;
+  flex: 0 0 auto;
 }
 
 .greedy-nav {
+  flex: 1;
   position: relative;
   display: flex;
   justify-content: center;
-  border-top: 1px solid #f2f3f3;
-  padding-top: 1em;
-
+  
   .visible-links {
     display: flex;
     justify-content: center;
@@ -377,6 +363,10 @@ section {
       }
     }
   }
+
+  .hidden-links {
+    display: none; // Hide hamburger by default
+  }
 }
 
 /* Responsive adjustments */
@@ -386,11 +376,45 @@ section {
   }
 
   .site-title {
-    margin-bottom: 1em;
+    padding-left: 0.5em;
   }
 
-  .greedy-nav .visible-links li {
-    padding: 0 0.5em;
+  .greedy-nav {
+    .visible-links {
+      display: none; // Hide regular links on mobile
+    }
+    
+    .hidden-links {
+      display: block; // Show hamburger only on mobile
+    }
+  }
+}
+
+/* Publication styling */
+.publication__title {
+  margin: 0 0 5px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.publication__venue {
+  margin: 0 0 10px 0;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.publication__links {
+  margin-top: 10px;
+  
+  a {
+    color: #2c3e50;
+    text-decoration: none;
+    margin-right: 15px;
+    
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
