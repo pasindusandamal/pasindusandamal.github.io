@@ -320,102 +320,44 @@ section {
 .masthead {
   &__inner-wrap {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;  // Add this line
     padding: 1em;
     max-width: 1280px;
     margin: 0 auto;
   }
 }
 
-// Navigation styles
+.site-title {
+  text-align: left;
+  margin-bottom: 1.5em;
+  padding-left: 1em;  // Add this line for some padding
+  font-size: 1.2em;   // Adjust size as needed
+}
+
 .greedy-nav {
   position: relative;
-  min-width: 250px;
-  background: transparent;
-
-  button {
-    display: none; // Hide hamburger button by default
-  }
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #f2f3f3;
+  padding-top: 1em;
 
   .visible-links {
     display: flex;
-    justify-content: flex-end;
-    flex-wrap: nowrap;
-    overflow: visible;
-    margin: 0;
+    justify-content: center;
+    margin: 0 auto;
     padding: 0;
-
+    
     li {
-      position: relative;
-      display: inline-block;
+      flex: none;
+      padding: 0 1.5em;
       
       a {
-        position: relative;
-        display: block;
-        color: #2c3e50;
         text-decoration: none;
-        padding: 0.5em 1em;
-
+        color: #2c3e50;
+        
         &:hover {
           color: #34495e;
-        }
-      }
-    }
-  }
-
-  .hidden-links {
-    display: none;
-    position: absolute;
-    right: 0;
-    top: 100%;
-    margin-top: 15px;
-    padding: 5px;
-    border: 1px solid #f2f3f3;
-    border-radius: 4px;
-    background: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
-}
-
-// Mobile styles
-@media screen and (max-width: 768px) {
-  .greedy-nav {
-    button {
-      display: block; // Show hamburger button on mobile
-      margin: 0;
-      padding: 0.5em;
-      border: 0;
-      outline: none;
-      background-color: transparent;
-      cursor: pointer;
-    }
-
-    .visible-links {
-      display: none; // Hide regular links on mobile
-      
-      &.show {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 100%;
-        right: 0;
-        margin-top: 15px;
-        padding: 5px;
-        border: 1px solid #f2f3f3;
-        border-radius: 4px;
-        background: #fff;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        z-index: 20;
-        
-        li {
-          display: block;
-          border-bottom: 1px solid #f2f3f3;
-          
-          &:last-child {
-            border-bottom: none;
-          }
         }
       }
     }
@@ -429,17 +371,11 @@ section {
   }
 
   .site-title {
-    padding-left: 0.5em;
+    margin-bottom: 1em;
   }
 
-  .greedy-nav {
-    .visible-links {
-      display: none; // Hide regular links on mobile
-    }
-    
-    .hidden-links {
-      display: block; // Show hamburger only on mobile
-    }
+  .greedy-nav .visible-links li {
+    padding: 0 0.5em;
   }
 }
 
@@ -470,4 +406,3 @@ section {
     }
   }
 }
-
