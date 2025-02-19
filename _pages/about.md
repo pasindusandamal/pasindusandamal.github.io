@@ -21,13 +21,13 @@ redirect_from:
             <a href="mailto:pkpasindusandamal@gmail.com" style="display: block;">pkpasindusandamal@gmail.com</a>
             <a href="https://www.linkedin.com/in/pasindu-sandamal-66340423a/">LinkedIn Profile</a>
         </h4>
-        <div class="action-buttons" style="margin-top: 5px; display: flex; gap: 10px;">
+        <div class="action-buttons" style="margin-top: 5px; display: flex; gap: 10px; justify-content: center;">
             <a href="mailto:pkpasindusandamal@gmail.com" class="btn btn-contact" style="text-decoration: none; padding: 6px 18px; border-radius: 5px; background-color: #2c3e50; color: white; font-size: 0.9em;">Contact Me</a>
             <a href="/assets/files/resume.pdf" class="btn btn-download" style="text-decoration: none; padding: 6px 18px; border-radius: 5px; border: 2px solid #2c3e50; color: #2c3e50; font-size: 0.9em;" download>Download CV</a>
         </div>
     </div>
     <div class="avatar-wrapper" style="flex: 1;">
-        <img src="/images/profile/profile 2.jpg" alt="Pasindu Sandamal" style="width: 250px; width: 250px;">
+        <img src="/images/profile/profile 2.jpg" alt="Pasindu Sandamal" style="width: 200px; width: 200px;">
     </div>
 </section>
 
