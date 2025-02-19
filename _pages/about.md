@@ -117,7 +117,7 @@ redirect_from:
             </div>
         </div>
 
-        <!-- Project Card 2 -->
+     <!-- Project Card 2 -->
         <div style="position: relative; height: 200px; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#task-fusion'">
             <img src="/images/portfolio/Fish Count Img 1.png" alt="Task Fusion" style="width: 100%; height: 100%; object-fit: cover;">
             <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(44, 62, 80, 0.85); padding: 20px; color: white; opacity: 0; transition: opacity 0.3s; display: flex; flex-direction: column; justify-content: center;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0'">
@@ -125,12 +125,12 @@ redirect_from:
                 <p style="margin: 0; font-size: 0.9em;">Project management and collaboration platform</p>
                 <p style="margin-top: 10px; font-size: 0.8em; color: #ddd;">React.js, Node.js, Golang</p>
             </div>
-        </div>
+      </div>
         
-    </div>
+   </div>
 
     <!-- Second Row -->
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
+   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
         <!-- Project Card 3 -->
         <div style="position: relative; height: 200px; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#project3'">
             <img src="/images/portfolio/Python School 1.png" alt="Project 3" style="width: 100%; height: 100%; object-fit: cover;">
@@ -139,10 +139,10 @@ redirect_from:
                 <p style="margin: 0; font-size: 0.9em;">Description of Project 3</p>
                 <p style="margin-top: 10px; font-size: 0.8em; color: #ddd;">Technologies Used</p>
             </div>
-        </div>
+      </div>
 
         <!-- Project Card 4 -->
-        <div style="position: relative; height: 200px; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#project4'">
+   <div style="position: relative; height: 200px; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer;" onclick="window.location.href='/portfolio/#project4'">
             <img src="/images/portfolio/image_buddy_img_1.jpg" alt="Project 4" style="width: 100%; height: 100%; object-fit: cover;">
             <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(44, 62, 80, 0.85); padding: 20px; color: white; opacity: 0; transition: opacity 0.3s; display: flex; flex-direction: column; justify-content: center;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0'">
                 <h4 style="margin: 0 0 10px 0;">Project 4</h4>
@@ -150,10 +150,10 @@ redirect_from:
                 <p style="margin-top: 10px; font-size: 0.8em; color: #ddd;">Technologies Used</p>
             </div>
         </div>
-    </div>
+   </div>
 
     <!-- More Projects Button -->
-    <div style="text-align: center; margin-top: 30px;">
+   <div style="text-align: center; margin-top: 30px;">
         <a href="/portfolio/" style="display: inline-block; padding: 10px 25px; background-color: #2c3e50; color: white; text-decoration: none; : 5px; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#34495e'" onmouseout="this.style.backgroundColor='#2c3e50'">
             View More Projects
         </a>
@@ -163,7 +163,7 @@ redirect_from:
 <section class="news">
     <h3 style="border-bottom: 1px solid #ddd;">News</h3>
     
-    <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 15px;">
+   <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 15px;">
         <!-- News Card 1 -->
         <div style="display: flex; background: #fff; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); height: 200px; @media (max-width: 768px) { height: auto; flex-direction: column; }">
             <div style="flex: 1; min-width: 200px; max-width: 300px; height: 200px; @media (max-width: 768px) { height: 200px; max-width: 100%; }">
@@ -173,10 +173,10 @@ redirect_from:
                 <h4 style="margin: 0 0 10px 0; color: #2c3e50;">My Graduation</h4>
                 <p style="margin: 0 0 10px 0; color: #666; font-size: 0.9em;">Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung cancer stages.</p>
             </div>
-        </div>
+    </div>
 
-        <!-- News Card 2 -->
-        <div style="display: flex; background: #fff; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); height: 200px; @media (max-width: 768px) { height: auto; flex-direction: column; }">
+   <!-- News Card 2 -->
+   <div style="display: flex; background: #fff; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); height: 200px; @media (max-width: 768px) { height: auto; flex-direction: column; }">
             <div style="flex: 1; min-width: 200px; max-width: 300px; height: 200px; @media (max-width: 768px) { height: 200px; max-width: 100%; }">
                 <img src="/images/article/medium_img_1.jpg" alt="Medium Article" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
@@ -185,87 +185,76 @@ redirect_from:
                 <p style="margin: 0 0 10px 0; color: #666; font-size: 0.9em;">Description of Task Fusion project...</p>
             </div>
         </div>
-    </div>
+   </div>
 </section>
 
    
 
-  <section class="projects">
-    <h3 style="border-bottom: 1px solid #ddd;">Publications</h3>
+  <section class="publication">
+    <h3 style="border-bottom: 1px solid #ddd;">Publication</h3>
     
-    <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 15px;">
+   <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 15px;">
         <!-- Project Card 1 -->
         <div style="display: flex; background: #fff; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); @media (max-width: 768px) { flex-direction: column; }">
             <div style="flex: 1; min-width: 200px; max-width: 300px; @media (max-width: 768px) { max-width: 100%; }">
-                <img src="/images/lung_cancer_project.jpg" alt="Lung Cancer Detection" style="width: 100%; height: 100%; object-fit: cover;">
+                <img src="/images/achievements/publication_img_1.jpg" alt="Lung Cancer Detection" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
             <div style="flex: 2; padding: 20px;">
                 <h4 style="margin: 0 0 10px 0; color: #2c3e50;">Lung Cancer Detection Application</h4>
-                <p style="margin: 0 0 10px 0; color: #666; font-size: 0.9em;">Developed a Python-based application utilizing a custom convolutional neural network to detect and classify lung cancer stages.</p>
+                <p style="margin: 0 0 10px 0; color: #666; font-size: 0.9em;">Enhacing Lung Cancer Detection Using Custom Convolutional Neural Network </p>
                 <p style="margin: 0; color: #888; font-size: 0.85em;">Technologies: Python, TensorFlow, Flask, OpenCV, CNN</p>
             </div>
-        </div>
+     </div>
 
-        <!-- Project Card 2 -->
-        <div style="display: flex; background: #fff; : 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); @media (max-width: 768px) { flex-direction: column; }">
-            <div style="flex: 1; min-width: 200px; max-width: 300px; @media (max-width: 768px) { max-width: 100%; }">
-                <img src="/images/task_fusion.jpg" alt="Task Fusion" style="width: 100%; height: 100%; object-fit: cover;">
-            </div>
-            <div style="flex: 2; padding: 20px;">
-                <h4 style="margin: 0 0 10px 0; color: #2c3e50;">Task Fusion</h4>
-                <p style="margin: 0 0 10px 0; color: #666; font-size: 0.9em;">Description of Task Fusion project...</p>
-                <p style="margin: 0; color: #888; font-size: 0.85em;">Technologies: React.js, HTML, CSS, Node.js, Git, Golang</p>
-            </div>
-        </div>
-    </div>
+ 
 
-    <!-- More Projects Button -->
-    <div style="text-align: center; margin-top: 30px;">
+   <!-- More Projects Button -->
+   <div style="text-align: center; margin-top: 30px;">
         <a href="/portfolio/" style="display: inline-block; padding: 10px 25px; background-color: #2c3e50; color: white; text-decoration: none; : 5px; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#34495e'" onmouseout="this.style.backgroundColor='#2c3e50'">
             View More Projects
         </a>
     </div>
 </section>
 
-    <section class="skills">
+   <section class="skills">
     <h3 style="border-bottom: 1px solid #ddd;">Areas of Expertise</h3>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0;">
         <!-- Full Stack Development Card -->
         <div style="background: #fff; padding: 20px; : 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
             <i class="fas fa-layer-group" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
             <h4 style="margin: 0; color: #2c3e50;">Full Stack Development</h4>
-        </div>
+    </div>
         
-        <!-- Mobile App Development Card -->
-        <div style="background: #fff; padding: 20px; : 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
+       <!-- Mobile App Development Card -->
+   <div style="background: #fff; padding: 20px; : 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
             <i class="fas fa-mobile-alt" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
             <h4 style="margin: 0; color: #2c3e50;">Mobile App Development</h4>
-        </div>
+   </div>
         
         <!-- Machine Learning Card -->
-        <div style="background: #fff; padding: 20px; : 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
+   <div style="background: #fff; padding: 20px; : 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
             <i class="fas fa-brain" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
             <h4 style="margin: 0; color: #2c3e50;">Machine Learning</h4>
-        </div>
+   </div>
         
         <!-- Desktop Application Card -->
-        <div style="background: #fff; padding: 20px; : 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
+   <div style="background: #fff; padding: 20px; : 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
             <i class="fas fa-desktop" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
             <h4 style="margin: 0; color: #2c3e50;">Desktop Application</h4>
-        </div>
+   </div>
 
         <!-- Desktop Application Card -->
-        <div style="background: #fff; padding: 20px; : 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
+   <div style="background: #fff; padding: 20px; : 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
             <i class="fas fa-desktop" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
             <h4 style="margin: 0; color: #2c3e50;">Desktop Application</h4>
-        </div>
+   </div>
 
         <!-- Desktop Application Card -->
-        <div style="background: #fff; padding: 20px; : 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
+   <div style="background: #fff; padding: 20px; : 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
             <i class="fas fa-desktop" style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;"></i>
             <h4 style="margin: 0; color: #2c3e50;">Desktop Application</h4>
-        </div>
-    </div>
+   </div>
+   </div>
 </section>
 
  
