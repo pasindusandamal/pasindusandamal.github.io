@@ -315,6 +315,7 @@ section {
 
 .grid__item {
   margin-left: 3em; /* Increase this value to add more space */
+  margin-bottom: 2em;
   @include breakpoint($large) {
     padding-left: 4em; /* Increase padding for larger screens */
   }
